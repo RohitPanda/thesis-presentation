@@ -1,5 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'Presentation4to3.blg'
-[28] biber:313> INFO - === So Feb 17, 2019, 22:21:03
-[63] Utils.pm:185> ERROR - Cannot find control file 'Presentation4to3.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[63] Biber.pm:114> INFO - ERRORS: 1

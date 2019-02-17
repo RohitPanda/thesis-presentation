@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 FEB 2019 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 FEB 2019 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Presentation4to3.tex
-(./Presentation4to3.tex
+**presentation.tex
+(./presentation.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 10 language(s) loaded.
 (./Resources/Presentation/Preamble4to3.tex
@@ -1613,8 +1613,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \smallerbaselineskip=\skip65
 
 TextBlockOrigin set to 8.9mm x 8.9mm
-(./Presentation4to3.aux)
-\openout1 = `Presentation4to3.aux'.
+(./presentation.aux)
+\openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 244.
 LaTeX Font Info:    ... okay on input line 244.
@@ -1631,8 +1631,7 @@ LaTeX Font Info:    ... okay on input line 244.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 244.
 LaTeX Font Info:    ... okay on input line 244.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 244.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -1719,9 +1718,9 @@ LaTeX Info: Redefining \ref on input line 244.
 LaTeX Info: Redefining \pageref on input line 244.
 LaTeX Info: Redefining \nameref on input line 244.
 
-(./Presentation4to3.out) (./Presentation4to3.out)
+(./presentation.out) (./presentation.out)
 \@outlinefile=\write5
-\openout5 = `Presentation4to3.out'.
+\openout5 = `presentation.out'.
 
 \symnumbers=\mathgroup8
 \sympureletters=\mathgroup9
@@ -1792,7 +1791,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into
 your preamble.
  on input line 244.
 
-(./Presentation4to3.nav)
+(./presentation.nav)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.18196pt on input line 244.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -1831,8 +1830,8 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Resources/Presentation/I
-mages/TUM_Uhrenturm.png> <./Resources/_Images/Universitaet_Logo_RGB.pdf>] (./Ex
-amples.tex (./Presentation4to3.bbl)
+mages/TUM_Uhrenturm.png> <./Resources/_Images/Universitaet_Logo_RGB.pdf>] (./Sl
+ides.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.67> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -2211,7 +2210,8 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 ]) (./References.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.41646pt on input line 8.
- (./Presentation4to3.bbl)
+
+No file presentation.bbl.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -2247,20 +2247,20 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
  <./Resources/_Images/questions.pdf>])
 \tf@nav=\write6
-\openout6 = `Presentation4to3.nav'.
+\openout6 = `presentation.nav'.
 
 \tf@toc=\write7
-\openout7 = `Presentation4to3.toc'.
+\openout7 = `presentation.toc'.
 
 \tf@snm=\write8
-\openout8 = `Presentation4to3.snm'.
+\openout8 = `presentation.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
- (./Presentation4to3.aux)
+ (./presentation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
-Package rerunfilecheck Info: File `Presentation4to3.out' has not changed.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -2268,13 +2268,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 35677 strings out of 494830
- 848534 string characters out of 6177368
+ 35674 strings out of 494830
+ 848392 string characters out of 6177368
  1108663 words of memory out of 5000000
  38136 multiletter control sequences out of 15000+600000
  104775 words of font info for 141 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 66i,16n,96p,6360b,2018s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,16n,96p,6356b,2018s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
@@ -2282,7 +2282,7 @@ fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 /uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Presentation4to3.pdf (20 pages, 3183979 bytes).
+Output written on presentation.pdf (20 pages, 3183979 bytes).
 PDF statistics:
  447 PDF objects out of 1000 (max. 8388607)
  380 compressed objects within 4 object streams
