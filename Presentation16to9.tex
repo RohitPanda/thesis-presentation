@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TUM-Vorlage: Präsentation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Rechteinhaber:
+%     Technische Universität München
+%     https://www.tum.de
+% 
+% Gestaltung:
+%     ediundsepp Gestaltungsgesellschaft, München
+%     http://www.ediundsepp.de
+% 
+% Technische Umsetzung:
+%     eWorks GmbH, Frankfurt am Main
+%     http://www.eworks.de
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\shiftedframetitle}[1]{\frametitle{\\\vspace{-2cm}#1}\vspace{0.5cm}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zur Wahl des Seitenverhältnisses bitte einen der beiden folgenden Befehle
+% auskommentieren und den ausführen lassen:
+% \input{./Ressourcen/Praesentation/Praeambel4zu3.tex} % Seitenverhältnis 4:3
+\input{./Resources/Presentation/Preamble16to9.tex} % Seitenverhältnis 16:9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./_Settings.tex}                    % !!! DATEI ANPASSEN !!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\renewcommand{\PersonTitel}{Dr. rer. nat.}
+\newcommand{\Datum}{\today}
+
+\renewcommand{\PraesentationFusszeileZusatz}{| kann beliebig erweitert werden | Infos mit Strich trennen}
+
+\title{Titel der Präsentation bearbeiten}
+\author{\vspace{0.5cm} First Name Last Name\\email@tum.de \\ \vspace{0.2cm} Advisor's Fist Name Last Name \\ email@tum.de}
+%\institute[]{\UniversitaetName \\ \FakultaetName \\ \LehrstuhlName}
+\date[\Datum]{München, \Datum}
+\subject{Thema der Präsentation}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Resources/Presentation/Begin.tex} % !!! NICHT ENTFERNEN !!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FOLIENSTIL: Standard
+\PraesentationMasterKopfzeileDreizeiler
+
+\PraesentationTitelseite % Fügt die Startseite ein
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Beispielfolien                                  %%
+\input{./Examples.tex}
+\input{./References.tex}
+\input{./Questions.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FOLIENSTIL: Standard mit Lehrstuhl-, Fakultäts- und Universitätsnamen im
+% Kopfbereich links
+%\PraesentationMasterKopfzeileDreizeiler
+%\PraesentationTitelseite
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FOLIENSTIL: Weisse Schrift auf blauem Grund
+%\PraesentationMasterWeissBlau
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Startseiten                                     %%
+
+% Setzt die Startseite auf eine mit Flaggen als Hintergrund:
+%\PraesentationStartseiteFlaggen
+
+% Setzt die Startseite auf eine mit mit einer Zeichnung des TUM-Uhrenturms:
+%\PraesentationStartseiteUhrenturm
+
+% Setzt die Startseite auf eine ohne Hintergrund:
+%\PraesentationStartseiteLeer
+
+%\PraesentationTitelseite % Fügt die Startseite ein
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document} % !!! NICHT ENTFERNEN !!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
