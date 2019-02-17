@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 FEB 2019 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 FEB 2019 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1960,7 +1960,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 ]) (./Questions.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 37.05937pt on input line 14.
-<./Resources/_Images/questions.pdf, id=216, 291.33844pt x 290.58563pt>
+<./Resources/_Images/questions.pdf, id=217, 291.33844pt x 290.58563pt>
 File: ./Resources/_Images/questions.pdf Graphic file (type pdf)
 <use ./Resources/_Images/questions.pdf>
 Package pdftex.def Info: ./Resources/_Images/questions.pdf  used on input line 
@@ -2008,10 +2008,10 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (11 pages, 524842 bytes).
+Output written on presentation.pdf (11 pages, 525047 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
+ 259 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
  24 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
