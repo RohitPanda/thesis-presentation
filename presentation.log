@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,6 +643,53 @@ Package: amsthm 2017/10/31 v2.20.4
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 \et@xins=\count154
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
+)
+\c@ContinuedFloat=\count155
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@subfigure=\count156
+\c@subtable=\count157
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen197
+\lightrulewidth=\dimen198
+\cmidrulewidth=\dimen199
+Normal \dimen register pool exhausted, switching to extended pool.
+\belowrulesep=\dimen256
+\belowbottomsep=\dimen257
+\aboverulesep=\dimen258
+\abovetopsep=\dimen259
+\cmidrulesep=\dimen260
+\cmidrulekern=\dimen261
+\defaultaddspace=\dimen262
+\@cmidla=\count158
+\@cmidlb=\count159
+\@aboverulesep=\dimen263
+\@belowrulesep=\dimen264
+\@thisruleclass=\count160
+\@lastruleclass=\count161
+\@thisrulewidth=\dimen265
+)
 (/usr/share/texlive/texmf-dist/tex/latex/beamerposter/beamerposter.sty
 Package: beamerposter 2015/04/21 v.1.12 latex-beamer poster extension
 
@@ -654,7 +701,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks43
 \XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count155
+\XKV@depth=\count162
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
@@ -667,19 +714,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count156
+\actioncount=\count163
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count157
-\FP@xia=\count158
-\FP@xib=\count159
-\FP@xfa=\count160
-\FP@xfb=\count161
-\FP@rega=\count162
-\FP@regb=\count163
-\FP@regs=\count164
-\FP@times=\count165
+\FP@xs=\count164
+\FP@xia=\count165
+\FP@xib=\count166
+\FP@xfa=\count167
+\FP@xfb=\count168
+\FP@rega=\count169
+\FP@regb=\count170
+\FP@regs=\count171
+\FP@times=\count172
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -698,7 +745,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count166
+\FPseed=\count173
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -757,7 +804,7 @@ Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count167
+\lrq@indent=\count174
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -768,50 +815,50 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count168
-\decimalpart=\count169
+\integerpart=\count175
+\decimalpart=\count176
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count170
-\c@listtotal=\count171
-\c@listcount=\count172
-\c@liststart=\count173
-\c@liststop=\count174
-\c@citecount=\count175
-\c@citetotal=\count176
-\c@multicitecount=\count177
-\c@multicitetotal=\count178
-\c@instcount=\count179
-\c@maxnames=\count180
-\c@minnames=\count181
-\c@maxitems=\count182
-\c@minitems=\count183
-\c@citecounter=\count184
-\c@savedcitecounter=\count185
-\c@uniquelist=\count186
-\c@uniquename=\count187
-\c@refsection=\count188
-\c@refsegment=\count189
-\c@maxextratitle=\count190
-\c@maxextratitleyear=\count191
-\c@maxextradate=\count192
-\c@maxextraalpha=\count193
-\c@abbrvpenalty=\count194
-\c@highnamepenalty=\count195
-\c@lownamepenalty=\count196
-\c@maxparens=\count197
-\c@parenlevel=\count198
-\blx@tempcnta=\count199
+\c@tabx@nest=\count177
+\c@listtotal=\count178
+\c@listcount=\count179
+\c@liststart=\count180
+\c@liststop=\count181
+\c@citecount=\count182
+\c@citetotal=\count183
+\c@multicitecount=\count184
+\c@multicitetotal=\count185
+\c@instcount=\count186
+\c@maxnames=\count187
+\c@minnames=\count188
+\c@maxitems=\count189
+\c@minitems=\count190
+\c@citecounter=\count191
+\c@savedcitecounter=\count192
+\c@uniquelist=\count193
+\c@uniquename=\count194
+\c@refsection=\count195
+\c@refsegment=\count196
+\c@maxextratitle=\count197
+\c@maxextratitleyear=\count198
+\c@maxextradate=\count199
 Normal \count register pool exhausted, switching to extended pool.
-\blx@tempcntb=\count277
-\blx@tempcntc=\count278
-\blx@maxsection=\count279
-\blx@maxsegment@0=\count280
-\blx@notetype=\count281
-\blx@parenlevel@text=\count282
-\blx@parenlevel@foot=\count283
-\blx@sectionciteorder@0=\count284
+\c@maxextraalpha=\count277
+\c@abbrvpenalty=\count278
+\c@highnamepenalty=\count279
+\c@lownamepenalty=\count280
+\c@maxparens=\count281
+\c@parenlevel=\count282
+\blx@tempcnta=\count283
+\blx@tempcntb=\count284
+\blx@tempcntc=\count285
+\blx@maxsection=\count286
+\blx@maxsegment@0=\count287
+\blx@notetype=\count288
+\blx@parenlevel@text=\count289
+\blx@parenlevel@foot=\count290
+\blx@sectionciteorder@0=\count291
 \labelnumberwidth=\skip57
 \labelalphawidth=\skip58
 \biblabelsep=\skip59
@@ -822,9 +869,9 @@ Normal \count register pool exhausted, switching to extended pool.
 \bibhang=\skip64
 \blx@bcfin=\read2
 \blx@bcfout=\write6
-\c@mincomprange=\count285
-\c@maxcomprange=\count286
-\c@mincompwidth=\count287
+\c@mincomprange=\count292
+\c@maxcomprange=\count293
+\c@mincompwidth=\count294
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -833,74 +880,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count288
-\c@savedafterword=\count289
-\c@annotator=\count290
-\c@savedannotator=\count291
-\c@author=\count292
-\c@savedauthor=\count293
-\c@bookauthor=\count294
-\c@savedbookauthor=\count295
-\c@commentator=\count296
-\c@savedcommentator=\count297
-\c@editor=\count298
-\c@savededitor=\count299
-\c@editora=\count300
-\c@savededitora=\count301
-\c@editorb=\count302
-\c@savededitorb=\count303
-\c@editorc=\count304
-\c@savededitorc=\count305
-\c@foreword=\count306
-\c@savedforeword=\count307
-\c@holder=\count308
-\c@savedholder=\count309
-\c@introduction=\count310
-\c@savedintroduction=\count311
-\c@namea=\count312
-\c@savednamea=\count313
-\c@nameb=\count314
-\c@savednameb=\count315
-\c@namec=\count316
-\c@savednamec=\count317
-\c@translator=\count318
-\c@savedtranslator=\count319
-\c@shortauthor=\count320
-\c@savedshortauthor=\count321
-\c@shorteditor=\count322
-\c@savedshorteditor=\count323
-\c@labelname=\count324
-\c@savedlabelname=\count325
-\c@institution=\count326
-\c@savedinstitution=\count327
-\c@lista=\count328
-\c@savedlista=\count329
-\c@listb=\count330
-\c@savedlistb=\count331
-\c@listc=\count332
-\c@savedlistc=\count333
-\c@listd=\count334
-\c@savedlistd=\count335
-\c@liste=\count336
-\c@savedliste=\count337
-\c@listf=\count338
-\c@savedlistf=\count339
-\c@location=\count340
-\c@savedlocation=\count341
-\c@organization=\count342
-\c@savedorganization=\count343
-\c@origlocation=\count344
-\c@savedoriglocation=\count345
-\c@origpublisher=\count346
-\c@savedorigpublisher=\count347
-\c@publisher=\count348
-\c@savedpublisher=\count349
-\c@language=\count350
-\c@savedlanguage=\count351
-\c@origlanguage=\count352
-\c@savedoriglanguage=\count353
-\c@pageref=\count354
-\c@savedpageref=\count355
+\c@afterword=\count295
+\c@savedafterword=\count296
+\c@annotator=\count297
+\c@savedannotator=\count298
+\c@author=\count299
+\c@savedauthor=\count300
+\c@bookauthor=\count301
+\c@savedbookauthor=\count302
+\c@commentator=\count303
+\c@savedcommentator=\count304
+\c@editor=\count305
+\c@savededitor=\count306
+\c@editora=\count307
+\c@savededitora=\count308
+\c@editorb=\count309
+\c@savededitorb=\count310
+\c@editorc=\count311
+\c@savededitorc=\count312
+\c@foreword=\count313
+\c@savedforeword=\count314
+\c@holder=\count315
+\c@savedholder=\count316
+\c@introduction=\count317
+\c@savedintroduction=\count318
+\c@namea=\count319
+\c@savednamea=\count320
+\c@nameb=\count321
+\c@savednameb=\count322
+\c@namec=\count323
+\c@savednamec=\count324
+\c@translator=\count325
+\c@savedtranslator=\count326
+\c@shortauthor=\count327
+\c@savedshortauthor=\count328
+\c@shorteditor=\count329
+\c@savedshorteditor=\count330
+\c@labelname=\count331
+\c@savedlabelname=\count332
+\c@institution=\count333
+\c@savedinstitution=\count334
+\c@lista=\count335
+\c@savedlista=\count336
+\c@listb=\count337
+\c@savedlistb=\count338
+\c@listc=\count339
+\c@savedlistc=\count340
+\c@listd=\count341
+\c@savedlistd=\count342
+\c@liste=\count343
+\c@savedliste=\count344
+\c@listf=\count345
+\c@savedlistf=\count346
+\c@location=\count347
+\c@savedlocation=\count348
+\c@organization=\count349
+\c@savedorganization=\count350
+\c@origlocation=\count351
+\c@savedoriglocation=\count352
+\c@origpublisher=\count353
+\c@savedorigpublisher=\count354
+\c@publisher=\count355
+\c@savedpublisher=\count356
+\c@language=\count357
+\c@savedlanguage=\count358
+\c@origlanguage=\count359
+\c@savedoriglanguage=\count360
+\c@pageref=\count361
+\c@savedpageref=\count362
 \shorthandwidth=\skip65
 \shortjournalwidth=\skip66
 \shortserieswidth=\skip67
@@ -918,13 +965,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count356
-\c@textcitetotal=\count357
-\c@textcitemaxnames=\count358
-\c@biburlnumpenalty=\count359
-\c@biburlucpenalty=\count360
-\c@biburllcpenalty=\count361
-\c@smartand=\count362
+\c@textcitecount=\count363
+\c@textcitetotal=\count364
+\c@textcitemaxnames=\count365
+\c@biburlnumpenalty=\count366
+\c@biburlucpenalty=\count367
+\c@biburllcpenalty=\count368
+\c@smartand=\count369
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -936,8 +983,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count363
-\c@bbx:relatedtotal=\count364
+\c@bbx:relatedcount=\count370
+\c@bbx:relatedtotal=\count371
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1292,15 +1339,15 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count365
-\calc@Bcount=\count366
-\calc@Adimen=\dimen190
-\calc@Bdimen=\dimen191
+\calc@Acount=\count372
+\calc@Bcount=\count373
+\calc@Adimen=\dimen266
+\calc@Bdimen=\dimen267
 \calc@Askip=\skip71
 \calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count367
+\calc@Ccount=\count374
 \calc@Cskip=\skip73
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
@@ -1317,12 +1364,12 @@ Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count368
-\U@D=\dimen192
+\babel@savecnt=\count375
+\U@D=\dimen268
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 LaTeX Info: Redefining \textlatin on input line 1839.
-\bbl@dirlevel=\count369
+\bbl@dirlevel=\count376
 )
 Package babel Info: Making " an active character on input line 125.
 )))
@@ -1332,23 +1379,22 @@ Package: textpos 2016/06/07 v1.8
 Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
 \TP@textbox=\box53
 \TP@holdbox=\box54
-\TPHorizModule=\dimen193
-\TPVertModule=\dimen194
-\TP@margin=\dimen195
-\TP@absmargin=\dimen196
+\TPHorizModule=\dimen269
+\TPVertModule=\dimen270
+\TP@margin=\dimen271
+\TP@absmargin=\dimen272
 Grid set 16 x 16 = 45.16873pt x 33.87656pt
-\TPboxrulesize=\dimen197
-\TP@ox=\dimen198
-\TP@oy=\dimen199
+\TPboxrulesize=\dimen273
+\TP@ox=\dimen274
+\TP@oy=\dimen275
 \TP@tbargs=\toks47
-Normal \dimen register pool exhausted, switching to extended pool.
-\TP@prevdepth=\dimen256
+\TP@prevdepth=\dimen276
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks48
-\footnotemargin=\dimen257
-\c@pp@next@reset=\count370
+\footnotemargin=\dimen277
+\c@pp@next@reset=\count377
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1374,8 +1420,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen258
-\pgf@nodesepend=\dimen259
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1389,8 +1435,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen260
-\pgffor@skip=\dimen261
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
 ))
@@ -1400,31 +1446,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count371
-\pgfplotmarksize=\dimen262
+\pgf@plot@mark@count=\count378
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen263
-\tikz@lasty=\dimen264
-\tikz@lastxsaved=\dimen265
-\tikz@lastysaved=\dimen266
-\tikzleveldistance=\dimen267
-\tikzsiblingdistance=\dimen268
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikzleveldistance=\dimen287
+\tikzsiblingdistance=\dimen288
 \tikz@figbox=\box56
 \tikz@figbox@bg=\box57
 \tikz@tempbox=\box58
 \tikz@tempbox@bg=\box59
-\tikztreelevel=\count372
-\tikznumberofchildren=\count373
-\tikznumberofcurrentchild=\count374
-\tikz@fig@count=\count375
+\tikztreelevel=\count379
+\tikznumberofchildren=\count380
+\tikznumberofcurrentchild=\count381
+\tikz@fig@count=\count382
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count376
-\pgfmatrixcurrentcolumn=\count377
-\pgf@matrix@numberofcolumns=\count378
+\pgfmatrixcurrentrow=\count383
+\pgfmatrixcurrentcolumn=\count384
+\pgf@matrix@numberofcolumns=\count385
 )
-\tikz@expandcount=\count379
+\tikz@expandcount=\count386
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1442,10 +1488,10 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip74
-\fb@frw=\dimen269
-\fb@frh=\dimen270
-\FrameRule=\dimen271
-\FrameSep=\dimen272
+\fb@frw=\dimen289
+\fb@frh=\dimen290
+\FrameRule=\dimen291
+\FrameSep=\dimen292
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
@@ -1502,39 +1548,39 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen273
-\extrarowheight=\dimen274
+\col@sep=\dimen293
+\extrarowheight=\dimen294
 \NC@list=\toks52
 \extratabsurround=\skip75
 \backup@length=\skip76
 )
-\TX@col@width=\dimen275
-\TX@old@table=\dimen276
-\TX@old@col=\dimen277
-\TX@target=\dimen278
-\TX@delta=\dimen279
-\TX@cols=\count380
+\TX@col@width=\dimen295
+\TX@old@table=\dimen296
+\TX@old@col=\dimen297
+\TX@target=\dimen298
+\TX@delta=\dimen299
+\TX@cols=\count387
 \TX@ftn=\toks53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count381
+\c@tracingmulticols=\count388
 \mult@box=\box63
-\multicol@leftmargin=\dimen280
-\c@unbalance=\count382
-\c@collectmore=\count383
-\doublecol@number=\count384
-\multicoltolerance=\count385
-\multicolpretolerance=\count386
-\full@width=\dimen281
-\page@free=\dimen282
-\premulticols=\dimen283
-\postmulticols=\dimen284
+\multicol@leftmargin=\dimen300
+\c@unbalance=\count389
+\c@collectmore=\count390
+\doublecol@number=\count391
+\multicoltolerance=\count392
+\multicolpretolerance=\count393
+\full@width=\dimen301
+\page@free=\dimen302
+\premulticols=\dimen303
+\postmulticols=\dimen304
 \multicolsep=\skip77
 \multicolbaselineskip=\skip78
 \partial@page=\box64
 \last@line=\box65
-\maxbalancingoverflow=\dimen285
+\maxbalancingoverflow=\dimen305
 \mult@rightbox=\box66
 \mult@grightbox=\box67
 \mult@gfirstbox=\box68
@@ -1556,14 +1602,14 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box84
 \@tempa=\box85
 \@tempa=\box86
-\c@columnbadness=\count387
-\c@finalcolumnbadness=\count388
-\last@try=\dimen286
-\multicolovershoot=\dimen287
-\multicolundershoot=\dimen288
+\c@columnbadness=\count394
+\c@finalcolumnbadness=\count395
+\last@try=\dimen306
+\multicolovershoot=\dimen307
+\multicolundershoot=\dimen308
 \mult@nat@firstbox=\box87
 \colbreak@box=\box88
-\mc@col@check@num=\count389
+\mc@col@check@num=\count396
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
@@ -1572,7 +1618,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen289
+\arrowsize=\dimen309
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
@@ -1677,9 +1723,9 @@ Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 \t@pgfplots@toka=\toks54
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
-\pgfplots@tmpa=\dimen290
-\c@pgfplots@coordindex=\count390
-\c@pgfplots@scanlineindex=\count391
+\pgfplots@tmpa=\dimen310
+\c@pgfplots@coordindex=\count397
+\c@pgfplots@scanlineindex=\count398
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1695,7 +1741,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfsupp_pgflibraryfpu.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count392
+\c@pgfmathroundto@lastzeros=\count399
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
@@ -1704,13 +1750,13 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count393
+\c@pgfplotsarray@tmp=\count400
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count394
+\c@pgfplotstable@counta=\count401
 \t@pgfplotstable@a=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
@@ -1723,7 +1769,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count395
+\c@pgfplotslibrarysurf@no=\count402
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -1750,14 +1796,14 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen291
-\pgfdecoratedremainingdistance=\dimen292
-\pgfdecoratedinputsegmentcompleteddistance=\dimen293
-\pgfdecoratedinputsegmentremainingdistance=\dimen294
-\pgf@decorate@distancetomove=\dimen295
-\pgf@decorate@repeatstate=\count396
-\pgfdecorationsegmentamplitude=\dimen296
-\pgfdecorationsegmentlength=\dimen297
+\pgfdecoratedcompleteddistance=\dimen311
+\pgfdecoratedremainingdistance=\dimen312
+\pgfdecoratedinputsegmentcompleteddistance=\dimen313
+\pgfdecoratedinputsegmentremainingdistance=\dimen314
+\pgf@decorate@distancetomove=\dimen315
+\pgf@decorate@repeatstate=\count403
+\pgfdecorationsegmentamplitude=\dimen316
+\pgfdecorationsegmentlength=\dimen317
 )
 \tikz@lib@dec@box=\box111
 )
@@ -1769,13 +1815,13 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count397
-\pgfplots@xmin@reg=\dimen298
-\pgfplots@xmax@reg=\dimen299
-\pgfplots@ymin@reg=\dimen300
-\pgfplots@ymax@reg=\dimen301
-\pgfplots@zmin@reg=\dimen302
-\pgfplots@zmax@reg=\dimen303
+\pgfplots@numplots=\count404
+\pgfplots@xmin@reg=\dimen318
+\pgfplots@xmax@reg=\dimen319
+\pgfplots@ymin@reg=\dimen320
+\pgfplots@ymax@reg=\dimen321
+\pgfplots@zmin@reg=\dimen322
+\pgfplots@zmax@reg=\dimen323
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1837,8 +1883,8 @@ File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count398
-\@quotereset=\count399
+\@quotelevel=\count405
+\@quotereset=\count406
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
@@ -1899,16 +1945,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count400
-\scratchdimen=\dimen304
+\scratchcounter=\count407
+\scratchdimen=\dimen324
 \scratchbox=\box112
-\nofMPsegments=\count401
-\nofMParguments=\count402
+\nofMPsegments=\count408
+\nofMParguments=\count409
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count403
-\MPscratchDim=\dimen305
-\MPnumerator=\count404
-\makeMPintoPDFobject=\count405
+\MPscratchCnt=\count410
+\MPscratchDim=\dimen325
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
 \everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1937,7 +1983,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count406
+\c@section@level=\count413
 )
 LaTeX Info: Redefining \ref on input line 244.
 LaTeX Info: Redefining \pageref on input line 244.
@@ -2010,6 +2056,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2330,10 +2378,22 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 ]
+<./plots/VM/handshake_times_ipv4.png, id=368, 648.4225pt x 250.9375pt>
+File: ./plots/VM/handshake_times_ipv4.png Graphic file (type png)
+<use ./plots/VM/handshake_times_ipv4.png>
+Package pdftex.def Info: ./plots/VM/handshake_times_ipv4.png  used on input lin
+e 272.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+<./plots/VM/handshake_times_ipv6.png, id=369, 648.4225pt x 250.9375pt>
+File: ./plots/VM/handshake_times_ipv6.png Graphic file (type png)
+<use ./plots/VM/handshake_times_ipv6.png>
+Package pdftex.def Info: ./plots/VM/handshake_times_ipv6.png  used on input lin
+e 272.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 256.
+ input line 272.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2342,11 +2402,27 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [14
 
 
-]
+ <./plots/VM/handshake_times_ipv4.png> <./plots/VM/handshake_times_ipv6.png>]
+<./plots/PI/handshake_times_ipv4.png, id=390, 648.4225pt x 250.9375pt>
+File: ./plots/PI/handshake_times_ipv4.png Graphic file (type png)
+<use ./plots/PI/handshake_times_ipv4.png>
+Package pdftex.def Info: ./plots/PI/handshake_times_ipv4.png  used on input lin
+e 296.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+<./plots/India/handshake_times_ipv4.png, id=391, 648.4225pt x 250.9375pt>
+File: ./plots/India/handshake_times_ipv4.png Graphic file (type png)
+<use ./plots/India/handshake_times_ipv4.png>
+Package pdftex.def Info: ./plots/India/handshake_times_ipv4.png  used on input 
+line 296.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+
+Overfull \vbox (1.43924pt too high) detected at line 296
+ []
+
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 293.
+ input line 296.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2355,11 +2431,22 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [15
 
 
+ <./plots/PI/handshake_times_ipv4.png> <./plots/India/handshake_times_ipv4.png>
 ]
+<./plots/VM/TTFB_ipv4.png, id=414, 648.4225pt x 250.9375pt>
+File: ./plots/VM/TTFB_ipv4.png Graphic file (type png)
+<use ./plots/VM/TTFB_ipv4.png>
+Package pdftex.def Info: ./plots/VM/TTFB_ipv4.png  used on input line 312.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+<./plots/VM/TTFB_ipv6.png, id=415, 648.4225pt x 250.9375pt>
+File: ./plots/VM/TTFB_ipv6.png Graphic file (type png)
+<use ./plots/VM/TTFB_ipv6.png>
+Package pdftex.def Info: ./plots/VM/TTFB_ipv6.png  used on input line 312.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 293.
+ input line 312.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2368,11 +2455,21 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [16
 
 
-]
+ <./plots/VM/TTFB_ipv4.png> <./plots/VM/TTFB_ipv6.png>]
+<./plots/PI/TTFB_ipv4.png, id=436, 648.4225pt x 250.9375pt>
+File: ./plots/PI/TTFB_ipv4.png Graphic file (type png)
+<use ./plots/PI/TTFB_ipv4.png>
+Package pdftex.def Info: ./plots/PI/TTFB_ipv4.png  used on input line 336.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+<./plots/India/TTFB_ipv4.png, id=437, 648.4225pt x 250.9375pt>
+File: ./plots/India/TTFB_ipv4.png Graphic file (type png)
+<use ./plots/India/TTFB_ipv4.png>
+Package pdftex.def Info: ./plots/India/TTFB_ipv4.png  used on input line 336.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 293.
+ input line 336.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2381,11 +2478,11 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [17
 
 
-]
+ <./plots/PI/TTFB_ipv4.png> <./plots/India/TTFB_ipv4.png>]
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 293.
+ input line 354.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2395,10 +2492,22 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 ]
+<./plots/VM/handshake_times_IPv4_asno.png, id=475, 648.4225pt x 250.9375pt>
+File: ./plots/VM/handshake_times_IPv4_asno.png Graphic file (type png)
+<use ./plots/VM/handshake_times_IPv4_asno.png>
+Package pdftex.def Info: ./plots/VM/handshake_times_IPv4_asno.png  used on inpu
+t line 371.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+<./plots/VM/handshake_times_ipv6_asno.png, id=476, 648.4225pt x 250.9375pt>
+File: ./plots/VM/handshake_times_ipv6_asno.png Graphic file (type png)
+<use ./plots/VM/handshake_times_ipv6_asno.png>
+Package pdftex.def Info: ./plots/VM/handshake_times_ipv6_asno.png  used on inpu
+t line 371.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 293.
+ input line 371.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2407,17 +2516,608 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [19
 
 
-]
+ <./plots/VM/handshake_times_IPv4_asno.png> <./plots/VM/handshake_times_ipv6_as
+no.png>]
+<./plots/VM//TTFB_ipv4_asno.png, id=498, 648.4225pt x 250.9375pt>
+File: ./plots/VM//TTFB_ipv4_asno.png Graphic file (type png)
+<use ./plots/VM//TTFB_ipv4_asno.png>
+Package pdftex.def Info: ./plots/VM//TTFB_ipv4_asno.png  used on input line 389
+.
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
+<./plots/VM/TTFB_ipv6_asno.png, id=499, 648.4225pt x 250.9375pt>
+File: ./plots/VM/TTFB_ipv6_asno.png Graphic file (type png)
+<use ./plots/VM/TTFB_ipv6_asno.png>
+Package pdftex.def Info: ./plots/VM/TTFB_ipv6_asno.png  used on input line 389.
+
+(pdftex.def)             Requested size: 336.02698pt x 130.04408pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 319.
+ input line 389.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 [20
+
+
+ <./plots/VM//TTFB_ipv4_asno.png> <./plots/VM/TTFB_ipv6_asno.png>]
+<./plots/youtube/india/graph_audio_connect_time.png, id=520, 646.0938pt x 248.6
+088pt>
+File: ./plots/youtube/india/graph_audio_connect_time.png Graphic file (type png
+)
+<use ./plots/youtube/india/graph_audio_connect_time.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_audio_connect_time.png  us
+ed on input line 405.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+<./plots/youtube/munich/graph_audio_connect_time.png, id=521, 646.0938pt x 248.
+6088pt>
+File: ./plots/youtube/munich/graph_audio_connect_time.png Graphic file (type pn
+g)
+<use ./plots/youtube/munich/graph_audio_connect_time.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_audio_connect_time.png  u
+sed on input line 405.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 405.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[21
+
+
+ <./plots/youtube/india/graph_audio_connect_time.png> <./plots/youtube/munich/g
+raph_audio_connect_time.png>]
+<./plots/youtube/india/graph_video_connect_time.png, id=543, 646.0938pt x 248.6
+088pt>
+File: ./plots/youtube/india/graph_video_connect_time.png Graphic file (type png
+)
+<use ./plots/youtube/india/graph_video_connect_time.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_video_connect_time.png  us
+ed on input line 422.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+<./plots/youtube/munich/graph_video_connect_time.png, id=544, 646.0938pt x 248.
+6088pt>
+File: ./plots/youtube/munich/graph_video_connect_time.png Graphic file (type pn
+g)
+<use ./plots/youtube/munich/graph_video_connect_time.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_video_connect_time.png  u
+sed on input line 422.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 422.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[22
+
+
+ <./plots/youtube/india/graph_video_connect_time.png> <./plots/youtube/munich/g
+raph_video_connect_time.png>]
+<./plots/youtube/india/graph_website_connect_time.png, id=565, 646.0938pt x 248
+.6088pt>
+File: ./plots/youtube/india/graph_website_connect_time.png Graphic file (type p
+ng)
+<use ./plots/youtube/india/graph_website_connect_time.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_website_connect_time.png  
+used on input line 439.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+<./plots/youtube/munich/graph_website_connect_time.png, id=566, 646.0938pt x 24
+8.6088pt>
+File: ./plots/youtube/munich/graph_website_connect_time.png Graphic file (type 
+png)
+<use ./plots/youtube/munich/graph_website_connect_time.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_website_connect_time.png 
+ used on input line 439.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 439.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[23
+
+
+ <./plots/youtube/india/graph_website_connect_time.png> <./plots/youtube/munich
+/graph_website_connect_time.png>]
+<./plots/youtube/india/graph_prebuffering_duration.png, id=586, 646.0938pt x 24
+8.6088pt>
+File: ./plots/youtube/india/graph_prebuffering_duration.png Graphic file (type 
+png)
+<use ./plots/youtube/india/graph_prebuffering_duration.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_prebuffering_duration.png 
+ used on input line 456.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+<./plots/youtube/munich/graph_prebuffering_duration.png, id=587, 648.2619pt x 2
+48.6088pt>
+File: ./plots/youtube/munich/graph_prebuffering_duration.png Graphic file (type
+ png)
+<use ./plots/youtube/munich/graph_prebuffering_duration.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_prebuffering_duration.png
+  used on input line 456.
+(pdftex.def)             Requested size: 336.02698pt x 128.86761pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 456.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[24
+
+
+ <./plots/youtube/india/graph_prebuffering_duration.png> <./plots/youtube/munic
+h/graph_prebuffering_duration.png>]
+<./plots/youtube/india/graph_startup_delay.png, id=608, 646.0938pt x 248.6088pt
+>
+File: ./plots/youtube/india/graph_startup_delay.png Graphic file (type png)
+<use ./plots/youtube/india/graph_startup_delay.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_startup_delay.png  used on
+ input line 473.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+<./plots/youtube/munich/graph_startup_delay.png, id=609, 646.0938pt x 248.6088p
+t>
+File: ./plots/youtube/munich/graph_startup_delay.png Graphic file (type png)
+<use ./plots/youtube/munich/graph_startup_delay.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_startup_delay.png  used o
+n input line 473.
+(pdftex.def)             Requested size: 336.02698pt x 129.30386pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 473.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[25
+
+
+ <./plots/youtube/india/graph_startup_delay.png> <./plots/youtube/munich/graph_
+startup_delay.png>]
+<./plots/youtube/india/graph_download_rate.png, id=631, 646.0938pt x 244.9953pt
+>
+File: ./plots/youtube/india/graph_download_rate.png Graphic file (type png)
+<use ./plots/youtube/india/graph_download_rate.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_download_rate.png  used on
+ input line 490.
+(pdftex.def)             Requested size: 336.02698pt x 127.42445pt.
+<./plots/youtube/munich/graph_download_rate.png, id=632, 646.0938pt x 244.9953p
+t>
+File: ./plots/youtube/munich/graph_download_rate.png Graphic file (type png)
+<use ./plots/youtube/munich/graph_download_rate.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_download_rate.png  used o
+n input line 490.
+(pdftex.def)             Requested size: 336.02698pt x 127.42445pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 490.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[26
+
+
+ <./plots/youtube/india/graph_download_rate.png> <./plots/youtube/munich/graph_
+download_rate.png>]
+<./plots/youtube/india/graph_rate_diff.png, id=653, 646.0938pt x 244.9953pt>
+File: ./plots/youtube/india/graph_rate_diff.png Graphic file (type png)
+<use ./plots/youtube/india/graph_rate_diff.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_rate_diff.png  used on inp
+ut line 507.
+(pdftex.def)             Requested size: 336.02698pt x 127.42445pt.
+<./plots/youtube/munich/graph_rate_diff.png, id=654, 646.0938pt x 244.9953pt>
+File: ./plots/youtube/munich/graph_rate_diff.png Graphic file (type png)
+<use ./plots/youtube/munich/graph_rate_diff.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_rate_diff.png  used on in
+put line 507.
+(pdftex.def)             Requested size: 336.02698pt x 127.42445pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 507.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[27
+
+
+ <./plots/youtube/india/graph_rate_diff.png> <./plots/youtube/munich/graph_rate
+_diff.png>]
+<./plots/youtube/india/graph_stall_durations.png, id=676, 646.0938pt x 244.9953
+pt>
+File: ./plots/youtube/india/graph_stall_durations.png Graphic file (type png)
+<use ./plots/youtube/india/graph_stall_durations.png>
+Package pdftex.def Info: ./plots/youtube/india/graph_stall_durations.png  used 
+on input line 522.
+(pdftex.def)             Requested size: 336.02698pt x 127.42445pt.
+<./plots/youtube/munich/graph_stall_durations.png, id=677, 646.0938pt x 244.995
+3pt>
+File: ./plots/youtube/munich/graph_stall_durations.png Graphic file (type png)
+<use ./plots/youtube/munich/graph_stall_durations.png>
+Package pdftex.def Info: ./plots/youtube/munich/graph_stall_durations.png  used
+ on input line 522.
+(pdftex.def)             Requested size: 336.02698pt x 127.42445pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 522.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[28
+
+
+ <./plots/youtube/india/graph_stall_durations.png> <./plots/youtube/munich/grap
+h_stall_durations.png>]
+<./plots/youtube/throughput/ThroughputCDF.png, id=698, 648.4225pt x 246.9225pt>
+
+File: ./plots/youtube/throughput/ThroughputCDF.png Graphic file (type png)
+<use ./plots/youtube/throughput/ThroughputCDF.png>
+Package pdftex.def Info: ./plots/youtube/throughput/ThroughputCDF.png  used on 
+input line 546.
+(pdftex.def)             Requested size: 336.02698pt x 127.96336pt.
+<./plots/youtube/throughput/Throughtputprogress.png, id=699, 656.4525pt x 246.9
+225pt>
+File: ./plots/youtube/throughput/Throughtputprogress.png Graphic file (type png
+)
+<use ./plots/youtube/throughput/Throughtputprogress.png>
+Package pdftex.def Info: ./plots/youtube/throughput/Throughtputprogress.png  us
+ed on input line 546.
+(pdftex.def)             Requested size: 336.02698pt x 126.396pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 546.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[29
+
+
+ <./plots/youtube/throughput/ThroughputCDF.png> <./plots/youtube/throughput/Thr
+oughtputprogress.png>]
+<./plots/PI/gdrive/Throughput_ipv4.png, id=720, 648.4225pt x 246.9225pt>
+File: ./plots/PI/gdrive/Throughput_ipv4.png Graphic file (type png)
+<use ./plots/PI/gdrive/Throughput_ipv4.png>
+Package pdftex.def Info: ./plots/PI/gdrive/Throughput_ipv4.png  used on input l
+ine 569.
+(pdftex.def)             Requested size: 336.02698pt x 127.96336pt.
+<./plots/PI/gdrive/MeanThroughputvssize.png, id=721, 656.4525pt x 250.9375pt>
+File: ./plots/PI/gdrive/MeanThroughputvssize.png Graphic file (type png)
+<use ./plots/PI/gdrive/MeanThroughputvssize.png>
+Package pdftex.def Info: ./plots/PI/gdrive/MeanThroughputvssize.png  used on in
+put line 569.
+(pdftex.def)             Requested size: 336.02698pt x 128.45122pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 569.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[30
+
+
+ <./plots/PI/gdrive/Throughput_ipv4.png> <./plots/PI/gdrive/MeanThroughputvssiz
+e.png>]
+<./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png, id=743, 656.4525pt
+ x 246.9225pt>
+File: ./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png Graphic file (
+type png)
+<use ./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png>
+Package pdftex.def Info: ./plots/youtube/throughput/ThroughtputprogressQUIC+TCP
+.png  used on input line 593.
+(pdftex.def)             Requested size: 336.02698pt x 126.396pt.
+<./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png, id=744, 671.5087
+4pt x 246.9225pt>
+File: ./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png Graphic file
+ (type png)
+<use ./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png>
+Package pdftex.def Info: ./plots/youtube/throughput/Throughtputprogress1QUIC+2T
+CP.png  used on input line 593.
+(pdftex.def)             Requested size: 336.02698pt x 123.56265pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 593.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[31
+
+
+ <./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png> <./plots/youtube/
+throughput/Throughtputprogress1QUIC+2TCP.png>]
+<./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png, id=767, 656.4525pt x 2
+46.9225pt>
+File: ./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png Graphic file (type
+ png)
+<use ./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png>
+Package pdftex.def Info: ./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png
+  used on input line 617.
+(pdftex.def)             Requested size: 336.02698pt x 126.396pt.
+<./plots/PI/throughput/ThroughtputprogressTCP+TCP.png, id=768, 671.50874pt x 24
+6.9225pt>
+File: ./plots/PI/throughput/ThroughtputprogressTCP+TCP.png Graphic file (type p
+ng)
+<use ./plots/PI/throughput/ThroughtputprogressTCP+TCP.png>
+Package pdftex.def Info: ./plots/PI/throughput/ThroughtputprogressTCP+TCP.png  
+used on input line 617.
+(pdftex.def)             Requested size: 336.02698pt x 123.56265pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 617.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[32
+
+
+ <./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png> <./plots/PI/throughpu
+t/ThroughtputprogressTCP+TCP.png>]
+<./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png, id=790, 661.47125pt x 2
+46.9225pt>
+File: ./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png Graphic file (type 
+png)
+<use ./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png>
+Package pdftex.def Info: ./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png 
+ used on input line 641.
+(pdftex.def)             Requested size: 336.02698pt x 125.43523pt.
+<./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png, id=791, 663.47874pt x
+ 246.9225pt>
+File: ./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png Graphic file (typ
+e png)
+<use ./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png>
+Package pdftex.def Info: ./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.pn
+g  used on input line 641.
+(pdftex.def)             Requested size: 336.02698pt x 125.05844pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 641.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[33
+
+
+ <./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png> <./plots/PI/throughput
+/Throughtputprogress1QUIC+2TCP.png>]
+<./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png, id=814, 656.4525pt x 
+246.9225pt>
+File: ./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png Graphic file (typ
+e png)
+<use ./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png>
+Package pdftex.def Info: ./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.pn
+g  used on input line 656.
+(pdftex.def)             Requested size: 336.02698pt x 126.396pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 656.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[34
+
+
+ <./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png>]
+<./plots/PI/cpu/cpupercentprogress.png, id=833, 652.4375pt x 246.9225pt>
+File: ./plots/PI/cpu/cpupercentprogress.png Graphic file (type png)
+<use ./plots/PI/cpu/cpupercentprogress.png>
+Package pdftex.def Info: ./plots/PI/cpu/cpupercentprogress.png  used on input l
+ine 671.
+(pdftex.def)             Requested size: 336.02698pt x 127.1759pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 671.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[35
+
+
+ <./plots/PI/cpu/cpupercentprogress.png>]
+<./plots/PI/throughputvscpu/ThroughputvsCPU.png, id=853, 652.4375pt x 246.9225p
+t>
+File: ./plots/PI/throughputvscpu/ThroughputvsCPU.png Graphic file (type png)
+<use ./plots/PI/throughputvscpu/ThroughputvsCPU.png>
+Package pdftex.def Info: ./plots/PI/throughputvscpu/ThroughputvsCPU.png  used o
+n input line 686.
+(pdftex.def)             Requested size: 336.02698pt x 127.1759pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 686.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[36
+
+
+ <./plots/PI/throughputvscpu/ThroughputvsCPU.png>]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 711.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[37
+
+
+]
+<./plots/perf_flame_graphs/quic/kernel.png, id=892, 1204.5pt x 664.4825pt>
+File: ./plots/perf_flame_graphs/quic/kernel.png Graphic file (type png)
+<use ./plots/perf_flame_graphs/quic/kernel.png>
+Package pdftex.def Info: ./plots/perf_flame_graphs/quic/kernel.png  used on inp
+ut line 726.
+(pdftex.def)             Requested size: 672.05397pt x 370.75914pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 726.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[38
+
+
+ <./plots/perf_flame_graphs/quic/kernel.png>]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 745.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[39
+
+
+]
+<./plots/VM/ietf/handshake_times_ietf_0rtt.png, id=930, 362.35374pt x 246.9225p
+t>
+File: ./plots/VM/ietf/handshake_times_ietf_0rtt.png Graphic file (type png)
+<use ./plots/VM/ietf/handshake_times_ietf_0rtt.png>
+Package pdftex.def Info: ./plots/VM/ietf/handshake_times_ietf_0rtt.png  used on
+ input line 778.
+(pdftex.def)             Requested size: 336.02698pt x 228.98747pt.
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 778.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[40
+
+
+ <./plots/VM/ietf/handshake_times_ietf_0rtt.png>]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 815.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[41
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 815.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[42
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 815.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[43
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 815.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[44
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 815.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[45
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 841.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[46
 
 
 ]) (./References.tex
@@ -2448,7 +3148,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[21
+[47
 
 
 ]
@@ -2461,7 +3161,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[22
+[48
 
 
 ]
@@ -2474,7 +3174,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[23
+[49
 
 
 ]
@@ -2487,7 +3187,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[24
+[50
 
 
 ]
@@ -2500,13 +3200,13 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[25
+[51
 
 
 ]) (./Questions.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 37.05937pt on input line 14.
-<./Resources/_Images/questions.pdf, id=616, 291.33844pt x 290.58563pt>
+<./Resources/_Images/questions.pdf, id=1181, 291.33844pt x 290.58563pt>
 File: ./Resources/_Images/questions.pdf Graphic file (type pdf)
 <use ./Resources/_Images/questions.pdf>
 Package pdftex.def Info: ./Resources/_Images/questions.pdf  used on input line 
@@ -2521,7 +3221,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[26
+[52
 
 
  <./Resources/_Images/questions.pdf>])
@@ -2551,13 +3251,13 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41589 strings out of 494830
- 958931 string characters out of 6177368
- 1541375 words of memory out of 5000000
- 43938 multiletter control sequences out of 15000+600000
+ 43103 strings out of 494830
+ 990934 string characters out of 6177368
+ 1560995 words of memory out of 5000000
+ 45316 multiletter control sequences out of 15000+600000
  106427 words of font info for 138 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 66i,16n,96p,1206b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,16n,96p,1206b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600
 pk> </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.60
 0pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texl
@@ -2565,10 +3265,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (26 pages, 755460 bytes).
+Output written on presentation.pdf (52 pages, 1735242 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 612 compressed objects within 7 object streams
- 98 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1357 PDF objects out of 1440 (max. 8388607)
+ 1078 compressed objects within 11 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

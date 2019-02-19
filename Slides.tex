@@ -103,7 +103,7 @@ Previous work \cite{DBLP:conf/networking/El-khatibTW14}\cite{7745823}\cite{DBLP:
     \shiftedframetitle{Background}
 QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
 \begin{figure}[!t]
-    \centering
+    
     \minipage{0.5\textwidth}
     \includegraphics[width=1\textwidth]
     {figures/QUICstack.png}
@@ -118,7 +118,7 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
     \shiftedframetitle{Connection Establishment\cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17}\cite{quicgd}\cite{crypto}}
     
     \begin{figure}[!ht]
-        \centering
+        
         \minipage{0.5\textwidth}
         \includegraphics[width=1\textwidth]
         {figures/0rtt.png}
@@ -134,7 +134,7 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
 \begin{frame}
     \shiftedframetitle{Multiplexing}
     \begin{figure}[!ht]
-        \centering
+        
         \minipage{0.5\textwidth}
         \includegraphics[width=1\textwidth]
         {figures/hol.png}
@@ -152,7 +152,7 @@ QUIC also supports multiple streams in a single connection but the packets can b
     \shiftedframetitle{Congestion Control + Packet Pacing}
     
         \begin{figure}[!ht]
-        \centering
+        
         \minipage{0.7\textwidth}
         \includegraphics[width=1\textwidth]
         {figures/pacing.png}
@@ -251,7 +251,529 @@ The IETF test were coded in Go.
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results}
+\shiftedframetitle{Overview of Thesis Results: Connection Establishment Times}
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/VM/handshake_times_ipv4.png}
+        %\caption{CDF for IPv4.}\label{fig:cdf-of-connection}
+    \end{subfigure}%
+    %\caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4. QUIC has lower connection times than TLS. Q044 has slightly better performance than other QUIC versions}\label{fig:cdfs-of-connection4}
+%\end{figure}
+%\begin{figure}[!htb]
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/VM/handshake_times_ipv6.png}
+        %\caption{CDF for IPv6}\label{fig:cdf-of-connection}
+    \end{subfigure}
+    %\caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv6}\label{fig:cdfs-of-connection}
+        \caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for Ipv4, IPv6}\label{fig:cdfs-of-connection}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Connection Establishment Times}
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/handshake_times_ipv4.png}
+    \end{subfigure}
+    
+    \caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in Munich}\label{fig:cdfs-of-connectionin}
+\end{figure}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/India/handshake_times_ipv4.png}
+    \end{subfigure}
+    
+    \caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in India}\label{fig:cdfs-of-connectionm}
+\end{figure}
+
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Time to first byte}
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/VM/TTFB_ipv4.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/VM/TTFB_ipv6.png}
+    \end{subfigure}    
+    \caption{CDFs of Time to First Byte for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4, IPv6.}\label{fig:cdf-of-time}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Time to first byte}
+
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/TTFB_ipv4.png}
+    \end{subfigure}  
+%    \caption{CDFs of TTFB for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in Munich}
+%\end{figure}
+%
+%\begin{figure}[!htb]
+%    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/India/TTFB_ipv4.png}
+    \end{subfigure}
+    
+   % \caption{CDFs of TTFB for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in India}
+        \caption{CDFs of TTFB for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in Munich, Germany and Bhubaneswar, India}
+\end{figure}
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: AS topology}
+\begin{table}[ht]
+    \begin{tabular}{@{}|l|l|l|@{}}
+        \toprule
+        \textbf{ASNo} & \multicolumn{1}{c|}{\textbf{ASName}} & \textbf{No. of websites} \\ \midrule
+        15169 & GOOGLE - Google LLC & 3863 \\ \midrule
+        15133 & EDGECAST MCI Communications Services & 689 \\ \midrule
+        55293 & A2HOSTING - A2 Hosting & 178 \\ \midrule
+        203226 & IHCRU - Internet-Hosting Ltd & 82 \\ \midrule
+        16276 & OVH - OVH SAS & 75 \\ \bottomrule
+    \end{tabular}
+    \caption{Top-5 AS with the no. of websites in our target list. Google serves a large majority of websites over QUIC}
+    \label{table:top-5-as-with}
+\end{table}
+\end{frame}
+\clearpage
+
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: AS topology}
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/VM/handshake_times_IPv4_asno.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/VM/handshake_times_ipv6_asno.png}
+    \end{subfigure} 
+    \caption{CDFs of Connection Times for all for QUIC(all versions combined) categorized by AS for IPv4, IPv6. EDGECAST performs better than GOOGLE}\label{fig:connection-times-for}
+\end{figure}
+
+\end{frame}
+\clearpage
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: AS topology}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]
+        {./plots/VM//TTFB_ipv4_asno.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]
+        {./plots/VM/TTFB_ipv6_asno.png}
+    \end{subfigure}
+    \caption{\label{fig:TTFB_ipv6_asno}CDF of Time to First Byte for QUIC(all versions combined) categorized by AS for IPv4, IPv6}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_audio_connect_time.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_audio_connect_time.png}
+    \end{subfigure}    
+    \caption{CDF of Audio Connect Time for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-audio}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_video_connect_time.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_video_connect_time.png}
+    \end{subfigure}    
+    \caption{CDF of Video Connect Time for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-video}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_website_connect_time.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_website_connect_time.png}
+    \end{subfigure}    
+    \caption{}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_prebuffering_duration.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_prebuffering_duration.png}
+    \end{subfigure}    
+    \caption{CDF of Prebuffering time for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-prebuffering}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_startup_delay.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_startup_delay.png}
+    \end{subfigure}    
+    \caption{CDF of startup delay for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-startup}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_download_rate.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_download_rate.png}
+    \end{subfigure}    
+    \caption{CDF of Download rate for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-download}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_rate_diff.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_rate_diff.png}
+    \end{subfigure}    
+    \caption{CDF of video/audio rate difference in \% for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-video-audio}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_stall_durations.png}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_stall_durations.png}
+    \end{subfigure}    
+    \caption{CDF of stall durations for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-stall}
+\end{figure}
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Throughput}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/throughput/ThroughputCDF.png}
+    \end{subfigure}
+    
+    \caption{CDF of Throughput of QUIC(Q044) and TCP downloading a YouTube video.}
+\end{figure}
+
+\begin{figure}[!htb]
+    
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/throughput/Throughtputprogress.png}
+    \end{subfigure}
+    
+    \caption{Throughput of QUIC(Q044) and TCP downloading a YouTube video.}\label{fig:throughput-of-quic-q044-}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Throughput}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/gdrive/Throughput_ipv4.png}
+    \end{subfigure}   
+    \caption{CDF of Throughput of QUIC(Q044, Q043, Q039) and TCP downloading files of different sizes from Google Drive}\label{fig:cdf-of-throughput}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/gdrive/MeanThroughputvssize.png}
+    \end{subfigure}   
+    \caption{CDF of Mean Throughput of QUIC(Q044, Q043, Q039) and TCP downloading files of different sizes from Google Drive}\label{fig:cdf-of-mean}
+\end{figure}
+
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Fairness}
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png}
+    \end{subfigure}
+    
+    \caption{Throughput of 1 QUIC and 1 TCP concurrent flow with the download progress of a 30 second YouTube video}\label{fig:throughput-of-1}
+\end{figure}
+
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png}
+    \end{subfigure}
+    
+    \caption{Throughput of 1 QUIC and 1 TCP concurrent flow with the download progress of a 30 second YouTube video}\label{fig:throughput-of-2}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Fairness}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png}
+    \end{subfigure}
+    
+    \caption{Throughput of 2 QUIC flows with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2y}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressTCP+TCP.png}
+    \end{subfigure}
+    
+    \caption{Throughput of 2 TCP flows with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2g}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Fairness}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png}
+    \end{subfigure}
+    
+    \caption{Throughput of 1 QUIC and 1 TCP flow with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2go}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png}
+    \end{subfigure}
+    
+    \caption{Throughput of 1 QUIC and 2 TCP flow with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-c}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Fairness}
+
+
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png}
+    \end{subfigure}    
+    \caption{Throughput of 1 QUIC and 3 TCP flow with the download progress of a 200 MB file from Google Drive}
+\end{figure}
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: CPU Utilization}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/cpu/cpupercentprogress.png}
+    \end{subfigure}
+    
+    \caption{CPU utilization of QUIC(Q044) and TCP downloading a 200 MB file from Google Drive}\label{fig:cpu-utilization-of}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: Scatter Plot Throughput vs CPU}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]{./plots/PI/throughputvscpu/ThroughputvsCPU.png}
+    \end{subfigure}
+    
+    \caption{Scatter Plot for Throughput and CPU for QUIC and TCP while downloading from Google Drive}\label{fig:scatter-plot-for}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: QUIC Profiling}
+
+\begin{table}[ht]
+    \begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+        \toprule
+        \textbf{index} & \textbf{\%time} & \textbf{seconds} & \textbf{usecs/call} & \textbf{calls} & \textbf{syscall} \\ \midrule
+        0              & 76.89           & 1.949677         & 24                  & 80800          & recvmsg          \\ \midrule
+        1              & 17.33           & 0.439416         & 201                 & 2191           & epoll\_wait      \\ \midrule
+        2              & 4.79            & 0.121456         & 57                  & 2141           & sendmsg          \\ \midrule
+        3              & 0.22            & 0.005475         & 57                  & 96             & brk              \\ \midrule
+        4              & 0.18            & 0.004439         & 2220                & 2              & poll             \\ \midrule
+        5              & 0.08            & 0.00201          & 53                  & 38             & open             \\ \midrule
+        6              & 0.08            & 0.001954         & 43                  & 45             & read             \\ \midrule
+        7              & 0.07            & 0.001712         & 54                  & 32             & mmap2            \\ \midrule
+        8              & 0.05            & 0.001261         & 53                  & 24             & mprotect         \\ \midrule
+        9              & 0.05            & 0.001185         & 41                  & 29             & close            \\ \midrule
+        10             & 0.03            & 0.000878         & 38                  & 23             & fstat64          \\ \bottomrule
+    \end{tabular}
+    \caption{Top-10 system calls for QUIC while downloading file from Google drive}\label{table:top-10-system-calls}
+\end{table}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: QUIC Profiling}
+
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}{1\textwidth}
+        \includegraphics[width=\linewidth]{./plots/perf_flame_graphs/quic/kernel.png}
+    \end{subfigure}
+    
+    \caption{CPU Flame Graph, showing codepaths that are consuming CPU cycles and by how much}\label{fig:cpu-flame-graph-}
+\end{figure}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: QUIC Discovery with Alt-Svc header}
+
+\begin{table}[ht]
+    \begin{tabular}{@{}|l|l|@{}}
+        \toprule
+        \textbf{QUIC Versions} & \textbf{No. of Websites returning Alt-Svc} \\ \midrule
+        35,39,43,44            & 1145                                       \\ \midrule
+        35,37,38,39            & 433                                        \\ \midrule
+        35,39,43               & 202                                        \\ \midrule
+        35,39                  & 3                                          \\ \midrule
+        39                     & 2                                          \\ \bottomrule
+    \end{tabular}
+    \caption{QUIC versions in Alt-Svc Header}\label{fig:quic-versions-in}
+\end{table}
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: IETF QUIC}
+
+%\begin{figure}[!htb]
+%    \centering
+%    \begin{subfigure}{0.5\textwidth}
+%        \includegraphics[width=\linewidth]
+%        {./plots/VM/ietf/handshake_times_ietf_ipv4.png}
+%    \end{subfigure}
+%    \caption{\label{fig:handshake_times_ietf_ipv4}Handshake IETF QUIC draft-17 ipv4}
+%\end{figure}
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \begin{subfigure}{0.5\textwidth}
+%        \includegraphics[width=\linewidth]
+%        {./plots/VM/ietf/handshake_times_ietf_ipv6.png}
+%    \end{subfigure}
+%    \caption{\label{fig:handshake_times_ietf_ipv6}Handshake IETF QUIC draft-17 ipv6}
+%\end{figure}
+
+\begin{figure}[!t]
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\linewidth]
+        {./plots/VM/ietf/handshake_times_ietf_0rtt.png}
+    \end{subfigure}
+    \caption{\label{fig:handshake_times_0rtt_ipv4}Handshake IETF QUIC draft-17 0-rtt}
+\end{figure}
 
 \end{frame}
 \clearpage
