@@ -1,3 +1,4 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
 \providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
 \providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
 % \MRhref is called by the amsart/book/proc definition of \MR.
@@ -5,12 +6,191 @@
   \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
 }
 \providecommand{\href}[2]{#2}
-\begin{thebibliography}{PCB18}
+\begin{thebibliography}{NdOA{\etalchar{+}}18}
 
-\bibitem[PCB18]{DBLP:conf/conext/PirauxCB18}
-Maxime Piraux, Quentin~De Coninck, and Olivier Bonaventure, \emph{Observing the
-  evolution of {QUIC} implementations}, Proceedings of the Workshop on the
-  Evolution, Performance, and Interoperability of QUIC, EPIQ@CoNEXT 2018,
-  Heraklion, Greece, December 4, 2018, {ACM}, 2018, pp.~8--14.
+\bibitem[ASA00]{DBLP:conf/infocom/AggarwalSA00}
+Amit Aggarwal, Stefan Savage, and Thomas~E. Anderson, \emph{Understanding the
+  performance of {TCP} pacing}, Proceedings {IEEE} {INFOCOM} 2000, The
+  Conference on Computer Communications, Nineteenth Annual Joint Conference of
+  the {IEEE} Computer and Communications Societies, Reaching the Promised Land
+  of Communications, Tel Aviv, Israel, March 26-30, 2000, {IEEE}, 2000,
+  pp.~1157--1165.
+
+\bibitem[BPT15]{rfc7540}
+Mike Belshe, Roberto Peon, and Martin Thomson, \emph{{Hypertext Transfer
+  Protocol Version 2 (HTTP/2)}}, RFC 7540, May 2015.
+
+\bibitem[CAI]{CAIDAArk}
+\emph{Caida ark}.
+
+\bibitem[CCM15]{DBLP:conf/sac/CarlucciCM15}
+Gaetano Carlucci, Luca~De Cicco, and Saverio Mascolo, \emph{{HTTP} over {UDP:}
+  an experimental investigation of {QUIC}}, Proceedings of the 30th Annual
+  {ACM} Symposium on Applied Computing, Salamanca, Spain, April 13-17, 2015
+  (Roger~L. Wainwright, Juan~Manuel Corchado, Alessio Bechini, and Jiman Hong,
+  eds.), {ACM}, 2015, pp.~609--614.
+
+\bibitem[CLL{\etalchar{+}}17a]{Cui2017}
+Yong Cui, Tianxiang Li, Cong Liu, Xingwei Wang, and Mirja Kuhlewind,
+  \emph{{Innovating transport with QUIC: Design approaches and research
+  challenges}}, IEEE Internet Computing \textbf{21} (2017), no.~2, 72--76.
+
+\bibitem[CLL{\etalchar{+}}17b]{DBLP:journals/internet/CuiLLWK17}
+Yong Cui, Tianxiang Li, Cong Liu, Xingwei Wang, and Mirja K{\"{u}}hlewind,
+  \emph{Innovating transport with {QUIC:} design approaches and research
+  challenges}, {IEEE} Internet Computing \textbf{21} (2017), no.~2, 72--76.
+
+\bibitem[CMTH17]{DBLP:conf/icc/CookMTH17}
+Sarah Cook, Bertrand Mathieu, Patrick Truong, and Isabelle Hamchaoui,
+  \emph{{QUIC:} better for what and for whom?}, {IEEE} International Conference
+  on Communications, {ICC} 2017, Paris, France, May 21-25, 2017, {IEEE}, 2017,
+  pp.~1--6.
+
+\bibitem[cro]{cronet}
+\emph{cronet}.
+
+\bibitem[cry]{crypto}
+\emph{Google design document. quic crypto}.
+
+\bibitem[CSO16]{7745823}
+R.~{Corbel}, E.~{Stephan}, and N.~{Omnes}, \emph{Http/1.1 pipelining vs http2
+  in-the-clear: Performance comparison}, 2016 13th International Conference on
+  New Technologies for Distributed Systems (NOTERE), July 2016, pp.~1--6.
+
+\bibitem[dB]{udpgso}
+Willem de~Bruijn, \emph{Optimizing udp for content delivery: Gso, pacing and
+  zerocopy}.
+
+\bibitem[EKT{\etalchar{+}}16]{DBLP:journals/corr/EdelineKTAD16}
+Korian Edeline, Mirja K{\"{u}}hlewind, Brian Trammell, Emile Aben, and Benoit
+  Donnet, \emph{Using {UDP} for internet transport evolution}, CoRR
+  \textbf{abs/1612.07816} (2016).
+
+\bibitem[ETW14]{DBLP:conf/networking/El-khatibTW14}
+Yehia El{-}khatib, Gareth Tyson, and Michael Welzl, \emph{Can {SPDY} really
+  make the web faster?}, 2014 {IFIP} Networking Conference, Trondheim, Norway,
+  June 2-4, 2014, {IEEE}, 2014, pp.~1--9.
+
+\bibitem[FG14]{DBLP:conf/ccs/FischlinG14}
+Marc Fischlin and Felix G{\"{u}}nther, \emph{Multi-stage key exchange and the
+  case of google's {QUIC} protocol}, Proceedings of the 2014 {ACM} {SIGSAC}
+  Conference on Computer and Communications Security, Scottsdale, AZ, USA,
+  November 3-7, 2014 (Gail{-}Joon Ahn, Moti Yung, and Ninghui Li, eds.), {ACM},
+  2014, pp.~1193--1204.
+
+\bibitem[FRHB13]{rfc6824}
+Alan Ford, Costin Raiciu, Mark~J. Handley, and Olivier Bonaventure, \emph{{TCP
+  Extensions for Multipath Operation with Multiple Addresses}}, RFC 6824,
+  January 2013.
+
+\bibitem[IS19]{ietf-quic-recovery-18}
+Jana Iyengar and Ian Swett, \emph{{QUIC Loss Detection and Congestion
+  Control}}, Internet-Draft draft-ietf-quic-recovery-18, Internet Engineering
+  Task Force, January 2019, Work in Progress.
+
+\bibitem[IT19]{ietf-quic-transport-18}
+Jana Iyengar and Martin Thomson, \emph{{QUIC: A UDP-Based Multiplexed and
+  Secure Transport}}, Internet-Draft draft-ietf-quic-transport-18, Internet
+  Engineering Task Force, January 2019, Work in Progress.
+
+\bibitem[KJC{\etalchar{+}}17]{DBLP:conf/imc/KakhkiJCNM17}
+Arash~Molavi Kakhki, Samuel Jero, David~R. Choffnes, Cristina Nita{-}Rotaru,
+  and Alan Mislove, \emph{Taking a long look at {QUIC:} an approach for
+  rigorous evaluation of rapidly evolving transport protocols}, Proceedings of
+  the 2017 Internet Measurement Conference, {IMC} 2017, London, United Kingdom,
+  November 1-3, 2017 (Steve Uhlig and Olaf Maennel, eds.), {ACM}, 2017,
+  pp.~290--303.
+
+\bibitem[KRGK18]{8524247}
+P.~K. Kharat, A.~Rege, A.~Goel, and M.~Kulkarni, \emph{Quic protocol
+  performance in wireless networks}, 2018 International Conference on
+  Communication and Signal Processing (ICCSP), April 2018, pp.~0472--0476.
+
+\bibitem[LCJC18]{DBLP:conf/pam/LiCJC18}
+Feng Li, Jae~Won Chung, Xiaoxiao Jiang, and Mark Claypool, \emph{{TCP} {CUBIC}
+  versus {BBR} on the highway}, Passive and Active Measurement - 19th
+  International Conference, {PAM} 2018, Berlin, Germany, March 26-27, 2018,
+  Proceedings (Robert Beverly, Georgios Smaragdakis, and Anja Feldmann, eds.),
+  Lecture Notes in Computer Science, vol. 10771, Springer, 2018, pp.~269--280.
+
+\bibitem[LRW{\etalchar{+}}17]{DBLP:conf/sigcomm/LangleyRWVKZYKS17}
+Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic,
+  Dan Zhang, Fan Yang, Fedor Kouranov, Ian Swett, Janardhan~R. Iyengar, Jeff
+  Bailey, Jeremy Dorfman, Jim Roskind, Joanna Kulik, Patrik Westin, Raman
+  Tenneti, Robbie Shade, Ryan Hamilton, Victor Vasiliev, Wan{-}Teh Chang, and
+  Zhongyi Shi, \emph{The {QUIC} transport protocol: Design and internet-scale
+  deployment}, Proceedings of the Conference of the {ACM} Special Interest
+  Group on Data Communication, {SIGCOMM} 2017, Los Angeles, CA, USA, August
+  21-25, 2017, {ACM}, 2017, pp.~183--196.
+
+\bibitem[MKM16]{DBLP:conf/icc/MegyesiKM16}
+P{\'{e}}ter Megyesi, Zsolt Kramer, and S{\'{a}}ndor Moln{\'{a}}r, \emph{How
+  quick is quic?}, 2016 {IEEE} International Conference on Communications,
+  {ICC} 2016, Kuala Lumpur, Malaysia, May 22-27, 2016, {IEEE}, 2016, pp.~1--6.
+
+\bibitem[NdOA{\etalchar{+}}18]{8538687}
+K.~Nepomuceno, I.~N. d.~Oliveira, R.~R. Aschoff, D.~Bezerra, M.~S. Ito,
+  W.~Melo, D.~Sadok, and G.~Szabó, \emph{Quic and tcp: A performance
+  evaluation}, 2018 IEEE Symposium on Computers and Communications (ISCC), June
+  2018, pp.~00045--00051.
+
+\bibitem[qui]{quicgd}
+\emph{Google design document. quic from 10,000 feet}.
+
+\bibitem[QWT18]{DBLP:journals/access/QianWT18}
+Peng Qian, Ning Wang, and Rahim Tafazolli, \emph{Achieving robust mobile web
+  content delivery performance based on multiple coordinated {QUIC}
+  connections}, {IEEE} Access \textbf{6} (2018), 11313--11328.
+
+\bibitem[RCC{\etalchar{+}}11]{DBLP:conf/conext/RadhakrishnanCCJR11}
+Sivasankar Radhakrishnan, Yuchung Cheng, Jerry Chu, Arvind Jain, and Barath
+  Raghavan, \emph{{TCP} fast open}, Proceedings of the 2011 Conference on
+  Emerging Networking Experiments and Technologies, Co-NEXT '11, Tokyo, Japan,
+  December 6-9, 2011 (Kenjiro Cho and Mark Crovella, eds.), {ACM}, 2011, p.~21.
+
+\bibitem[RPDH18]{DBLP:conf/pam/RuthPDH18}
+Jan R{\"{u}}th, Ingmar Poese, Christoph Dietzel, and Oliver Hohlfeld, \emph{A
+  first look at {QUIC} in the wild}, Passive and Active Measurement - 19th
+  International Conference, {PAM} 2018, Berlin, Germany, March 26-27, 2018,
+  Proceedings (Robert Beverly, Georgios Smaragdakis, and Anja Feldmann, eds.),
+  Lecture Notes in Computer Science, vol. 10771, Springer, 2018, pp.~255--268.
+
+\bibitem[Sam]{SamKnowsproject}
+\emph{Samknows project}.
+
+\bibitem[SMV17]{DBLP:conf/iscc/SaverimoutouMV17}
+Antoine Saverimoutou, Bertrand Mathieu, and Sandrine Vaton, \emph{Which secure
+  transport protocol for a reliable http/2-based web service: {TLS} or quic?},
+  2017 {IEEE} Symposium on Computers and Communications, {ISCC} 2017,
+  Heraklion, Greece, July 3-6, 2017, {IEEE} Computer Society, 2017,
+  pp.~879--884.
+
+\bibitem[spd]{spdy}
+\emph{Spdy protoocl draft-3}.
+
+\bibitem[VBKT18]{DBLP:conf/imc/VaereBKT18}
+Piet~De Vaere, Tobias B{\"{u}}hler, Mirja K{\"{u}}hlewind, and Brian Trammell,
+  \emph{Three bits suffice: Explicit support for passive measurement of
+  internet latency in {QUIC} and {TCP}}, Proceedings of the Internet
+  Measurement Conference 2018, {IMC} 2018, Boston, MA, USA, October 31 -
+  November 02, 2018, {ACM}, 2018, pp.~22--28.
+
+\bibitem[WBRP18]{DBLP:conf/mswim/WangBRP18}
+Peng Wang, Carmine Bianco, Janne Riihij{\"{a}}rvi, and Marina Petrova,
+  \emph{Implementation and performance evaluation of the {QUIC} protocol in
+  linux kernel}, Proceedings of the 21st {ACM} International Conference on
+  Modeling, Analysis and Simulation of Wireless and Mobile Systems, MSWiM 2018,
+  Montreal, QC, Canada, October 28 - November 02, 2018 (Azzedine Boukerche,
+  Salil~S. Kanhere, and Paolo Bellavista, eds.), {ACM}, 2018, pp.~227--234.
+
+\bibitem[YO02]{rfc3286}
+John Yoakum and Lyndon Ong, \emph{{An Introduction to the Stream Control
+  Transmission Protocol (SCTP)}}, RFC 3286, May 2002.
+
+\bibitem[YXY17]{DBLP:conf/ipccc/YuXY17}
+Yajun Yu, Mingwei Xu, and Yuan Yang, \emph{When {QUIC} meets {TCP:} an
+  experimental study}, 36th {IEEE} International Performance Computing and
+  Communications Conference, {IPCCC} 2017, San Diego, CA, USA, December 10-12,
+  2017, {IEEE}, 2017, pp.~1--8.
 
 \end{thebibliography}

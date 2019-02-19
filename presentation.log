@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 FEB 2019 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1832,12 +1832,59 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Resources/Presentation/I
 mages/TUM_Uhrenturm.png> <./Resources/_Images/Universitaet_Logo_RGB.pdf>] (./Sl
 ides.tex
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 42
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 42
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 42
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 42
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 42.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Calculating math sizes for size <15.67> on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.67> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.59587> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.40208> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 22.
+(Font)              scaled to size 3.79999pt on input line 42.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 22.
+ input line 42.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1849,7 +1896,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 29.
+ input line 65.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1859,10 +1906,14 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 ]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.67> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 14.88644pt on input line 82.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 36.
+ input line 82.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1875,7 +1926,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 43.
+ input line 99.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1885,10 +1936,24 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 ]
+<figures/QUICstack.png, id=154, 626.34pt x 413.545pt>
+File: figures/QUICstack.png Graphic file (type png)
+<use figures/QUICstack.png>
+Package pdftex.def Info: figures/QUICstack.png  used on input line 114.
+(pdftex.def)             Requested size: 336.02698pt x 221.87224pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.41646pt on input line 114.
+LaTeX Font Info:    Calculating math sizes for size <13.07> on input line 114.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.07> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.67188> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.84207> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 49.
+ input line 114.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1897,11 +1962,23 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [6
 
 
-]
+ <./figures/QUICstack.png>]
+<figures/0rtt.png, id=176, 867.24pt x 570.13pt>
+File: figures/0rtt.png Graphic file (type png)
+<use figures/0rtt.png>
+Package pdftex.def Info: figures/0rtt.png  used on input line 131.
+(pdftex.def)             Requested size: 336.02698pt x 220.90569pt.
+LaTeX Font Info:    Calculating math sizes for size <30> on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <30> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22.20016> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.00018> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 55.
+ input line 131.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1910,11 +1987,16 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [7
 
 
-]
+ <./figures/0rtt.png>]
+<figures/hol.png, id=203, 734.745pt x 529.98pt>
+File: figures/hol.png Graphic file (type png)
+<use figures/hol.png>
+Package pdftex.def Info: figures/hol.png  used on input line 148.
+(pdftex.def)             Requested size: 336.02698pt x 242.38664pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 61.
+ input line 148.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1923,11 +2005,16 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [8
 
 
-]
+ <./figures/hol.png>]
+<figures/pacing.png, id=224, 608.2725pt x 281.05pt>
+File: figures/pacing.png Graphic file (type png)
+<use figures/pacing.png>
+Package pdftex.def Info: figures/pacing.png  used on input line 168.
+(pdftex.def)             Requested size: 470.43571pt x 217.36977pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 68.
+ input line 168.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -1936,15 +2023,96 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [9
 
 
-]) (./References.tex
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.41646pt on input line 8.
- (./presentation.bbl
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <13.07> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 12.41646pt on input line 12.
+ <./figures/pacing.png>]
+Overfull \vbox (25.46341pt too high) detected at line 190
+ []
+
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 190.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[10
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 196.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[11
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 202.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[12
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 208.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[13
+
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 234.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+
+LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <15.67> not available
+(Font)              size <14.4> substituted on input line 234.
+
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 234.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[14
+
+
+]) (./References.tex (./presentation.bbl
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <13.07> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 12.41646pt on input line 13.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13.07> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.41646pt on input line 36.
+)
+Overfull \vbox (1141.22806pt too high) detected at line 8
+ []
+
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -1954,13 +2122,13 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[10
+[15
 
 
 ]) (./Questions.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 37.05937pt on input line 14.
-<./Resources/_Images/questions.pdf, id=217, 291.33844pt x 290.58563pt>
+<./Resources/_Images/questions.pdf, id=392, 291.33844pt x 290.58563pt>
 File: ./Resources/_Images/questions.pdf Graphic file (type pdf)
 <use ./Resources/_Images/questions.pdf>
 Package pdftex.def Info: ./Resources/_Images/questions.pdf  used on input line 
@@ -1975,7 +2143,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[11
+[16
 
 
  <./Resources/_Images/questions.pdf>])
@@ -1995,23 +2163,31 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.27pt have occurred.
+
  ) 
 Here is how much of TeX's memory you used:
- 34886 strings out of 494830
- 828862 string characters out of 6177368
- 1100663 words of memory out of 5000000
- 37409 multiletter control sequences out of 15000+600000
- 38064 words of font info for 39 fonts, out of 8000000 for 9000
+ 35349 strings out of 494830
+ 838264 string characters out of 6177368
+ 1126663 words of memory out of 5000000
+ 37774 multiletter control sequences out of 15000+600000
+ 128222 words of font info for 176 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  66i,16n,96p,870b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (11 pages, 525047 bytes).
+ </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600
+pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvro8a.pfb>
+Output written on presentation.pdf (16 pages, 716315 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 24 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

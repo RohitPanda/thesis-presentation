@@ -3,44 +3,73 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: presentation.aux
 The style file: amsalpha.bst
 Database file #1: ./Resources/Bib/Bibliography.bib.bib
-You've used 1 entry,
+Repeated entry---line 857 of file ./Resources/Bib/Bibliography.bib.bib
+ : @article{DBLP:journals/corr/EdelineKTAD16
+ :                                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 962 of file ./Resources/Bib/Bibliography.bib.bib
+ : @article{DBLP:journals/access/QianWT18
+ :                                       ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "crypto" isn't style-file defined
+--line 1174 of file ./Resources/Bib/Bibliography.bib.bib
+Warning--entry type for "quicgd" isn't style-file defined
+--line 1177 of file ./Resources/Bib/Bibliography.bib.bib
+Warning--entry type for "CAIDAArk" isn't style-file defined
+--line 1192 of file ./Resources/Bib/Bibliography.bib.bib
+Warning--entry type for "SamKnowsproject" isn't style-file defined
+--line 1193 of file ./Resources/Bib/Bibliography.bib.bib
+Warning--entry type for "cronet" isn't style-file defined
+--line 1194 of file ./Resources/Bib/Bibliography.bib.bib
+Warning--entry type for "spdy" isn't style-file defined
+--line 1201 of file ./Resources/Bib/Bibliography.bib.bib
+Warning--to sort, need author or key in spdy
+Warning--to sort, need author or key in quicgd
+Warning--to sort, need author or key in crypto
+Warning--to sort, need author or key in CAIDAArk
+Warning--to sort, need author or key in SamKnowsproject
+Warning--to sort, need author or key in cronet
+Warning--missing note in udpgso
+Warning--missing pages in DBLP:journals/corr/EdelineKTAD16
+You've used 34 entries,
             2624 wiz_defined-function locations,
-            565 strings with 4717 characters,
-and the built_in function-call counts, 532 in all, are:
-= -- 48
-> -- 25
-< -- 0
-+ -- 9
-- -- 9
-* -- 38
-:= -- 88
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 7
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 21
-empty$ -- 39
-format.name$ -- 10
-if$ -- 108
-int.to.chr$ -- 1
+            750 strings with 12166 characters,
+and the built_in function-call counts, 16342 in all, are:
+= -- 1500
+> -- 946
+< -- 5
++ -- 343
+- -- 340
+* -- 1317
+:= -- 2521
+add.period$ -- 34
+call.type$ -- 34
+change.case$ -- 254
+chr.to.int$ -- 33
+cite$ -- 48
+duplicate$ -- 668
+empty$ -- 1190
+format.name$ -- 361
+if$ -- 3428
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 3
-pop$ -- 8
+missing$ -- 56
+newline$ -- 113
+num.names$ -- 98
+pop$ -- 337
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 288
 quote$ -- 0
-skip$ -- 22
+skip$ -- 609
 stack$ -- 0
-substring$ -- 26
-swap$ -- 5
-text.length$ -- 0
+substring$ -- 809
+swap$ -- 170
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 0
-while$ -- 6
-width$ -- 2
-write$ -- 21
+type$ -- 272
+warning$ -- 8
+while$ -- 145
+width$ -- 37
+write$ -- 370
+(There were 2 error messages)
