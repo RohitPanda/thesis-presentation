@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2787,7 +2787,7 @@ vsCPU.png>]
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 643.
+ input line 642.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2801,12 +2801,12 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 File: ./plots/perf_flame_graphs/quic/kernel.png Graphic file (type png)
 <use ./plots/perf_flame_graphs/quic/kernel.png>
 Package pdftex.def Info: ./plots/perf_flame_graphs/quic/kernel.png  used on inp
-ut line 658.
-(pdftex.def)             Requested size: 672.05397pt x 370.75914pt.
+ut line 657.
+(pdftex.def)             Requested size: 537.64522pt x 296.61137pt.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 658.
+ input line 657.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2819,7 +2819,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 747.
+ input line 751.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2832,7 +2832,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 747.
+ input line 770.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2845,52 +2845,13 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 747.
+ input line 796.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 [28
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 747.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[29
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 747.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[30
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 773.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[31
 
 
 ]) (./References.tex
@@ -2921,6 +2882,45 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
+[29
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[30
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[31
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
 [32
 
 
@@ -2937,49 +2937,10 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [33
 
 
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[34
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[35
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[36
-
-
 ]) (./Questions.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 37.05937pt on input line 14.
-<./Resources/_Images/questions.pdf, id=901, 291.33844pt x 290.58563pt>
+<./Resources/_Images/questions.pdf, id=849, 291.33844pt x 290.58563pt>
 File: ./Resources/_Images/questions.pdf Graphic file (type pdf)
 <use ./Resources/_Images/questions.pdf>
 Package pdftex.def Info: ./Resources/_Images/questions.pdf  used on input line 
@@ -2994,7 +2955,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[37
+[34
 
 
  <./Resources/_Images/questions.pdf>])
@@ -3024,10 +2985,10 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42999 strings out of 494830
- 988777 string characters out of 6177368
+ 42987 strings out of 494830
+ 988672 string characters out of 6177368
  1559988 words of memory out of 5000000
- 45256 multiletter control sequences out of 15000+600000
+ 45250 multiletter control sequences out of 15000+600000
  106427 words of font info for 138 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  66i,16n,96p,1206b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3038,10 +2999,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /helvetic/uhvro8a.pfb>
-Output written on presentation.pdf (37 pages, 1595529 bytes).
+Output written on presentation.pdf (34 pages, 1590199 bytes).
 PDF statistics:
- 1071 PDF objects out of 1200 (max. 8388607)
- 819 compressed objects within 9 object streams
- 139 named destinations out of 1000 (max. 500000)
+ 1014 PDF objects out of 1200 (max. 8388607)
+ 767 compressed objects within 8 object streams
+ 133 named destinations out of 1000 (max. 500000)
  276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
