@@ -8,6 +8,14 @@
 \providecommand{\href}[2]{#2}
 \begin{thebibliography}{NdOA{\etalchar{+}}18}
 
+\bibitem[ABOS15]{DBLP:conf/pam/AhsanBOS15}
+Saba Ahsan, Vaibhav Bajpai, J{\"{o}}rg Ott, and J{\"{u}}rgen
+  Sch{\"{o}}nw{\"{a}}lder, \emph{Measuring youtube from dual-stacked hosts},
+  Passive and Active Measurement - 16th International Conference, {PAM} 2015,
+  New York, NY, USA, March 19-20, 2015, Proceedings (Jelena Mirkovic and Yong
+  Liu, eds.), Lecture Notes in Computer Science, vol. 8995, Springer, 2015,
+  pp.~249--261.
+
 \bibitem[ASA00]{DBLP:conf/infocom/AggarwalSA00}
 Amit Aggarwal, Stefan Savage, and Thomas~E. Anderson, \emph{Understanding the
   performance of {TCP} pacing}, Proceedings {IEEE} {INFOCOM} 2000, The
@@ -45,6 +53,9 @@ Sarah Cook, Bertrand Mathieu, Patrick Truong, and Isabelle Hamchaoui,
   \emph{{QUIC:} better for what and for whom?}, {IEEE} International Conference
   on Communications, {ICC} 2017, Paris, France, May 21-25, 2017, {IEEE}, 2017,
   pp.~1--6.
+
+\bibitem[com]{comsys}
+\emph{Quic research @ comsys}.
 
 \bibitem[cro]{cronet}
 \emph{cronet}.
@@ -93,6 +104,9 @@ Jana Iyengar and Martin Thomson, \emph{{QUIC: A UDP-Based Multiplexed and
   Secure Transport}}, Internet-Draft draft-ietf-quic-transport-18, Internet
   Engineering Task Force, January 2019, Work in Progress.
 
+\bibitem[Jae]{bernhard}
+Bernhard Jaeger, \emph{Measuring google quic connection establishment times}.
+
 \bibitem[KJC{\etalchar{+}}17]{DBLP:conf/imc/KakhkiJCNM17}
 Arash~Molavi Kakhki, Samuel Jero, David~R. Choffnes, Cristina Nita{-}Rotaru,
   and Alan Mislove, \emph{Taking a long look at {QUIC:} an approach for
@@ -134,7 +148,14 @@ K.~Nepomuceno, I.~N. d.~Oliveira, R.~R. Aschoff, D.~Bezerra, M.~S. Ito,
   evaluation}, 2018 IEEE Symposium on Computers and Communications (ISCC), June
   2018, pp.~00045--00051.
 
-\bibitem[qui]{quicgd}
+\bibitem[Pod]{sergey}
+Sergey Podanev, \emph{Measuring youtube video content delivery over quic
+  protocol}.
+
+\bibitem[quia]{quic_tracker}
+\emph{github repository. the quic tracker}.
+
+\bibitem[quib]{quicgd}
 \emph{Google design document. quic from 10,000 feet}.
 
 \bibitem[QWT18]{DBLP:journals/access/QianWT18}
@@ -147,6 +168,9 @@ Sivasankar Radhakrishnan, Yuchung Cheng, Jerry Chu, Arvind Jain, and Barath
   Raghavan, \emph{{TCP} fast open}, Proceedings of the 2011 Conference on
   Emerging Networking Experiments and Technologies, Co-NEXT '11, Tokyo, Japan,
   December 6-9, 2011 (Kenjiro Cho and Mark Crovella, eds.), {ACM}, 2011, p.~21.
+
+\bibitem[RIP]{RIPEDB}
+\emph{Ripe db}.
 
 \bibitem[RPDH18]{DBLP:conf/pam/RuthPDH18}
 Jan R{\"{u}}th, Ingmar Poese, Christoph Dietzel, and Oliver Hohlfeld, \emph{A

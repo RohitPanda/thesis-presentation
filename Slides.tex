@@ -192,6 +192,60 @@ This helps lower retransmission rate \cite{DBLP:conf/infocom/AggarwalSA00}
 
 \begin{frame}
 \shiftedframetitle{Methodology}
+We look at metrics like connection establishment time(For QUIC this will be 1-RTT Handshake, for TCP/TLS1.3 2-RTT and for TCP/TLS1.2 3-RTT), time to first byte and page download time using \texttt{quic\_perf} and \texttt{tls\_perf}.
+
+We analyze these metrics on AS level(announces prefix of our target websites) using RIPE Database.\cite{RIPEDB} 
+
+YouTube QoE metrics like like Connect Time to media CDNs, Prebuffering time, Startup delay and Overall download rate using \texttt{YouTube tests}
+
+Throughput and  CPU utilization using \texttt{YouTube tests}, \texttt{quic\_perf} and \texttt{tls\_perf}.
+
+CUBIC congestion control fairness in cases of competing flows by running the tests concurrently.
+
+We use \texttt{perf} and \texttt{strace} to profile QUIC and explain its high CPU utilization.
+
+We investigate QUIC Discovery using Alt-Svc Header
+ 
+\end{frame}
+\clearpage
+
+\begin{frame}
+    \shiftedframetitle{Methodology}
+Reused the \texttt{YouTube test} for TCP developed by S Ahsan et al.\cite{DBLP:conf/pam/AhsanBOS15} which was modified to use QUIC by Sergey\cite{sergey} and \texttt{tls\_perf} and \texttt{\texttt{quic\_perf}} by Bernhard\cite{bernhard}. Several additions and improvements were made to their tests like adding support for Q044, improving logging and error handling, adding HTTP/2 support.
+
+Used the latest version of \texttt{litespeed lsquic client} and \texttt{Boringssl} library for QUIC implementation.
+
+\texttt{libcurl} was used for TCP implementation.
+
+For measurements over IETF QUIC we used the QUIC Tracker \cite{quic_tracker} test suite which supports QUIC(draft-17) and is also TLS1.3 compatible.
+
+Created debian packages using cpack for easier deployment over Raspberry PI.
+
+List of target websites for our measurements was taken from QUIC Research@COMSYS\cite{comsys}
+
+Top 50 most popular videos for a region were selected for measurements over YouTube and files of different sizes were uploaded to Google Drive for performance tests
+
+\end{frame}
+\clearpage
+
+\begin{frame}
+    \shiftedframetitle{Measurement Setup}
+    
+Measurements were performed from 3 vantage Points.  
+
+We used the VM \texttt{vmott16.cm.in.tum.de} with linux OS.
+This machine has over 400 Mbits/s UDP connection speed with Microsoft Azure virtual
+server and 1.20 Gbits/s via TCP. It supported both IPv4 and IPv6.
+
+
+We used a Raspberry Pi 3 Model B with 1 GB RAM and 32 GB microSDHC Card. This PI was installed at a residencial location connected to a LAN network run by the Leibniz-datacenter(LRZ). It was running on a 100 Mbits/s line. 
+
+Another Raspberry PI was installed in Bhubaneswar, India. It was running on 20 Mbits/s line but peak bandwidth was measured at 14 Mbit/s during testing. 
+
+Only IPv4 could be tested at the above two locations because of lack of IPv6 support
+
+The tests were coded in C as libraries used provide us with an easy-to-use C API.
+The IETF test were coded in Go.
 
 \end{frame}
 \clearpage
