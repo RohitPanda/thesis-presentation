@@ -253,7 +253,6 @@ The IETF test were coded in Go.
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: Connection Establishment Times}
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/VM/handshake_times_ipv4.png}
         %\caption{CDF for IPv4.}\label{fig:cdf-of-connection}
@@ -268,14 +267,12 @@ The IETF test were coded in Go.
     %\caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv6}\label{fig:cdfs-of-connection}
         \caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for Ipv4, IPv6}\label{fig:cdfs-of-connection}
 \end{figure}
-
 %\end{frame}
 %\clearpage
 %
 %\begin{frame}
 %\shiftedframetitle{Overview of Thesis Results: Connection Establishment Times}
-\begin{figure}[!htb]
-    
+\begin{figure}[!htb]    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/handshake_times_ipv4.png}
     \end{subfigure}
@@ -285,19 +282,15 @@ The IETF test were coded in Go.
 %\begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/India/handshake_times_ipv4.png}
-    \end{subfigure}
-    
+    \end{subfigure} 
     \caption{CDFs of Connection Times for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in Munich, Germany and Bhubaneswar, India}\label{fig:cdfs-of-connectionm}
 \end{figure}
-
-
 \end{frame}
 \clearpage
 
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: Time to first byte}
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/VM/TTFB_ipv4.png}
     \end{subfigure}
@@ -306,14 +299,11 @@ The IETF test were coded in Go.
     \end{subfigure}    
     \caption{CDFs of Time to First Byte for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4, IPv6.}\label{fig:cdf-of-time}
 \end{figure}
-
 %\end{frame}
 %\clearpage
 %
 %\begin{frame}
 %\shiftedframetitle{Overview of Thesis Results: Time to first byte}
-
-
 \begin{figure}[!htb]
     
     \begin{subfigure}{0.45\textwidth}
@@ -323,40 +313,37 @@ The IETF test were coded in Go.
 %\end{figure}
 %
 %\begin{figure}[!htb]
-%    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/India/TTFB_ipv4.png}
     \end{subfigure}
-    
    % \caption{CDFs of TTFB for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in India}
         \caption{CDFs of TTFB for QUIC(Q044, Q043, Q039, Q035) and TLS(TLS 1.3, TLS 1.2) for IPv4 from Raspberry Pi in Munich, Germany and Bhubaneswar, India}
 \end{figure}
 \end{frame}
 \clearpage
 
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: AS topology}
-\begin{table}[ht]
-    \begin{tabular}{@{}|l|l|l|@{}}
-        \toprule
-        \textbf{ASNo} & \multicolumn{1}{c|}{\textbf{ASName}} & \textbf{No. of websites} \\ \midrule
-        15169 & GOOGLE - Google LLC & 3863 \\ \midrule
-        15133 & EDGECAST MCI Communications Services & 689 \\ \midrule
-        55293 & A2HOSTING - A2 Hosting & 178 \\ \midrule
-        203226 & IHCRU - Internet-Hosting Ltd & 82 \\ \midrule
-        16276 & OVH - OVH SAS & 75 \\ \bottomrule
-    \end{tabular}
-    \caption{Top-5 AS with the no. of websites in our target list. Google serves a large majority of websites over QUIC}
-    \label{table:top-5-as-with}
-\end{table}
-\end{frame}
-\clearpage
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: AS topology}
+%\begin{table}[ht]
+%    \begin{tabular}{@{}|l|l|l|@{}}
+%        \toprule
+%        \textbf{ASNo} & \multicolumn{1}{c|}{\textbf{ASName}} & \textbf{No. of websites} \\ \midrule
+%        15169 & GOOGLE - Google LLC & 3863 \\ \midrule
+%        15133 & EDGECAST MCI Communications Services & 689 \\ \midrule
+%        55293 & A2HOSTING - A2 Hosting & 178 \\ \midrule
+%        203226 & IHCRU - Internet-Hosting Ltd & 82 \\ \midrule
+%        16276 & OVH - OVH SAS & 75 \\ \bottomrule
+%    \end{tabular}
+%    \caption{Top-5 AS with the no. of websites in our target list. Google serves a large majority of websites over QUIC}
+%    \label{table:top-5-as-with}
+%\end{table}
+%\end{frame}
+%\clearpage
 
 
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: AS topology}
-\begin{figure}[!htb]
-    
+\begin{figure}[!htb] 
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/VM/handshake_times_IPv4_asno.png}
     \end{subfigure}
@@ -365,14 +352,11 @@ The IETF test were coded in Go.
     \end{subfigure} 
     \caption{CDFs of Connection Times for all for QUIC(all versions combined) categorized by AS for IPv4, IPv6. EDGECAST performs better than GOOGLE}\label{fig:connection-times-for}
 \end{figure}
-
 %\end{frame}
 %\clearpage
 %\begin{frame}
 %\shiftedframetitle{Overview of Thesis Results: AS topology}
-
-\begin{figure}[!htb]
-    
+\begin{figure}[!htb] 
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]
         {./plots/VM//TTFB_ipv4_asno.png}
@@ -383,14 +367,12 @@ The IETF test were coded in Go.
     \end{subfigure}
     \caption{\label{fig:TTFB_ipv6_asno}CDF of Time to First Byte for QUIC(all versions combined) categorized by AS for IPv4, IPv6}
 \end{figure}
-
+Google AS serves an overwhelming majority of websites using QUIC, almost half of the websites in our target list.
 \end{frame}
 \clearpage
-
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: YouTube QoE}
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_audio_connect_time.png}
     \end{subfigure}
@@ -399,15 +381,12 @@ The IETF test were coded in Go.
     \end{subfigure}    
     \caption{CDF of Audio Connect Time for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-audio}
 \end{figure}
-
 %\end{frame}
 %\clearpage
 %
 %\begin{frame}
 %\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
-
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_video_connect_time.png}
     \end{subfigure}
@@ -416,32 +395,26 @@ The IETF test were coded in Go.
     \end{subfigure}    
     \caption{CDF of Video Connect Time for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-video}
 \end{figure}
-
 \end{frame}
 \clearpage
 
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: YouTube QoE}
-
-\begin{figure}[!htb]
-    
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_website_connect_time.png}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_website_connect_time.png}
-    \end{subfigure}    
-    \caption{}
-\end{figure}
-
+%\begin{figure}[!htb]
+%    \begin{subfigure}{0.45\textwidth}
+%        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_website_connect_time.png}
+%    \end{subfigure}
+%    \begin{subfigure}{0.45\textwidth}
+%        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_website_connect_time.png}
+%    \end{subfigure}    
+%    \caption{CDF of Website Connect Time for IPv4 in Bhubaneswar, India and Munich, Germany}
+%\end{figure}
 %\end{frame}
 %\clearpage
 %
 %\begin{frame}
 %\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
-
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_prebuffering_duration.png}
     \end{subfigure}
@@ -450,15 +423,12 @@ The IETF test were coded in Go.
     \end{subfigure}    
     \caption{CDF of Prebuffering time for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-prebuffering}
 \end{figure}
-
-\end{frame}
-\clearpage
-
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
-
+%\end{frame}
+%\clearpage
+%
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_startup_delay.png}
     \end{subfigure}
@@ -468,14 +438,13 @@ The IETF test were coded in Go.
     \caption{CDF of startup delay for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-startup}
 \end{figure}
 
-%\end{frame}
-%\clearpage
-%
-%\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+\end{frame}
+\clearpage
 
-\begin{figure}[!htb]
-    
+\begin{frame}
+\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+
+\begin{figure}[!htb]  
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_download_rate.png}
     \end{subfigure}
@@ -484,15 +453,12 @@ The IETF test were coded in Go.
     \end{subfigure}    
     \caption{CDF of Download rate for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-download}
 \end{figure}
-
-\end{frame}
-\clearpage
-
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
-
+%\end{frame}
+%\clearpage
+%
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
 \begin{figure}[!htb]
-    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_rate_diff.png}
     \end{subfigure}
@@ -507,109 +473,86 @@ The IETF test were coded in Go.
 %
 %\begin{frame}
 %\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
-\begin{figure}[!htb]
-    
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_stall_durations.png}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_stall_durations.png}
-    \end{subfigure}    
-    \caption{CDF of stall durations for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-stall}
-\end{figure}
+%\begin{figure}[!htb]
+%    
+%    \begin{subfigure}{0.45\textwidth}
+%        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_stall_durations.png}
+%    \end{subfigure}
+%    \begin{subfigure}{0.45\textwidth}
+%        \includegraphics[width=\linewidth]{./plots/youtube/munich/graph_stall_durations.png}
+%    \end{subfigure}    
+%    \caption{CDF of stall durations for IPv4 in Bhubaneswar, India and Munich, Germany}\label{fig:cdf-of-stall}
+%\end{figure}
 \end{frame}
 \clearpage
-
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: Throughput}
 
 \begin{figure}[!htb]
-    \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/throughput/ThroughputCDF.png}
-    \end{subfigure}
-    
-    \caption{CDF of Throughput of QUIC(Q044) and TCP downloading a YouTube video.}
-\end{figure}
-
-\begin{figure}[!htb]
-    
+    \end{subfigure}   
+%    \caption{CDF of Throughput of QUIC(Q044) and TCP downloading a YouTube video.}
+%\end{figure}
+%\begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/throughput/Throughtputprogress.png}
-    \end{subfigure}
-    
-    \caption{Throughput of QUIC(Q044) and TCP downloading a YouTube video.}\label{fig:throughput-of-quic-q044-}
+    \end{subfigure}  
+    \caption{CDF of Throughput and Throughput of QUIC(Q044) and TCP downloading a YouTube video.}\label{fig:throughput-of-quic-q044-}
 \end{figure}
-
-\end{frame}
-\clearpage
-
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Throughput}
-
+%\end{frame}
+%\clearpage
+%
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: Throughput}
 \begin{figure}[!htb]
-    \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/gdrive/Throughput_ipv4.png}
     \end{subfigure}   
-    \caption{CDF of Throughput of QUIC(Q044, Q043, Q039) and TCP downloading files of different sizes from Google Drive}\label{fig:cdf-of-throughput}
-\end{figure}
-
-\begin{figure}[!htb]
-    \centering
+%    \caption{CDF of Throughput of QUIC(Q044, Q043, Q039) and TCP downloading files of different sizes from Google Drive}\label{fig:cdf-of-throughput}
+%\end{figure}
+%\begin{figure}[!htb]
+%    \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/gdrive/MeanThroughputvssize.png}
     \end{subfigure}   
-    \caption{CDF of Mean Throughput of QUIC(Q044, Q043, Q039) and TCP downloading files of different sizes from Google Drive}\label{fig:cdf-of-mean}
+    \caption{CDF of Throughput and Mean Throughput of QUIC(Q044, Q043, Q039) and TCP downloading files of different sizes from Google Drive}\label{fig:cdf-of-mean}
 \end{figure}
-
-
 \end{frame}
 \clearpage
 
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: Fairness}
 \begin{figure}[!htb]
-    \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png}
-    \end{subfigure}
-    
-    \caption{Throughput of 1 QUIC and 1 TCP concurrent flow with the download progress of a 30 second YouTube video}\label{fig:throughput-of-1}
-\end{figure}
-
-
-\begin{figure}[!htb]
-    \centering
+    \end{subfigure}   
+%    \caption{Throughput of 1 QUIC and 1 TCP concurrent flow with the download progress of a 30 second YouTube video}\label{fig:throughput-of-1}
+%\end{figure}
+%\begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png}
     \end{subfigure}
-    
-    \caption{Throughput of 1 QUIC and 1 TCP concurrent flow with the download progress of a 30 second YouTube video}\label{fig:throughput-of-2}
+    \caption{Throughput of 1 QUIC and 1 TCP, 1 QUIC and 2 TCP concurrent flow with the download progress of a 30 second YouTube video}\label{fig:throughput-of-2}
 \end{figure}
 
-\end{frame}
-\clearpage
-
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Fairness}
+%\end{frame}
+%\clearpage
+%
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: Fairness}
 
 \begin{figure}[!htb]
-    \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png}
-    \end{subfigure}
-    
-    \caption{Throughput of 2 QUIC flows with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2y}
-\end{figure}
-
-\begin{figure}[!htb]
-    \centering
+    \end{subfigure}  
+%    \caption{Throughput of 2 QUIC flows with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2y}
+%\end{figure}
+%\begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressTCP+TCP.png}
-    \end{subfigure}
-    
-    \caption{Throughput of 2 TCP flows with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2g}
+    \end{subfigure}    
+    \caption{Throughput of 2 QUIC flows and 2 TCP flows with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2g}
 \end{figure}
 
 \end{frame}
@@ -617,39 +560,30 @@ The IETF test were coded in Go.
 
 \begin{frame}
 \shiftedframetitle{Overview of Thesis Results: Fairness}
-
 \begin{figure}[!htb]
-    \centering
-    \begin{subfigure}{0.45\textwidth}
+    \begin{subfigure}{0.5\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png}
     \end{subfigure}
-    
-    \caption{Throughput of 1 QUIC and 1 TCP flow with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2go}
-\end{figure}
-
-\begin{figure}[!htb]
-    \centering
-    \begin{subfigure}{0.45\textwidth}
+    %\caption{Throughput of 1 QUIC and 1 TCP flow with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-2go}
+%\end{figure}
+%\begin{figure}[!htb]
+    \begin{subfigure}{0.5\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png}
     \end{subfigure}
-    
-    \caption{Throughput of 1 QUIC and 2 TCP flow with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-c}
-\end{figure}
-
-\end{frame}
-\clearpage
-
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Fairness}
-
-
-
-\begin{figure}[!htb]
-    \centering
-    \begin{subfigure}{0.45\textwidth}
+    %\caption{Throughput of 1 QUIC and 2 TCP flow with the download progress of a 200 MB file from Google Drive}\label{fig:throughput-of-c}
+%\end{figure}
+%
+%\end{frame}
+%\clearpage
+%
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: Fairness}
+%\begin{figure}[!htb]
+%    \centering
+    \begin{subfigure}{0.5\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png}
     \end{subfigure}    
-    \caption{Throughput of 1 QUIC and 3 TCP flow with the download progress of a 200 MB file from Google Drive}
+    \caption{Throughput of 1 QUIC and Multiple TCP flow with the download progress of a 200 MB file from Google Drive}
 \end{figure}
 \end{frame}
 \clearpage
@@ -724,21 +658,21 @@ The IETF test were coded in Go.
 \end{frame}
 \clearpage
 
-\begin{frame}
-\shiftedframetitle{Overview of Thesis Results: QUIC Discovery with Alt-Svc header and IETF QUIC}
-
-\begin{table}[ht]
-    \begin{tabular}{@{}|l|l|@{}}
-        \toprule
-        \textbf{QUIC Versions} & \textbf{No. of Websites returning Alt-Svc} \\ \midrule
-        35,39,43,44            & 1145                                       \\ \midrule
-        35,37,38,39            & 433                                        \\ \midrule
-        35,39,43               & 202                                        \\ \midrule
-        35,39                  & 3                                          \\ \midrule
-        39                     & 2                                          \\ \bottomrule
-    \end{tabular}
-    \caption{QUIC versions in Alt-Svc Header}\label{fig:quic-versions-in}
-\end{table}
+%\begin{frame}
+%\shiftedframetitle{Overview of Thesis Results: QUIC Discovery with Alt-Svc header and IETF QUIC}
+%
+%\begin{table}[ht]
+%    \begin{tabular}{@{}|l|l|@{}}
+%        \toprule
+%        \textbf{QUIC Versions} & \textbf{No. of Websites returning Alt-Svc} \\ \midrule
+%        35,39,43,44            & 1145                                       \\ \midrule
+%        35,37,38,39            & 433                                        \\ \midrule
+%        35,39,43               & 202                                        \\ \midrule
+%        35,39                  & 3                                          \\ \midrule
+%        39                     & 2                                          \\ \bottomrule
+%    \end{tabular}
+%    \caption{QUIC versions in Alt-Svc Header}\label{fig:quic-versions-in}
+%\end{table}
 
 %\end{frame}
 %\clearpage
@@ -764,17 +698,17 @@ The IETF test were coded in Go.
 %    \caption{\label{fig:handshake_times_ietf_ipv6}Handshake IETF QUIC draft-17 ipv6}
 %\end{figure}
 
-\begin{figure}[!t]
-    \centering
-    \begin{subfigure}{0.4\textwidth}
-        \includegraphics[width=\linewidth]
-        {./plots/VM/ietf/handshake_times_ietf_0rtt.png}
-    \end{subfigure}
-    \caption{\label{fig:handshake_times_0rtt_ipv4}Handshake IETF QUIC draft-17 0-rtt}
-\end{figure}
-
-\end{frame}
-\clearpage
+%\begin{figure}[!t]
+%    \centering
+%    \begin{subfigure}{0.4\textwidth}
+%        \includegraphics[width=\linewidth]
+%        {./plots/VM/ietf/handshake_times_ietf_0rtt.png}
+%    \end{subfigure}
+%    \caption{\label{fig:handshake_times_0rtt_ipv4}Handshake IETF QUIC draft-17 0-rtt}
+%\end{figure}
+%
+%\end{frame}
+%\clearpage
 
 \begin{frame}[allowframebreaks]
 \shiftedframetitle{Conclusion}
