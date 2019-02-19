@@ -256,8 +256,39 @@ The IETF test were coded in Go.
 \end{frame}
 \clearpage
 
-\begin{frame}
+\begin{frame}[allowframebreaks]
 \shiftedframetitle{Conclusion}
+
+When analyzing the connection establishment times for different versions of QUIC, in case of IPv4 we found that at 90th percentile Q044 performs slightly better by about 55 ms. As expected QUIC performs better than TLS 1.2 and TLS 1.3. At 50th percentile QUIC versions have similar latency but lower than TLS 1.2 by 34 ms and TLS 1.3 by 77 ms.
+In case of IPv6 all of the QUIC versions have quite similar values. Difference with TLS 1.2 remains similar to IPv4 but TLS 1.3 has lower connection times than TLS 1.2. But when we analyze Time to first byte we see that QUIC loses some of the improvements gained by 1-RTT connection times, it is still faster than TLS. At 50th percentile Q035, Q039, Q043 have a TTFB of around 206 ms, Q044 has a TTFB of 211 ms, TLS 1.2 has a TTFB of 261 ms and TLS 1.3 has a TTFB of 360 ms. Difference in total download time is similar to TTFB.
+
+From the measurements done in India we find greater improvements for QUIC over TCP/TLS than in Munich which shows that benefits of QUIC is more evident in low-bandwidth, high-loss networks and high-RTT regions. QUIC provides improvements of 240 ms, 340 ms over TLS 1.2, TLS 1.3 respectively at 75th percentile in India while it provides improvements of 210 ms, 245 ms over TLS 1.2, TLS 1.3 respectively in Munich for connection establishment time. These measurements are only for IPv4.
+
+In conclusion Q044 may have slightly better Connection times but TTFB and download time between different QUIC versions is similar.
+
+In case of Video content delivery over YouTube, QUIC provides much better improvements in India than Germany for Connect Time, with an improvement of 550 ms at 50th percentile  over TLS, for Germany the value is 410 ms. For Prebuffering time, the gap between QUIC and TLS is 447 ms in Munich and 600 ms in India. 
+For Startup delay, the gap between QUIC and TLS is 665 ms in Munich and 861 ms in India.
+Overall download rate for TLS 1.2 is higher than QUIC and download rate for Q035 is higher than other QUIC versions for both India and Germany. But the difference between the download speeds is lesser in India than Germany. All observations are on IPv4 only. Q035 has higher download rates and lesser stall durations than other QUIC versions.
+
+We find Google AS serves an overwhelming majority of the websites using QUIC, almost half of the websites in our target list. Only 5 ASes account for 85\% of our target websites. We also find that performance over various ASes is not the same. EDGECAST AS performs better than GOOGLE AS on connection establishment times, at 50th percentile it performs about 12 ms better. For TTFB gap between GOOGLE and EDGECAST increases to 144 ms. 
+
+EDGECAST doesn't support QUIC over IPv6 where GOOGLE emerges as the clear winner. Connection times for GOOGLE - Google LLC, OVH - OVH SAS, IHCRU - Internet-Hosting Ltd are 36.556, 98.33, 201.959 respectively at the 50th percentile.
+
+GOOGLE AS having the largest amount of websites by quite a margin in our sample means that overall plots of our metrics mimic those of GOOGLE. But on closer inspection we can see that other ASes may perform better than GOOGLE. Looking at each individual AS more minutely we find that different QUIC versions perform similarly for GOOGLE, EDGECAST and OVH whereas for ICHPU and A2 HOSTING Q044 performs slightly better in terms of connection establishment times.
+
+Running the \texttt{YouTube tests} separately to download a video from YouTube we find that both QUIC and TCP start  with the same throughput but QUIC maintains it over the entire duration of the download, TCP on the other hand has many peaks and falls. Mean throughput of QUIC is over twice that of TCP(9.70 MB/s to 4.43 MB/s).
+
+Using \texttt{quic\_perf} and \texttt{tls\_perf} to download files from Google Drive we find that QUIC performs better than TCP for smaller file sizes but for larger file sizes TCP has higher throughput.
+
+The high throughput of QUIC comes at the cost of very high CPU utilization. CPU utilization for QUIC is 90\% and remains consistent throughout the progress. TCP CPU utilization is about 50\%.
+This is because QUIC spends a lot more time in making expensive \texttt{sendmsg/recvmsg} system calls. QUIC uses a maximum packet size of 1350 for IPv4 and 1370 for IPv6 to avoid packet fragmentation. TCP because of its bytestream abstraction and kernel support for segmentation can send/receive larger packets.
+
+From the \texttt{strace} traces QUIC spends most of its time(76.89\%) on the recvmsg system call. 
+
+UDP on the other hand has to make repeated calls to send/receive system calls and also the packets have to travel all the way up the stack. This can be seen from the flamegraph produced by \texttt{perf}. We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite large indicating a lot of cpu usage in these paths
+
+After running the tests concurrently to create multiple flows of QUIC and TCP it was found that QUIC grabs more than its fair share of bandwidth when it is competing with TCP. QUIC flows are fair to other QUIC flows and also TCP flows are fair to other TCP flows. Even with 2 and 3 competing TCP flows, QUIC maintains its mean bandwidth usage.
+Mean bandwidth usage of QUIC is more than twice the combined mean bandwidth usage of TCP. Though both TCP and QUIC use the same CUBIC congestion control algorithm, QUIC has been known to aggressively increase its congestion window size so it is able to grab most of the bandwidth more quickly. 
 
 \end{frame}
 \clearpage
