@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  19 FEB 2019 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,6 +752,216 @@ Package beamerposter Info: fontscale=1.0, myfontscale=0.63 on input line 174.
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ))
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count167
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count168
+\decimalpart=\count169
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count170
+\c@listtotal=\count171
+\c@listcount=\count172
+\c@liststart=\count173
+\c@liststop=\count174
+\c@citecount=\count175
+\c@citetotal=\count176
+\c@multicitecount=\count177
+\c@multicitetotal=\count178
+\c@instcount=\count179
+\c@maxnames=\count180
+\c@minnames=\count181
+\c@maxitems=\count182
+\c@minitems=\count183
+\c@citecounter=\count184
+\c@savedcitecounter=\count185
+\c@uniquelist=\count186
+\c@uniquename=\count187
+\c@refsection=\count188
+\c@refsegment=\count189
+\c@maxextratitle=\count190
+\c@maxextratitleyear=\count191
+\c@maxextradate=\count192
+\c@maxextraalpha=\count193
+\c@abbrvpenalty=\count194
+\c@highnamepenalty=\count195
+\c@lownamepenalty=\count196
+\c@maxparens=\count197
+\c@parenlevel=\count198
+\blx@tempcnta=\count199
+Normal \count register pool exhausted, switching to extended pool.
+\blx@tempcntb=\count277
+\blx@tempcntc=\count278
+\blx@maxsection=\count279
+\blx@maxsegment@0=\count280
+\blx@notetype=\count281
+\blx@parenlevel@text=\count282
+\blx@parenlevel@foot=\count283
+\blx@sectionciteorder@0=\count284
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read2
+\blx@bcfout=\write6
+\c@mincomprange=\count285
+\c@maxcomprange=\count286
+\c@mincompwidth=\count287
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count288
+\c@savedafterword=\count289
+\c@annotator=\count290
+\c@savedannotator=\count291
+\c@author=\count292
+\c@savedauthor=\count293
+\c@bookauthor=\count294
+\c@savedbookauthor=\count295
+\c@commentator=\count296
+\c@savedcommentator=\count297
+\c@editor=\count298
+\c@savededitor=\count299
+\c@editora=\count300
+\c@savededitora=\count301
+\c@editorb=\count302
+\c@savededitorb=\count303
+\c@editorc=\count304
+\c@savededitorc=\count305
+\c@foreword=\count306
+\c@savedforeword=\count307
+\c@holder=\count308
+\c@savedholder=\count309
+\c@introduction=\count310
+\c@savedintroduction=\count311
+\c@namea=\count312
+\c@savednamea=\count313
+\c@nameb=\count314
+\c@savednameb=\count315
+\c@namec=\count316
+\c@savednamec=\count317
+\c@translator=\count318
+\c@savedtranslator=\count319
+\c@shortauthor=\count320
+\c@savedshortauthor=\count321
+\c@shorteditor=\count322
+\c@savedshorteditor=\count323
+\c@labelname=\count324
+\c@savedlabelname=\count325
+\c@institution=\count326
+\c@savedinstitution=\count327
+\c@lista=\count328
+\c@savedlista=\count329
+\c@listb=\count330
+\c@savedlistb=\count331
+\c@listc=\count332
+\c@savedlistc=\count333
+\c@listd=\count334
+\c@savedlistd=\count335
+\c@liste=\count336
+\c@savedliste=\count337
+\c@listf=\count338
+\c@savedlistf=\count339
+\c@location=\count340
+\c@savedlocation=\count341
+\c@organization=\count342
+\c@savedorganization=\count343
+\c@origlocation=\count344
+\c@savedoriglocation=\count345
+\c@origpublisher=\count346
+\c@savedorigpublisher=\count347
+\c@publisher=\count348
+\c@savedpublisher=\count349
+\c@language=\count350
+\c@savedlanguage=\count351
+\c@origlanguage=\count352
+\c@savedoriglanguage=\count353
+\c@pageref=\count354
+\c@savedpageref=\count355
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count356
+\c@textcitetotal=\count357
+\c@textcitemaxnames=\count358
+\c@biburlnumpenalty=\count359
+\c@biburlucpenalty=\count360
+\c@biburllcpenalty=\count361
+\c@smartand=\count362
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count363
+\c@bbx:relatedtotal=\count364
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (./Resources/Presentation/Preamble.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -1082,16 +1292,16 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count167
-\calc@Bcount=\count168
+\calc@Acount=\count365
+\calc@Bcount=\count366
 \calc@Adimen=\dimen190
 \calc@Bdimen=\dimen191
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count169
-\calc@Cskip=\skip59
+\calc@Ccount=\count367
+\calc@Cskip=\skip73
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
@@ -1107,12 +1317,12 @@ Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count170
+\babel@savecnt=\count368
 \U@D=\dimen192
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 LaTeX Info: Redefining \textlatin on input line 1839.
-\bbl@dirlevel=\count171
+\bbl@dirlevel=\count369
 )
 Package babel Info: Making " an active character on input line 125.
 )))
@@ -1138,7 +1348,7 @@ TextBlockOrigin set to 0pt x 0pt
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks48
 \footnotemargin=\dimen257
-\c@pp@next@reset=\count172
+\c@pp@next@reset=\count370
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1190,7 +1400,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count173
+\pgf@plot@mark@count=\count371
 \pgfplotmarksize=\dimen262
 )
 \tikz@lastx=\dimen263
@@ -1203,18 +1413,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box57
 \tikz@tempbox=\box58
 \tikz@tempbox@bg=\box59
-\tikztreelevel=\count174
-\tikznumberofchildren=\count175
-\tikznumberofcurrentchild=\count176
-\tikz@fig@count=\count177
+\tikztreelevel=\count372
+\tikznumberofchildren=\count373
+\tikznumberofcurrentchild=\count374
+\tikz@fig@count=\count375
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count178
-\pgfmatrixcurrentcolumn=\count179
-\pgf@matrix@numberofcolumns=\count180
+\pgfmatrixcurrentrow=\count376
+\pgfmatrixcurrentcolumn=\count377
+\pgf@matrix@numberofcolumns=\count378
 )
-\tikz@expandcount=\count181
+\tikz@expandcount=\count379
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1231,7 +1441,7 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip60
+\OuterFrameSep=\skip74
 \fb@frw=\dimen269
 \fb@frh=\dimen270
 \FrameRule=\dimen271
@@ -1295,33 +1505,33 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen273
 \extrarowheight=\dimen274
 \NC@list=\toks52
-\extratabsurround=\skip61
-\backup@length=\skip62
+\extratabsurround=\skip75
+\backup@length=\skip76
 )
 \TX@col@width=\dimen275
 \TX@old@table=\dimen276
 \TX@old@col=\dimen277
 \TX@target=\dimen278
 \TX@delta=\dimen279
-\TX@cols=\count182
+\TX@cols=\count380
 \TX@ftn=\toks53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count183
+\c@tracingmulticols=\count381
 \mult@box=\box63
 \multicol@leftmargin=\dimen280
-\c@unbalance=\count184
-\c@collectmore=\count185
-\doublecol@number=\count186
-\multicoltolerance=\count187
-\multicolpretolerance=\count188
+\c@unbalance=\count382
+\c@collectmore=\count383
+\doublecol@number=\count384
+\multicoltolerance=\count385
+\multicolpretolerance=\count386
 \full@width=\dimen281
 \page@free=\dimen282
 \premulticols=\dimen283
 \postmulticols=\dimen284
-\multicolsep=\skip63
-\multicolbaselineskip=\skip64
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
 \partial@page=\box64
 \last@line=\box65
 \maxbalancingoverflow=\dimen285
@@ -1346,14 +1556,14 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box84
 \@tempa=\box85
 \@tempa=\box86
-\c@columnbadness=\count189
-\c@finalcolumnbadness=\count190
+\c@columnbadness=\count387
+\c@finalcolumnbadness=\count388
 \last@try=\dimen286
 \multicolovershoot=\dimen287
 \multicolundershoot=\dimen288
 \mult@nat@firstbox=\box87
 \colbreak@box=\box88
-\mc@col@check@num=\count191
+\mc@col@check@num=\count389
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
@@ -1468,8 +1678,8 @@ Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
 \pgfplots@tmpa=\dimen290
-\c@pgfplots@coordindex=\count192
-\c@pgfplots@scanlineindex=\count193
+\c@pgfplots@coordindex=\count390
+\c@pgfplots@scanlineindex=\count391
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1485,7 +1695,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfsupp_pgflibraryfpu.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count194
+\c@pgfmathroundto@lastzeros=\count392
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
@@ -1494,13 +1704,13 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count195
+\c@pgfplotsarray@tmp=\count393
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count196
+\c@pgfplotstable@counta=\count394
 \t@pgfplotstable@a=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
@@ -1513,7 +1723,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count197
+\c@pgfplotslibrarysurf@no=\count395
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -1545,7 +1755,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen293
 \pgfdecoratedinputsegmentremainingdistance=\dimen294
 \pgf@decorate@distancetomove=\dimen295
-\pgf@decorate@repeatstate=\count198
+\pgf@decorate@repeatstate=\count396
 \pgfdecorationsegmentamplitude=\dimen296
 \pgfdecorationsegmentlength=\dimen297
 )
@@ -1559,7 +1769,7 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count199
+\pgfplots@numplots=\count397
 \pgfplots@xmin@reg=\dimen298
 \pgfplots@xmax@reg=\dimen299
 \pgfplots@ymin@reg=\dimen300
@@ -1610,9 +1820,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 45.
 
 (./Resources/Presentation/Begin.tex (./Resources/_Information.tex)
-\smallerbaselineskip=\skip65
+\smallerbaselineskip=\skip79
 
 TextBlockOrigin set to 8.9mm x 8.9mm
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count398
+\@quotereset=\count399
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
@@ -1673,17 +1899,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-Normal \count register pool exhausted, switching to extended pool.
-\scratchcounter=\count277
+\scratchcounter=\count400
 \scratchdimen=\dimen304
 \scratchbox=\box112
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\nofMPsegments=\count401
+\nofMParguments=\count402
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count280
+\MPscratchCnt=\count403
 \MPscratchDim=\dimen305
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPnumerator=\count404
+\makeMPintoPDFobject=\count405
 \everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1712,15 +1937,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count406
 )
 LaTeX Info: Redefining \ref on input line 244.
 LaTeX Info: Redefining \pageref on input line 244.
 LaTeX Info: Redefining \nameref on input line 244.
 
 (./presentation.out) (./presentation.out)
-\@outlinefile=\write5
-\openout5 = `presentation.out'.
+\@outlinefile=\write7
+\openout7 = `presentation.out'.
 
 \symnumbers=\mathgroup8
 \sympureletters=\mathgroup9
@@ -1785,6 +2010,39 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `presentation.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'presentation.bbl' found.
+ (./presentation.bbl
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.41646pt on input line 70.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'udpgso':
+(biblatex)                - Entry 'udpgso' (./Resources/Bib/Bibliography.bib): 
+Invalid format 'date' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'bernhard':
+(biblatex)                - Entry 'bernhard' (./Resources/Bib/Bibliography.bib)
+: Invalid format '15.08.2018' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'sergey':
+(biblatex)                - Entry 'sergey' (./Resources/Bib/Bibliography.bib): 
+Invalid format '15.08.2018' of date field 'date' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 244.
+Package biblatex Info: Reference segment=0 on input line 244.
+
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
@@ -1797,7 +2055,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 244.
 )
-<./Resources/Presentation/Images/TUM_Uhrenturm.png, id=13, 307.3884pt x 408.566
+<./Resources/Presentation/Images/TUM_Uhrenturm.png, id=17, 307.3884pt x 408.566
 4pt>
 File: ./Resources/Presentation/Images/TUM_Uhrenturm.png Graphic file (type png)
 
@@ -1809,7 +2067,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.34546pt on input line 59.
-<./Resources/_Images/Universitaet_Logo_RGB.pdf, id=15, 54.02504pt x 28.452pt>
+<./Resources/_Images/Universitaet_Logo_RGB.pdf, id=19, 54.02504pt x 28.452pt>
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -1872,13 +2130,6 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 42.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Calculating math sizes for size <15.67> on input line 42.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.67> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.59587> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.40208> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 3.79999pt on input line 42.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
@@ -1936,19 +2187,17 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 ]
-<figures/QUICstack.png, id=154, 626.34pt x 413.545pt>
+<figures/QUICstack.png, id=157, 626.34pt x 413.545pt>
 File: figures/QUICstack.png Graphic file (type png)
 <use figures/QUICstack.png>
 Package pdftex.def Info: figures/QUICstack.png  used on input line 114.
 (pdftex.def)             Requested size: 336.02698pt x 221.87224pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.41646pt on input line 114.
-LaTeX Font Info:    Calculating math sizes for size <13.07> on input line 114.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.07> not available
+LaTeX Font Info:    Calculating math sizes for size <15.67> on input line 114.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.67> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.67188> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.59587> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.84207> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.40208> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
@@ -1963,18 +2212,11 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
  <./figures/QUICstack.png>]
-<figures/0rtt.png, id=176, 867.24pt x 570.13pt>
+<figures/0rtt.png, id=179, 867.24pt x 570.13pt>
 File: figures/0rtt.png Graphic file (type png)
 <use figures/0rtt.png>
 Package pdftex.def Info: figures/0rtt.png  used on input line 131.
 (pdftex.def)             Requested size: 336.02698pt x 220.90569pt.
-LaTeX Font Info:    Calculating math sizes for size <30> on input line 131.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <30> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22.20016> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.00018> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -1988,7 +2230,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
  <./figures/0rtt.png>]
-<figures/hol.png, id=203, 734.745pt x 529.98pt>
+<figures/hol.png, id=206, 734.745pt x 529.98pt>
 File: figures/hol.png Graphic file (type png)
 <use figures/hol.png>
 Package pdftex.def Info: figures/hol.png  used on input line 148.
@@ -2006,7 +2248,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
  <./figures/hol.png>]
-<figures/pacing.png, id=224, 608.2725pt x 281.05pt>
+<figures/pacing.png, id=227, 608.2725pt x 281.05pt>
 File: figures/pacing.png Graphic file (type png)
 <use figures/pacing.png>
 Package pdftex.def Info: figures/pacing.png  used on input line 168.
@@ -2024,7 +2266,7 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
  <./figures/pacing.png>]
-Overfull \vbox (25.46341pt too high) detected at line 190
+Overfull \vbox (3.3634pt too high) detected at line 190
  []
 
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
@@ -2126,23 +2368,29 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [16
 
 
-]) (./References.tex (./presentation.bbl
+]) (./References.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <13.07> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 12.41646pt on input line 13.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13.07> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.41646pt on input line 44.
-)
-Overfull \vbox (1322.50378pt too high) detected at line 8
- []
+(Font)              scaled to size 12.41646pt on input line 10.
+LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
+(Font)              scaled to size 12.41646pt on input line 10.
 
+
+LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <13.07> not available
+(Font)              size <12> substituted on input line 10.
+
+LaTeX Font Info:    Calculating math sizes for size <13.07> on input line 10.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.07> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.67188> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.84207> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 8.
+ input line 10.
 (pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
 
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
@@ -2151,10 +2399,62 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [17
 
 
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[18
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[19
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[20
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[21
+
+
 ]) (./Questions.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 37.05937pt on input line 14.
-<./Resources/_Images/questions.pdf, id=438, 291.33844pt x 290.58563pt>
+<./Resources/_Images/questions.pdf, id=546, 291.33844pt x 290.58563pt>
 File: ./Resources/_Images/questions.pdf Graphic file (type pdf)
 <use ./Resources/_Images/questions.pdf>
 Package pdftex.def Info: ./Resources/_Images/questions.pdf  used on input line 
@@ -2169,18 +2469,18 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[18
+[22
 
 
  <./Resources/_Images/questions.pdf>])
-\tf@nav=\write6
-\openout6 = `presentation.nav'.
+\tf@nav=\write8
+\openout8 = `presentation.nav'.
 
-\tf@toc=\write7
-\openout7 = `presentation.toc'.
+\tf@toc=\write9
+\openout9 = `presentation.toc'.
 
-\tf@snm=\write8
-\openout8 = `presentation.snm'.
+\tf@snm=\write10
+\openout10 = `presentation.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
@@ -2188,32 +2488,35 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 58DE0B3901A2EDEB30D4BFF34D6B4C5A;44.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.27pt have occurred.
 
+Package logreq Info: Writing requests to 'presentation.run.xml'.
+\openout1 = `presentation.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 35375 strings out of 494830
- 838664 string characters out of 6177368
- 1129663 words of memory out of 5000000
- 37790 multiletter control sequences out of 15000+600000
- 128222 words of font info for 176 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 66i,16n,96p,870b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600
-pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvro8a.pfb>
-Output written on presentation.pdf (18 pages, 727393 bytes).
+ 41573 strings out of 494830
+ 958791 string characters out of 6177368
+ 1542375 words of memory out of 5000000
+ 43930 multiletter control sequences out of 15000+600000
+ 106427 words of font info for 138 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 66i,16n,96p,1206b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600
+pk> </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.60
+0pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/helvetic/uhvro8a.pfb>
+Output written on presentation.pdf (22 pages, 746818 bytes).
 PDF statistics:
- 528 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
- 81 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 545 compressed objects within 6 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

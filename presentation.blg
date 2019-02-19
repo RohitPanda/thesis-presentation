@@ -1,88 +1,27 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: presentation.aux
-The style file: amsalpha.bst
-Database file #1: ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "quic_tracker" isn't style-file defined
---line 449 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "sergey" isn't style-file defined
---line 734 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "bernhard" isn't style-file defined
---line 776 of file ./Resources/Bib/Bibliography.bib.bib
-Repeated entry---line 857 of file ./Resources/Bib/Bibliography.bib.bib
- : @article{DBLP:journals/corr/EdelineKTAD16
- :                                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 962 of file ./Resources/Bib/Bibliography.bib.bib
- : @article{DBLP:journals/access/QianWT18
- :                                       ,
-I'm skipping whatever remains of this entry
-Warning--entry type for "comsys" isn't style-file defined
---line 1168 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "crypto" isn't style-file defined
---line 1174 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "quicgd" isn't style-file defined
---line 1177 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "RIPEDB" isn't style-file defined
---line 1182 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "CAIDAArk" isn't style-file defined
---line 1192 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "SamKnowsproject" isn't style-file defined
---line 1193 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "cronet" isn't style-file defined
---line 1194 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--entry type for "spdy" isn't style-file defined
---line 1201 of file ./Resources/Bib/Bibliography.bib.bib
-Warning--to sort, need author or key in spdy
-Warning--to sort, need author or key in quicgd
-Warning--to sort, need author or key in crypto
-Warning--to sort, need author or key in RIPEDB
-Warning--to sort, need author or key in quic_tracker
-Warning--to sort, need author or key in comsys
-Warning--to sort, need author or key in CAIDAArk
-Warning--to sort, need author or key in SamKnowsproject
-Warning--to sort, need author or key in cronet
-Warning--missing note in udpgso
-Warning--missing pages in DBLP:journals/corr/EdelineKTAD16
-You've used 40 entries,
-            2624 wiz_defined-function locations,
-            774 strings with 12821 characters,
-and the built_in function-call counts, 18157 in all, are:
-= -- 1656
-> -- 1004
-< -- 8
-+ -- 362
-- -- 358
-* -- 1435
-:= -- 2760
-add.period$ -- 40
-call.type$ -- 40
-change.case$ -- 284
-chr.to.int$ -- 38
-cite$ -- 60
-duplicate$ -- 767
-empty$ -- 1378
-format.name$ -- 384
-if$ -- 3828
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 63
-newline$ -- 131
-num.names$ -- 109
-pop$ -- 407
-preamble$ -- 1
-purify$ -- 324
-quote$ -- 0
-skip$ -- 685
-stack$ -- 0
-substring$ -- 886
-swap$ -- 186
-text.length$ -- 8
-text.prefix$ -- 2
-top$ -- 0
-type$ -- 320
-warning$ -- 11
-while$ -- 156
-width$ -- 43
-write$ -- 420
-(There were 2 error messages)
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'presentation.blg'
+[29] biber:313> INFO - === Di Feb 19, 2019, 20:04:37
+[50] Biber.pm:371> INFO - Reading 'presentation.bcf'
+[120] Biber.pm:857> INFO - Found 40 citekeys in bib section 0
+[133] Biber.pm:3981> INFO - Processing section 0
+[144] Biber.pm:4154> INFO - Looking for bibtex format file './Resources/Bib/Bibliography.bib' for section 0
+[150] bibtex.pm:1468> INFO - LaTeX decoding ...
+[289] bibtex.pm:1294> INFO - Found BibTeX data source './Resources/Bib/Bibliography.bib'
+[293] Utils.pm:169> WARN - Duplicate entry key: 'blog_cloudflare' in file './Resources/Bib/Bibliography.bib', skipping ...
+[294] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/corr/EdelineKTAD16' in file './Resources/Bib/Bibliography.bib', skipping ...
+[295] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:conf/conext/PerkinsO18' in file './Resources/Bib/Bibliography.bib', skipping ...
+[295] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/access/QianWT18' in file './Resources/Bib/Bibliography.bib', skipping ...
+[297] Utils.pm:169> WARN - Duplicate entry key: 'nghttp2' in file './Resources/Bib/Bibliography.bib', skipping ...
+[377] Utils.pm:169> WARN - month field 'July' in entry '7745823' is not an integer - this will probably not sort properly.
+[468] Utils.pm:169> WARN - month field 'June' in entry '8538687' is not an integer - this will probably not sort properly.
+[485] Utils.pm:169> WARN - month field 'April' in entry '8524247' is not an integer - this will probably not sort properly.
+[533] Utils.pm:169> WARN - Entry 'udpgso' (./Resources/Bib/Bibliography.bib): Invalid format 'date' of date field 'date' - ignoring
+[586] Utils.pm:169> WARN - Entry 'sergey' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring
+[590] Utils.pm:169> WARN - Entry 'bernhard' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring
+[651] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[651] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[652] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[652] Biber.pm:3815> INFO - No sort tailoring available for locale 'de-DE'
+[702] bbl.pm:617> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[748] bbl.pm:720> INFO - Output to presentation.bbl
+[748] Biber.pm:110> INFO - WARNINGS: 11

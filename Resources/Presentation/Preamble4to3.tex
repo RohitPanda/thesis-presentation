@@ -7,7 +7,16 @@
     height=19.05,
     scale=0.63 % erzeugt 16pt Schriftgröße
 ]{beamerposter}
-
+\usepackage[%
+backend=biber,
+url=false,
+style=numeric,
+maxnames=4,
+minnames=3,
+maxbibnames=99,
+giveninits,
+uniquename=init]{biblatex} % TODO: adapt citation style
+\renewcommand*{\bibfont}{\small}
 %\usepackage{amsmath}
 \graphicspath{{./Resources/Images/}{./Resources/_Images/}}
 

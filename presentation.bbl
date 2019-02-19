@@ -1,220 +1,1949 @@
-\newcommand{\etalchar}[1]{$^{#1}$}
-\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
-\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
-% \MRhref is called by the amsart/book/proc definition of \MR.
-\providecommand{\MRhref}[2]{%
-  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
-}
-\providecommand{\href}[2]{#2}
-\begin{thebibliography}{NdOA{\etalchar{+}}18}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[ABOS15]{DBLP:conf/pam/AhsanBOS15}
-Saba Ahsan, Vaibhav Bajpai, J{\"{o}}rg Ott, and J{\"{u}}rgen
-  Sch{\"{o}}nw{\"{a}}lder, \emph{Measuring youtube from dual-stacked hosts},
-  Passive and Active Measurement - 16th International Conference, {PAM} 2015,
-  New York, NY, USA, March 19-20, 2015, Proceedings (Jelena Mirkovic and Yong
-  Liu, eds.), Lecture Notes in Computer Science, vol. 8995, Springer, 2015,
-  pp.~249--261.
 
-\bibitem[ASA00]{DBLP:conf/infocom/AggarwalSA00}
-Amit Aggarwal, Stefan Savage, and Thomas~E. Anderson, \emph{Understanding the
-  performance of {TCP} pacing}, Proceedings {IEEE} {INFOCOM} 2000, The
-  Conference on Computer Communications, Nineteenth Annual Joint Conference of
-  the {IEEE} Computer and Communications Societies, Reaching the Promised Land
-  of Communications, Tel Aviv, Israel, March 26-30, 2000, {IEEE}, 2000,
-  pp.~1157--1165.
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{DBLP:conf/infocom/AggarwalSA00}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=20d2b0e5a88d7c53b24de67f3df6e92b}{%
+           family={Aggarwal},
+           familyi={A\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dee88ab507f218ded58a2f13c4801dfc}{%
+           family={Savage},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=42e977650a149d2bdf7d496872618f0e}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Thomas\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{404b23485817b455104db214e5d502b0}
+      \strng{fullhash}{404b23485817b455104db214e5d502b0}
+      \strng{bibnamehash}{404b23485817b455104db214e5d502b0}
+      \strng{authorbibnamehash}{404b23485817b455104db214e5d502b0}
+      \strng{authornamehash}{404b23485817b455104db214e5d502b0}
+      \strng{authorfullhash}{404b23485817b455104db214e5d502b0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings {IEEE} {INFOCOM} 2000, The Conference on Computer Communications, Nineteenth Annual Joint Conference of the {IEEE} Computer and Communications Societies, Reaching the Promised Land of Communications, Tel Aviv, Israel, March 26-30, 2000}
+      \field{title}{Understanding the Performance of {TCP} Pacing}
+      \field{year}{2000}
+      \field{pages}{1157\bibrangedash 1165}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/INFCOM.2000.832483
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/INFCOM.2000.832483
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/INFCOM.2000.832483
+      \endverb
+    \endentry
+    \entry{DBLP:conf/pam/AhsanBOS15}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=2117609124f40de4ded1edb2f46890e1}{%
+           family={Ahsan},
+           familyi={A\bibinitperiod},
+           given={Saba},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6ad6555a5fed5515cead75612a54ef4c}{%
+           family={Bajpai},
+           familyi={B\bibinitperiod},
+           given={Vaibhav},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d00f30ec30db351ab22eec691cc91c2e}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={J{ö}rg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=85878a5f6711d80bd4a3cc3bfdb170a7}{%
+           family={Sch{ö}nw{ä}lder},
+           familyi={S\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=03b7274a86dbf5ea13d3abde794916cb}{%
+           family={Mirkovic},
+           familyi={M\bibinitperiod},
+           given={Jelena},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bc6c6f66f139beef784a50d9f1485019}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1ff6fb28d60c942df632ba4b181b8377}
+      \strng{fullhash}{1ff6fb28d60c942df632ba4b181b8377}
+      \strng{bibnamehash}{1ff6fb28d60c942df632ba4b181b8377}
+      \strng{authorbibnamehash}{1ff6fb28d60c942df632ba4b181b8377}
+      \strng{authornamehash}{1ff6fb28d60c942df632ba4b181b8377}
+      \strng{authorfullhash}{1ff6fb28d60c942df632ba4b181b8377}
+      \strng{editorbibnamehash}{72480754fe9f374afbb53d6936c98bcb}
+      \strng{editornamehash}{72480754fe9f374afbb53d6936c98bcb}
+      \strng{editorfullhash}{72480754fe9f374afbb53d6936c98bcb}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Passive and Active Measurement - 16th International Conference, {PAM} 2015, New York, NY, USA, March 19-20, 2015, Proceedings}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Measuring YouTube from Dual-Stacked Hosts}
+      \field{volume}{8995}
+      \field{year}{2015}
+      \field{pages}{249\bibrangedash 261}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-319-15509-8\_19
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-15509-8\_19
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-15509-8%5C_19
+      \endverb
+    \endentry
+    \entry{rfc7540}{misc}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8f2c5a014f888b09f6471b0fac1dd397}{%
+           family={Belshe},
+           familyi={B\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=85cd303113c6daf85c17caefa3072f8b}{%
+           family={Peon},
+           familyi={P\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a4e224194a64046472d567f5d35b02bc}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
+      \strng{fullhash}{11c1b73a7a4d37bc262e60ce5b43aabb}
+      \strng{bibnamehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
+      \strng{authorbibnamehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
+      \strng{authornamehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
+      \strng{authorfullhash}{11c1b73a7a4d37bc262e60ce5b43aabb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged.}
+      \field{howpublished}{RFC 7540}
+      \field{month}{5}
+      \field{number}{7540}
+      \field{pagetotal}{96}
+      \field{series}{Request for Comments}
+      \field{title}{{Hypertext Transfer Protocol Version 2 (HTTP/2)}}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.17487/RFC7540
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc7540.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc7540.txt
+      \endverb
+    \endentry
+    \entry{udpgso}{unpublished}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9be3fa1350537ac6bb4e1e37bdc7c8f6}{%
+           family={Bruijn},
+           familyi={B\bibinitperiod},
+           given={Willem},
+           giveni={W\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{9be3fa1350537ac6bb4e1e37bdc7c8f6}
+      \strng{fullhash}{9be3fa1350537ac6bb4e1e37bdc7c8f6}
+      \strng{bibnamehash}{9be3fa1350537ac6bb4e1e37bdc7c8f6}
+      \strng{authorbibnamehash}{9be3fa1350537ac6bb4e1e37bdc7c8f6}
+      \strng{authornamehash}{9be3fa1350537ac6bb4e1e37bdc7c8f6}
+      \strng{authorfullhash}{9be3fa1350537ac6bb4e1e37bdc7c8f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optimizing UDP for content delivery: GSO, pacing and zerocopy}
+      \warn{\item Entry 'udpgso' (./Resources/Bib/Bibliography.bib): Invalid format 'date' of date field 'date' - ignoring}
+    \endentry
+    \entry{CAIDAArk}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labeltitlesource}{title}
+      \field{title}{CAIDA Ark}
+      \verb{urlraw}
+      \verb http://www.caida.org/projects/ark/
+      \endverb
+      \verb{url}
+      \verb http://www.caida.org/projects/ark/
+      \endverb
+    \endentry
+    \entry{DBLP:conf/sac/CarlucciCM15}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7380a8e38c21c6904d6d38e3c5fab77}{%
+           family={Carlucci},
+           familyi={C\bibinitperiod},
+           given={Gaetano},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d045a5d4e26d52b34eedf7a101cb5ecd}{%
+           family={Cicco},
+           familyi={C\bibinitperiod},
+           given={Luca\bibnamedelima De},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=096a19bffdd447ad34aeaed5eda2c16a}{%
+           family={Mascolo},
+           familyi={M\bibinitperiod},
+           given={Saverio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=17165ec277f060f29acccd923509d114}{%
+           family={Wainwright},
+           familyi={W\bibinitperiod},
+           given={Roger\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7baa0520a9b6967becced584c2f228f0}{%
+           family={Corchado},
+           familyi={C\bibinitperiod},
+           given={Juan\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=00a3a836fc6db5246a8fabfd40a1b16c}{%
+           family={Bechini},
+           familyi={B\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=96336f3a4431c42025f0741e492b18c4}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Jiman},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{19b46cdbca2509149ba619231666e32d}
+      \strng{fullhash}{19b46cdbca2509149ba619231666e32d}
+      \strng{bibnamehash}{19b46cdbca2509149ba619231666e32d}
+      \strng{authorbibnamehash}{19b46cdbca2509149ba619231666e32d}
+      \strng{authornamehash}{19b46cdbca2509149ba619231666e32d}
+      \strng{authorfullhash}{19b46cdbca2509149ba619231666e32d}
+      \strng{editorbibnamehash}{5b55666903cb7d44685f8d668b2af831}
+      \strng{editornamehash}{5b55666903cb7d44685f8d668b2af831}
+      \strng{editorfullhash}{5b55666903cb7d44685f8d668b2af831}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 30th Annual {ACM} Symposium on Applied Computing, Salamanca, Spain, April 13-17, 2015}
+      \field{title}{{HTTP} over {UDP:} an experimental investigation of {QUIC}}
+      \field{year}{2015}
+      \field{pages}{609\bibrangedash 614}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/2695664.2695706
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2695664.2695706
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2695664.2695706
+      \endverb
+    \endentry
+    \entry{DBLP:conf/icc/CookMTH17}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=e78f65827c752d3428d5623bc4930469}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=87b393a1d7a787b445c10c72c51876fa}{%
+           family={Mathieu},
+           familyi={M\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=db3af69d8e4ec99c13daaf8cbfcfcf94}{%
+           family={Truong},
+           familyi={T\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2aa445b6688ecfa26d7d4add6c20b583}{%
+           family={Hamchaoui},
+           familyi={H\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5ad66e1b33dba69f7e71453386d7f7f7}
+      \strng{fullhash}{5ad66e1b33dba69f7e71453386d7f7f7}
+      \strng{bibnamehash}{5ad66e1b33dba69f7e71453386d7f7f7}
+      \strng{authorbibnamehash}{5ad66e1b33dba69f7e71453386d7f7f7}
+      \strng{authornamehash}{5ad66e1b33dba69f7e71453386d7f7f7}
+      \strng{authorfullhash}{5ad66e1b33dba69f7e71453386d7f7f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{IEEE} International Conference on Communications, {ICC} 2017, Paris, France, May 21-25, 2017}
+      \field{title}{{QUIC:} Better for what and for whom?}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICC.2017.7997281
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ICC.2017.7997281
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ICC.2017.7997281
+      \endverb
+    \endentry
+    \entry{7745823}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9f9645588074619ee2d6344afc1ee354}{%
+           family={{Corbel}},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=63fc481a652c79a7982b2efd3e57ea8e}{%
+           family={{Stephan}},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b898f1eea59e4bb35a38dadc6d32a3c5}{%
+           family={{Omnes}},
+           familyi={O\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
+      \strng{fullhash}{7ca2dd4ec64fbfc9f789a7d05727d249}
+      \strng{bibnamehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
+      \strng{authorbibnamehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
+      \strng{authornamehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
+      \strng{authorfullhash}{7ca2dd4ec64fbfc9f789a7d05727d249}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 13th International Conference on New Technologies for Distributed Systems (NOTERE)}
+      \field{issn}{2162-190X}
+      \field{month}{7}
+      \field{title}{HTTP/1.1 pipelining vs HTTP2 in-the-clear: Performance comparison}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/NOTERE.2016.7745823
+      \endverb
+      \keyw{hypermedia;Internet;transport protocols;HTTP/1.1 pipelining;HTTP2 in-the-clear;Internet traffic;quality of experience;page download time;Servers;Delays;Protocols;Web pages;Packet loss;Pipeline processing;HTTP1;HTTP2;H2C;Apache;Nghttp2;page download time;average web page;performance}
+    \endentry
+    \entry{cronet}{online}{}
+      \field{sortinit}{c}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labeltitlesource}{title}
+      \field{title}{cronet}
+      \verb{urlraw}
+      \verb https://developer.android.com/guide/topics/connectivity/cronet/
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/guide/topics/connectivity/cronet/
+      \endverb
+    \endentry
+    \entry{Cui2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=7f5c485f091d4d6ec80b92b0dc5f0fce}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=8e61ede5a2bffcf60b482374d6267ca8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Tianxiang},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=e11ea1ec848f31df543f573e0ddc4bdf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b63b17553e4134eb51a900392211f13}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xingwei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=846ddb71fe396553ae43d1fa5f769232}{%
+           family={Kuhlewind},
+           familyi={K\bibinitperiod},
+           given={Mirja},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5626cf4fc8cff1fce2c13d27c44a89f}
+      \strng{fullhash}{a8e4b7608724900ef8ed73851897aac6}
+      \strng{bibnamehash}{a8e4b7608724900ef8ed73851897aac6}
+      \strng{authorbibnamehash}{a8e4b7608724900ef8ed73851897aac6}
+      \strng{authornamehash}{b5626cf4fc8cff1fce2c13d27c44a89f}
+      \strng{authorfullhash}{a8e4b7608724900ef8ed73851897aac6}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In today's Internet, there are many challenges such as low-latency support for interactive communication, security and privacy of user data, as well as development and deployment of new transport mechanisms. Quick UDP Internet Connections (QUIC) is a new transport protocol that addresses these challenges, focusing on HTTP/2 transmission as a first use case. The first QUIC working group meeting took place at IETF-97 in November 2016, and it has begun the standardization process. This article introduces the key features of QUIC and discusses the potential challenges that require further consideration.}
+      \field{issn}{10897801}
+      \field{journaltitle}{IEEE Internet Computing}
+      \field{number}{2}
+      \field{title}{{Innovating transport with QUIC: Design approaches and research challenges}}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{pages}{72\bibrangedash 76}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/MIC.2017.44
+      \endverb
+      \verb{file}
+      \verb :home/rohit/Quic/Papers/07867726.pdf:pdf
+      \endverb
+      \keyw{HTTP/2,IETF,Internet standards,Internet/Web technologies,QUIC,TCP,TLS,latency,multiplexing,security and privacy}
+    \endentry
+    \entry{DBLP:journals/internet/CuiLLWK17}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=7f5c485f091d4d6ec80b92b0dc5f0fce}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=8e61ede5a2bffcf60b482374d6267ca8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Tianxiang},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=e11ea1ec848f31df543f573e0ddc4bdf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b63b17553e4134eb51a900392211f13}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xingwei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f0d1732e5a8907059009998a2c8325e3}{%
+           family={K{ü}hlewind},
+           familyi={K\bibinitperiod},
+           given={Mirja},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5626cf4fc8cff1fce2c13d27c44a89f}
+      \strng{fullhash}{7fc4c86c1e632ea89f95457a2b2c7eb8}
+      \strng{bibnamehash}{7fc4c86c1e632ea89f95457a2b2c7eb8}
+      \strng{authorbibnamehash}{7fc4c86c1e632ea89f95457a2b2c7eb8}
+      \strng{authornamehash}{b5626cf4fc8cff1fce2c13d27c44a89f}
+      \strng{authorfullhash}{7fc4c86c1e632ea89f95457a2b2c7eb8}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Internet Computing}
+      \field{number}{2}
+      \field{title}{Innovating Transport with {QUIC:} Design Approaches and Research Challenges}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{pages}{72\bibrangedash 76}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/MIC.2017.44
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/MIC.2017.44
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/MIC.2017.44
+      \endverb
+    \endentry
+    \entry{DBLP:journals/corr/EdelineKTAD16}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=a79c56b6c3530ab9ef61a5d92dac0336}{%
+           family={Edeline},
+           familyi={E\bibinitperiod},
+           given={Korian},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f0d1732e5a8907059009998a2c8325e3}{%
+           family={K{ü}hlewind},
+           familyi={K\bibinitperiod},
+           given={Mirja},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7d36a63b482f7d14920e2a957b63d248}{%
+           family={Trammell},
+           familyi={T\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c104f2379237d700b21a012bb5b0f258}{%
+           family={Aben},
+           familyi={A\bibinitperiod},
+           given={Emile},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f34562b302b39eec57839d9fedb3a010}{%
+           family={Donnet},
+           familyi={D\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ade88a96019127c8c7f9e067cf8e92e}
+      \strng{fullhash}{d5ffd5ceab85d3cb0d84cbc9195f09ec}
+      \strng{bibnamehash}{d5ffd5ceab85d3cb0d84cbc9195f09ec}
+      \strng{authorbibnamehash}{d5ffd5ceab85d3cb0d84cbc9195f09ec}
+      \strng{authornamehash}{1ade88a96019127c8c7f9e067cf8e92e}
+      \strng{authorfullhash}{d5ffd5ceab85d3cb0d84cbc9195f09ec}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Using {UDP} for Internet Transport Evolution}
+      \field{volume}{abs/1612.07816}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1612.07816
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1612.07816
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1612.07816
+      \endverb
+    \endentry
+    \entry{DBLP:conf/networking/El-khatibTW14}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=2251b3792cd8271bf8fca633e770336e}{%
+           family={El{-}khatib},
+           familyi={E\bibinitperiod},
+           given={Yehia},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1a658b812e3374b348ad6585d05af4d6}{%
+           family={Tyson},
+           familyi={T\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=31c0ffa1a9053d2267410f40c2aaf6c7}{%
+           family={Welzl},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7c1920d4d4364d59bce458d9106e845f}
+      \strng{fullhash}{7c1920d4d4364d59bce458d9106e845f}
+      \strng{bibnamehash}{7c1920d4d4364d59bce458d9106e845f}
+      \strng{authorbibnamehash}{7c1920d4d4364d59bce458d9106e845f}
+      \strng{authornamehash}{7c1920d4d4364d59bce458d9106e845f}
+      \strng{authorfullhash}{7c1920d4d4364d59bce458d9106e845f}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 {IFIP} Networking Conference, Trondheim, Norway, June 2-4, 2014}
+      \field{title}{Can {SPDY} really make the web faster?}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/IFIPNetworking.2014.6857089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/IFIPNetworking.2014.6857089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/IFIPNetworking.2014.6857089
+      \endverb
+    \endentry
+    \entry{DBLP:conf/ccs/FischlinG14}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=23091f1713beeb72d7a1d501b5d5923e}{%
+           family={Fischlin},
+           familyi={F\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=679ba69f3baa4ffc91161a87cbe1ff4d}{%
+           family={G{ü}nther},
+           familyi={G\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=6f6431adb8de1919c95024fca11ab922}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Gail{-}Joon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6671a0099a9d03ad97e5cd32372ef1d0}{%
+           family={Yung},
+           familyi={Y\bibinitperiod},
+           given={Moti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3ab7a15935d7d7bbbf292c3407adc036}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ninghui},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{cd3a9c401a22d3382bf0d25503b878fb}
+      \strng{fullhash}{cd3a9c401a22d3382bf0d25503b878fb}
+      \strng{bibnamehash}{cd3a9c401a22d3382bf0d25503b878fb}
+      \strng{authorbibnamehash}{cd3a9c401a22d3382bf0d25503b878fb}
+      \strng{authornamehash}{cd3a9c401a22d3382bf0d25503b878fb}
+      \strng{authorfullhash}{cd3a9c401a22d3382bf0d25503b878fb}
+      \strng{editorbibnamehash}{2ae81816c70a8dc35406b097f4c85ccd}
+      \strng{editornamehash}{2ae81816c70a8dc35406b097f4c85ccd}
+      \strng{editorfullhash}{2ae81816c70a8dc35406b097f4c85ccd}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2014 {ACM} {SIGSAC} Conference on Computer and Communications Security, Scottsdale, AZ, USA, November 3-7, 2014}
+      \field{title}{Multi-Stage Key Exchange and the Case of Google's {QUIC} Protocol}
+      \field{year}{2014}
+      \field{pages}{1193\bibrangedash 1204}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/2660267.2660308
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2660267.2660308
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2660267.2660308
+      \endverb
+    \endentry
+    \entry{rfc6824}{misc}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=51ceb29d8601ba7cc8de079bb01216cd}{%
+           family={Ford},
+           familyi={F\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=997937d4ddbc674e02ba99659b366db0}{%
+           family={Raiciu},
+           familyi={R\bibinitperiod},
+           given={Costin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=42541a0320347bfbad6014901764017b}{%
+           family={Handley},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=500195eaab29dc05f97c2298de61e35f}{%
+           family={Bonaventure},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{8a51d7393337a39afcfaf73a5dc5fda5}
+      \strng{fullhash}{8a51d7393337a39afcfaf73a5dc5fda5}
+      \strng{bibnamehash}{8a51d7393337a39afcfaf73a5dc5fda5}
+      \strng{authorbibnamehash}{8a51d7393337a39afcfaf73a5dc5fda5}
+      \strng{authornamehash}{8a51d7393337a39afcfaf73a5dc5fda5}
+      \strng{authorfullhash}{8a51d7393337a39afcfaf73a5dc5fda5}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{TCP/IP communication is currently restricted to a single path per connection, yet multiple paths often exist between peers. The simultaneous use of these multiple paths for a TCP/IP session would improve resource usage within the network and, thus, improve user experience through higher throughput and improved resilience to network failure. Multipath TCP provides the ability to simultaneously use multiple paths between peers. This document presents a set of extensions to traditional TCP to support multipath operation. The protocol offers the same type of service to applications as TCP (i.e., reliable bytestream), and it provides the components necessary to establish and use multiple TCP flows across potentially disjoint paths. This document defines an Experimental Protocol for the Internet community.}
+      \field{howpublished}{RFC 6824}
+      \field{month}{1}
+      \field{number}{6824}
+      \field{pagetotal}{64}
+      \field{series}{Request for Comments}
+      \field{title}{{TCP Extensions for Multipath Operation with Multiple Addresses}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.17487/RFC6824
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc6824.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc6824.txt
+      \endverb
+    \endentry
+    \entry{quic_tracker}{online}{}
+      \field{sortinit}{g}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeltitlesource}{title}
+      \field{title}{github repository. The QUIC Tracker}
+      \verb{urlraw}
+      \verb https://github.com/QUIC-Tracker/quic-tracker
+      \endverb
+      \verb{url}
+      \verb https://github.com/QUIC-Tracker/quic-tracker
+      \endverb
+    \endentry
+    \entry{crypto}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeltitlesource}{title}
+      \field{title}{Google design document. QUIC Crypto}
+      \verb{urlraw}
+      \verb https://docs.google.com/document/d/1g5nIXAIkN_Y-7XJW5K45IblHd_L2f5LTaDUDwvZ5L6g/
+      \endverb
+      \verb{url}
+      \verb https://docs.google.com/document/d/1g5nIXAIkN_Y-7XJW5K45IblHd_L2f5LTaDUDwvZ5L6g/
+      \endverb
+    \endentry
+    \entry{quicgd}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeltitlesource}{title}
+      \field{title}{Google design document. QUIC from 10,000 feet}
+      \verb{urlraw}
+      \verb https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/
+      \endverb
+      \verb{url}
+      \verb https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/
+      \endverb
+    \endentry
+    \entry{ietf-quic-recovery-18}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4905b40bfc3c9ef595374b08ba668976}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=88db0db59cc96680adc2156d714a4cef}{%
+           family={Swett},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \list{publisher}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{5e4b0aa6e8fe7a2048d3635be190680c}
+      \strng{fullhash}{5e4b0aa6e8fe7a2048d3635be190680c}
+      \strng{bibnamehash}{5e4b0aa6e8fe7a2048d3635be190680c}
+      \strng{authorbibnamehash}{5e4b0aa6e8fe7a2048d3635be190680c}
+      \strng{authornamehash}{5e4b0aa6e8fe7a2048d3635be190680c}
+      \strng{authorfullhash}{5e4b0aa6e8fe7a2048d3635be190680c}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document describes loss detection and congestion control mechanisms for QUIC. Note to Readers Discussion of this draft takes place on the QUIC working group mailing list (quic@ietf.org), which is archived at https://mailarchive.ietf.org/arch/search/?email\_list=quic {[}1{]}. Working Group information can be found at https://github.com/quicwg {[}2{]}; source code and issues list for this draft can be found at https://github.com/quicwg/base-drafts/labels/-recovery {[}3{]}.}
+      \field{month}{1}
+      \field{note}{Work in Progress}
+      \field{number}{draft-ietf-quic-recovery-18}
+      \field{pagetotal}{36}
+      \field{title}{{QUIC Loss Detection and Congestion Control}}
+      \field{type}{Internet-Draft}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-recovery-18
+      \endverb
+      \verb{url}
+      \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-recovery-18
+      \endverb
+    \endentry
+    \entry{ietf-quic-transport-18}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=4905b40bfc3c9ef595374b08ba668976}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a4e224194a64046472d567f5d35b02bc}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \list{publisher}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{fullhash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{bibnamehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{authorbibnamehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{authornamehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{authorfullhash}{de436ff97ab7ec529a9d020200022fe7}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document defines the core of the QUIC transport protocol. Accompanying documents describe QUIC's loss detection and congestion control and the use of TLS for key negotiation. Note to Readers Discussion of this draft takes place on the QUIC working group mailing list (quic@ietf.org), which is archived at <{}https://mailarchive.ietf.org/arch/search/?email\_list=quic>{}. Working Group information can be found at <{}https://github.com/ quicwg>{}; source code and issues list for this draft can be found at <{}https://github.com/quicwg/base-drafts/labels/-transport>{}.}
+      \field{month}{1}
+      \field{note}{Work in Progress}
+      \field{number}{draft-ietf-quic-transport-18}
+      \field{pagetotal}{141}
+      \field{title}{{QUIC: A UDP-Based Multiplexed and Secure Transport}}
+      \field{type}{Internet-Draft}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-transport-18
+      \endverb
+      \verb{url}
+      \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-transport-18
+      \endverb
+    \endentry
+    \entry{bernhard}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d2efe528ca9624a5dfb3a479703e1406}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universität München}%
+      }
+      \strng{namehash}{d2efe528ca9624a5dfb3a479703e1406}
+      \strng{fullhash}{d2efe528ca9624a5dfb3a479703e1406}
+      \strng{bibnamehash}{d2efe528ca9624a5dfb3a479703e1406}
+      \strng{authorbibnamehash}{d2efe528ca9624a5dfb3a479703e1406}
+      \strng{authornamehash}{d2efe528ca9624a5dfb3a479703e1406}
+      \strng{authorfullhash}{d2efe528ca9624a5dfb3a479703e1406}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Measuring Google QUIC Connection Establishment Times}
+      \field{type}{Bachelor's Thesis}
+      \warn{\item Entry 'bernhard' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring}
+    \endentry
+    \entry{DBLP:conf/imc/KakhkiJCNM17}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=8eeba3fe8b8e526c970a292444d2c87a}{%
+           family={Kakhki},
+           familyi={K\bibinitperiod},
+           given={Arash\bibnamedelima Molavi},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2ede145500c5272c53a6430ad51fb7e6}{%
+           family={Jero},
+           familyi={J\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=84db04b6ba5b1043f0169c8b3e163142}{%
+           family={Choffnes},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=38d412925cd5ce7ce07ceae1f0aab8f5}{%
+           family={Nita{-}Rotaru},
+           familyi={N\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d85916d80055740c531622abd1c90d7c}{%
+           family={Mislove},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=dca47f4b18518e82eda22c0ad4f297c7}{%
+           family={Uhlig},
+           familyi={U\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2fe1453a4afbb8eddbd62b3826b6c998}{%
+           family={Maennel},
+           familyi={M\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c2dd4c4cb9d0574b45b13914ef9b6876}
+      \strng{fullhash}{37518e0f56f632d93658dc3eb1700999}
+      \strng{bibnamehash}{37518e0f56f632d93658dc3eb1700999}
+      \strng{authorbibnamehash}{37518e0f56f632d93658dc3eb1700999}
+      \strng{authornamehash}{c2dd4c4cb9d0574b45b13914ef9b6876}
+      \strng{authorfullhash}{37518e0f56f632d93658dc3eb1700999}
+      \strng{editorbibnamehash}{79fe5058b96c0fa174f40eccc861ef76}
+      \strng{editornamehash}{79fe5058b96c0fa174f40eccc861ef76}
+      \strng{editorfullhash}{79fe5058b96c0fa174f40eccc861ef76}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2017 Internet Measurement Conference, {IMC} 2017, London, United Kingdom, November 1-3, 2017}
+      \field{title}{Taking a long look at {QUIC:} an approach for rigorous evaluation of rapidly evolving transport protocols}
+      \field{year}{2017}
+      \field{pages}{290\bibrangedash 303}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/3131365.3131368
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3131365.3131368
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3131365.3131368
+      \endverb
+    \endentry
+    \entry{8524247}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=08df19d032817768e5ebffc980807d2f}{%
+           family={Kharat},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7f9bbeff5ae39d6ed035ad56b05e8604}{%
+           family={Rege},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7e16e901eb94bfdc47f60ec87a678690}{%
+           family={Goel},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f1e8cf3bf86a0ac602fdfc3cddb669a6}{%
+           family={Kulkarni},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec605a2691775e38489ef4d609ae3ae8}
+      \strng{fullhash}{ec605a2691775e38489ef4d609ae3ae8}
+      \strng{bibnamehash}{ec605a2691775e38489ef4d609ae3ae8}
+      \strng{authorbibnamehash}{ec605a2691775e38489ef4d609ae3ae8}
+      \strng{authornamehash}{ec605a2691775e38489ef4d609ae3ae8}
+      \strng{authorfullhash}{ec605a2691775e38489ef4d609ae3ae8}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Conference on Communication and Signal Processing (ICCSP)}
+      \field{month}{4}
+      \field{title}{QUIC Protocol Performance in Wireless Networks}
+      \field{year}{2018}
+      \field{pages}{0472\bibrangedash 0476}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICCSP.2018.8524247
+      \endverb
+      \keyw{IP networks;telecommunication congestion control;transport protocols;campus network environment;QUIC performance;TCP/IP;live network environment;QUIC protocol performance;wireless networks;SPDY networking protocol;HTTP/2 standard;flow control;congestion control;QUIC functionalities;local test bed setup;wireless access point;Quick UDP Internet Connections;competing flow situations;Protocols;TCPIP;Servers;Forward error correction;Indexes;Receivers;Congestion control;Forward error correction;QUIC;Wireless networks}
+    \endentry
+    \entry{DBLP:conf/sigcomm/LangleyRWVKZYKS17}{inproceedings}{}
+      \name{author}{21}{}{%
+        {{uniquename=0,uniquepart=base,hash=9f7c1bea618246029e139c169baaf321}{%
+           family={Langley},
+           familyi={L\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4cbe1a9a3ea3967cdc40344f44d0c869}{%
+           family={Riddoch},
+           familyi={R\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=92236dc1e8d3a49d8490904a48d33375}{%
+           family={Wilk},
+           familyi={W\bibinitperiod},
+           given={Alyssa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=78c5e7b13c6b6ccd0a3c76bc458d8a7a}{%
+           family={Vicente},
+           familyi={V\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=91a555788c407e4b030f9d808cf7117a}{%
+           family={Krasic},
+           familyi={K\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8d3346030389bb4358dd53ef845ff0b1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2cc897bc097b81a6fd958586b28788d1}{%
+           family={Kouranov},
+           familyi={K\bibinitperiod},
+           given={Fedor},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=88db0db59cc96680adc2156d714a4cef}{%
+           family={Swett},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=00be95bde235b12e2f8959d3f96c420a}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Janardhan\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=97ba621406adf54f4ce3be13cb65c2bd}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c235d89c817de3b4cb20934321275592}{%
+           family={Dorfman},
+           familyi={D\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fff2be5e94a6bf1f2726ac6741682191}{%
+           family={Roskind},
+           familyi={R\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6ed4dd46a51bb32073a2a91f5a9d98a5}{%
+           family={Kulik},
+           familyi={K\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f52d6a730f7c244cd5102094a39b2aea}{%
+           family={Westin},
+           familyi={W\bibinitperiod},
+           given={Patrik},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c49c555b474ac1fd4cc4e47a496e1ff5}{%
+           family={Tenneti},
+           familyi={T\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=139911b16ae6741af6fd514a3d9d3c4b}{%
+           family={Shade},
+           familyi={S\bibinitperiod},
+           given={Robbie},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=275fd1e73e5f44af7957b58a5e73edbd}{%
+           family={Hamilton},
+           familyi={H\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e7380d605a86d0e7d2569d25c88f9e11}{%
+           family={Vasiliev},
+           familyi={V\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8a26ecdacf213578210989b495cdb4fe}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Wan{-}Teh},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8b94c8d4e9e5ca3b21ab5eade38505eb}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Zhongyi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{2809eeb1e15fa3bb280b45085278beb4}
+      \strng{fullhash}{bce417ecc8bbb2f7f91785419d9d1745}
+      \strng{bibnamehash}{bce417ecc8bbb2f7f91785419d9d1745}
+      \strng{authorbibnamehash}{bce417ecc8bbb2f7f91785419d9d1745}
+      \strng{authornamehash}{2809eeb1e15fa3bb280b45085278beb4}
+      \strng{authorfullhash}{bce417ecc8bbb2f7f91785419d9d1745}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Conference of the {ACM} Special Interest Group on Data Communication, {SIGCOMM} 2017, Los Angeles, CA, USA, August 21-25, 2017}
+      \field{title}{The {QUIC} Transport Protocol: Design and Internet-Scale Deployment}
+      \field{year}{2017}
+      \field{pages}{183\bibrangedash 196}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/3098822.3098842
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3098822.3098842
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3098822.3098842
+      \endverb
+    \endentry
+    \entry{DBLP:conf/pam/LiCJC18}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=1,uniquepart=given,hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=fd3992bd9992fbda039a344c7eb50386}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jae\bibnamedelima Won},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b0f4574597c1570ce545f59630ec698}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xiaoxiao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f4e0c08d7c72b4d7cddc5cbebce39ed8}{%
+           family={Claypool},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=b237dd9cbb7cb89fe4b73b3000d1a097}{%
+           family={Beverly},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=56fded7befb3875729495204823feadf}{%
+           family={Smaragdakis},
+           familyi={S\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{%
+           family={Feldmann},
+           familyi={F\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{95818bed0c849eee707e47bce832b80d}
+      \strng{fullhash}{95818bed0c849eee707e47bce832b80d}
+      \strng{bibnamehash}{95818bed0c849eee707e47bce832b80d}
+      \strng{authorbibnamehash}{95818bed0c849eee707e47bce832b80d}
+      \strng{authornamehash}{95818bed0c849eee707e47bce832b80d}
+      \strng{authorfullhash}{95818bed0c849eee707e47bce832b80d}
+      \strng{editorbibnamehash}{902d3a586dd56d99fa51ed221755b28f}
+      \strng{editornamehash}{902d3a586dd56d99fa51ed221755b28f}
+      \strng{editorfullhash}{902d3a586dd56d99fa51ed221755b28f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Passive and Active Measurement - 19th International Conference, {PAM} 2018, Berlin, Germany, March 26-27, 2018, Proceedings}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{{TCP} {CUBIC} versus {BBR} on the Highway}
+      \field{volume}{10771}
+      \field{year}{2018}
+      \field{pages}{269\bibrangedash 280}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-319-76481-8\_20
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-76481-8\_20
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-76481-8%5C_20
+      \endverb
+    \endentry
+    \entry{DBLP:conf/icc/MegyesiKM16}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=39f99f793fe3e5523aa7f4e3073c2c66}{%
+           family={Megyesi},
+           familyi={M\bibinitperiod},
+           given={P{é}ter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=69ec27679dff1430ddf43897e51517f0}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={Zsolt},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6e68cba66be2aeab4d485d00f90d4365}{%
+           family={Moln{á}r},
+           familyi={M\bibinitperiod},
+           given={S{á}ndor},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
+      \strng{fullhash}{6829c9ea4d72f18e40c4f127d0ec89e5}
+      \strng{bibnamehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
+      \strng{authorbibnamehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
+      \strng{authornamehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
+      \strng{authorfullhash}{6829c9ea4d72f18e40c4f127d0ec89e5}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 {IEEE} International Conference on Communications, {ICC} 2016, Kuala Lumpur, Malaysia, May 22-27, 2016}
+      \field{title}{How quick is QUIC?}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICC.2016.7510788
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ICC.2016.7510788
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ICC.2016.7510788
+      \endverb
+    \endentry
+    \entry{8538687}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,uniquepart=base,hash=0ce515d2707b5cfd80e97d0124cd3d73}{%
+           family={Nepomuceno},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e8f3e29b9f1fa6bac12d8f7abebb75ca}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={I.\bibnamedelimi N.},
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0,
+           prefix={d.},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a6c15f7d7ca08af90ab32baf752ecfb4}{%
+           family={Aschoff},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b20d6c5f42093b3f17b59b5ed2636dbf}{%
+           family={Bezerra},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=214a9c7aa6895c96be780325d7c49a25}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5ec8153d837ec9fc5fb16c0650b1683c}{%
+           family={Melo},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=624b4089a216384e5f3df3c01878ef8d}{%
+           family={Sadok},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d6696e7969669819a0a30663296e5f39}{%
+           family={Szabó},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e236a581d081f777b9c6efaf3d16aa0}
+      \strng{fullhash}{59b2629882770ddfd01ec355085835ef}
+      \strng{bibnamehash}{59b2629882770ddfd01ec355085835ef}
+      \strng{authorbibnamehash}{59b2629882770ddfd01ec355085835ef}
+      \strng{authornamehash}{5e236a581d081f777b9c6efaf3d16aa0}
+      \strng{authorfullhash}{59b2629882770ddfd01ec355085835ef}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE Symposium on Computers and Communications (ISCC)}
+      \field{issn}{1530-1346}
+      \field{month}{6}
+      \field{title}{QUIC and TCP: A Performance Evaluation}
+      \field{year}{2018}
+      \field{pages}{00045\bibrangedash 00051}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ISCC.2018.8538687
+      \endverb
+      \keyw{Internet;performance evaluation;telecommunication traffic;transport protocols;traffic growth;Web TCP;connection establishment time;congestion control;Internet traffic conditions;trip time;packet loss ratio;worst page load time results;performance evaluation;Internet transport protocols;QUIC performance;Web pages;Internet;Web pages;Google;Servers;Transport protocols;Packet loss;QUIC;TCP;Page Load Time}
+    \endentry
+    \entry{sergey}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f18328f05a7cfe4e14376e3fb809b36d}{%
+           family={Podanev},
+           familyi={P\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universität München}%
+      }
+      \strng{namehash}{f18328f05a7cfe4e14376e3fb809b36d}
+      \strng{fullhash}{f18328f05a7cfe4e14376e3fb809b36d}
+      \strng{bibnamehash}{f18328f05a7cfe4e14376e3fb809b36d}
+      \strng{authorbibnamehash}{f18328f05a7cfe4e14376e3fb809b36d}
+      \strng{authornamehash}{f18328f05a7cfe4e14376e3fb809b36d}
+      \strng{authorfullhash}{f18328f05a7cfe4e14376e3fb809b36d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Measuring YouTube Video Content Delivery over QUIC Protocol}
+      \field{type}{Master's Thesis}
+      \warn{\item Entry 'sergey' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring}
+    \endentry
+    \entry{DBLP:journals/access/QianWT18}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=761438a7357071a9f6987c3bdc67ed5f}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=bc9736b40ca170d1b1ff5b2a9bb2545b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=be49d80ec8f4b619e90eed3af882910b}{%
+           family={Tafazolli},
+           familyi={T\bibinitperiod},
+           given={Rahim},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b2731ecd857c9cb4582df4dddea1349}
+      \strng{fullhash}{2b2731ecd857c9cb4582df4dddea1349}
+      \strng{bibnamehash}{2b2731ecd857c9cb4582df4dddea1349}
+      \strng{authorbibnamehash}{2b2731ecd857c9cb4582df4dddea1349}
+      \strng{authornamehash}{2b2731ecd857c9cb4582df4dddea1349}
+      \strng{authorfullhash}{2b2731ecd857c9cb4582df4dddea1349}
+      \field{sortinit}{Q}
+      \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Access}
+      \field{title}{Achieving Robust Mobile Web Content Delivery Performance Based on Multiple Coordinated {QUIC} Connections}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{pages}{11313\bibrangedash 11328}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2804222
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ACCESS.2018.2804222
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ACCESS.2018.2804222
+      \endverb
+    \endentry
+    \entry{comsys}{online}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
+      \field{labeltitlesource}{title}
+      \field{title}{QUIC Research @ COMSYS}
+      \verb{urlraw}
+      \verb https://quic.comsys.rwth-aachen.de/data.php
+      \endverb
+      \verb{url}
+      \verb https://quic.comsys.rwth-aachen.de/data.php
+      \endverb
+    \endentry
+    \entry{DBLP:conf/conext/RadhakrishnanCCJR11}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=bd09a3491628e60cf38c4462dd3c0215}{%
+           family={Radhakrishnan},
+           familyi={R\bibinitperiod},
+           given={Sivasankar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=599f0d58fcaf8c51ecb30b8162920904}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yuchung},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cc537f51c7d6ff6607de620d58670363}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=87e015e0052d0b328a60ebc6778ce466}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Arvind},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=805bb8e0477fe644d3e95b136704f90b}{%
+           family={Raghavan},
+           familyi={R\bibinitperiod},
+           given={Barath},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=e85cc09729e982833445e8c40b0bdf22}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Kenjiro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=032786877dbd8b5fc3bde1f200dfb999}{%
+           family={Crovella},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{af181a392032ef7aade74559623aa341}
+      \strng{fullhash}{2281d308bb473ddd7e2be26588fcff9a}
+      \strng{bibnamehash}{2281d308bb473ddd7e2be26588fcff9a}
+      \strng{authorbibnamehash}{2281d308bb473ddd7e2be26588fcff9a}
+      \strng{authornamehash}{af181a392032ef7aade74559623aa341}
+      \strng{authorfullhash}{2281d308bb473ddd7e2be26588fcff9a}
+      \strng{editorbibnamehash}{b8e3c59bece46c9fc6dcc76f622247f0}
+      \strng{editornamehash}{b8e3c59bece46c9fc6dcc76f622247f0}
+      \strng{editorfullhash}{b8e3c59bece46c9fc6dcc76f622247f0}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2011 Conference on Emerging Networking Experiments and Technologies, Co-NEXT '11, Tokyo, Japan, December 6-9, 2011}
+      \field{title}{{TCP} fast open}
+      \field{year}{2011}
+      \field{pages}{21}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/2079296.2079317
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2079296.2079317
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2079296.2079317
+      \endverb
+    \endentry
+    \entry{RIPEDB}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labeltitlesource}{title}
+      \field{title}{RIPE DB}
+      \verb{urlraw}
+      \verb https://stat.ripe.net/
+      \endverb
+      \verb{url}
+      \verb https://stat.ripe.net/
+      \endverb
+    \endentry
+    \entry{DBLP:conf/pam/RuthPDH18}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a0dfd6b881a835fc75f675d0abd34b59}{%
+           family={R{ü}th},
+           familyi={R\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4d268051e3e6d47435f19f65bbf99936}{%
+           family={Poese},
+           familyi={P\bibinitperiod},
+           given={Ingmar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=653cf3c51dfdabf4af3f26b58cdd52fe}{%
+           family={Dietzel},
+           familyi={D\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fadddf24b02ab95d9d7cbb82bd8910a5}{%
+           family={Hohlfeld},
+           familyi={H\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=b237dd9cbb7cb89fe4b73b3000d1a097}{%
+           family={Beverly},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=56fded7befb3875729495204823feadf}{%
+           family={Smaragdakis},
+           familyi={S\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a2f03739ecbec5fd41971c58f390f197}{%
+           family={Feldmann},
+           familyi={F\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{db87c111ca8664f598ff7244ced867c0}
+      \strng{fullhash}{db87c111ca8664f598ff7244ced867c0}
+      \strng{bibnamehash}{db87c111ca8664f598ff7244ced867c0}
+      \strng{authorbibnamehash}{db87c111ca8664f598ff7244ced867c0}
+      \strng{authornamehash}{db87c111ca8664f598ff7244ced867c0}
+      \strng{authorfullhash}{db87c111ca8664f598ff7244ced867c0}
+      \strng{editorbibnamehash}{902d3a586dd56d99fa51ed221755b28f}
+      \strng{editornamehash}{902d3a586dd56d99fa51ed221755b28f}
+      \strng{editorfullhash}{902d3a586dd56d99fa51ed221755b28f}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Passive and Active Measurement - 19th International Conference, {PAM} 2018, Berlin, Germany, March 26-27, 2018, Proceedings}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{A First Look at {QUIC} in the Wild}
+      \field{volume}{10771}
+      \field{year}{2018}
+      \field{pages}{255\bibrangedash 268}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-319-76481-8\_19
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-76481-8\_19
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-76481-8%5C_19
+      \endverb
+    \endentry
+    \entry{SamKnowsproject}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{title}{SamKnows project}
+      \verb{urlraw}
+      \verb https://samknows.com/
+      \endverb
+      \verb{url}
+      \verb https://samknows.com/
+      \endverb
+    \endentry
+    \entry{DBLP:conf/iscc/SaverimoutouMV17}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=0e2e2203883dcf19aa06885fe881ae3e}{%
+           family={Saverimoutou},
+           familyi={S\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=87b393a1d7a787b445c10c72c51876fa}{%
+           family={Mathieu},
+           familyi={M\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2ce38527ccc5acd72c1ef8400003f66c}{%
+           family={Vaton},
+           familyi={V\bibinitperiod},
+           given={Sandrine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{IEEE} Computer Society}%
+      }
+      \strng{namehash}{0bb26e2d19851552f29966c56423c66e}
+      \strng{fullhash}{0bb26e2d19851552f29966c56423c66e}
+      \strng{bibnamehash}{0bb26e2d19851552f29966c56423c66e}
+      \strng{authorbibnamehash}{0bb26e2d19851552f29966c56423c66e}
+      \strng{authornamehash}{0bb26e2d19851552f29966c56423c66e}
+      \strng{authorfullhash}{0bb26e2d19851552f29966c56423c66e}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 {IEEE} Symposium on Computers and Communications, {ISCC} 2017, Heraklion, Greece, July 3-6, 2017}
+      \field{title}{Which secure transport protocol for a reliable HTTP/2-based web service: {TLS} or QUIC?}
+      \field{year}{2017}
+      \field{pages}{879\bibrangedash 884}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ISCC.2017.8024637
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/ISCC.2017.8024637
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/ISCC.2017.8024637
+      \endverb
+    \endentry
+    \entry{spdy}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{title}{SPDY Protoocl draft-3}
+      \verb{urlraw}
+      \verb https://www.chromium.org/spdy/spdy-protocol/spdy-protocol-draft3
+      \endverb
+      \verb{url}
+      \verb https://www.chromium.org/spdy/spdy-protocol/spdy-protocol-draft3
+      \endverb
+    \endentry
+    \entry{DBLP:conf/imc/VaereBKT18}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=3f1193a0142f279c8620a6ee89298bf0}{%
+           family={Vaere},
+           familyi={V\bibinitperiod},
+           given={Piet\bibnamedelima De},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=da4b19c096b517cbdad733837ee69a28}{%
+           family={B{ü}hler},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f0d1732e5a8907059009998a2c8325e3}{%
+           family={K{ü}hlewind},
+           familyi={K\bibinitperiod},
+           given={Mirja},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7d36a63b482f7d14920e2a957b63d248}{%
+           family={Trammell},
+           familyi={T\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{2bf749a3818f34a5fb529056ba8897dd}
+      \strng{fullhash}{2bf749a3818f34a5fb529056ba8897dd}
+      \strng{bibnamehash}{2bf749a3818f34a5fb529056ba8897dd}
+      \strng{authorbibnamehash}{2bf749a3818f34a5fb529056ba8897dd}
+      \strng{authornamehash}{2bf749a3818f34a5fb529056ba8897dd}
+      \strng{authorfullhash}{2bf749a3818f34a5fb529056ba8897dd}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Internet Measurement Conference 2018, {IMC} 2018, Boston, MA, USA, October 31 - November 02, 2018}
+      \field{title}{Three Bits Suffice: Explicit Support for Passive Measurement of Internet Latency in {QUIC} and {TCP}}
+      \field{year}{2018}
+      \field{pages}{22\bibrangedash 28}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://dl.acm.org/citation.cfm?id=3278535
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/citation.cfm?id=3278535
+      \endverb
+    \endentry
+    \entry{DBLP:conf/mswim/WangBRP18}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=1,uniquepart=given,hash=c26cc02bbb5db725a2c79cb200894d76}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=cbdafb3aae8e2b076ca67d6fccb5afa2}{%
+           family={Bianco},
+           familyi={B\bibinitperiod},
+           given={Carmine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=966ed7c97917d6e57c2d2411c88cefeb}{%
+           family={Riihij{ä}rvi},
+           familyi={R\bibinitperiod},
+           given={Janne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2107f30ad50f685ef105cdf0ecc3710f}{%
+           family={Petrova},
+           familyi={P\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=357c49ed8aa14cedecc75983ed850f63}{%
+           family={Boukerche},
+           familyi={B\bibinitperiod},
+           given={Azzedine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3ae0c8a8ec73aada90b73c0985f5e9da}{%
+           family={Kanhere},
+           familyi={K\bibinitperiod},
+           given={Salil\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7dc39ea7034dbbcf776b9604249506e8}{%
+           family={Bellavista},
+           familyi={B\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e9881c3836710c4e3ab62ad4c3949124}
+      \strng{fullhash}{e9881c3836710c4e3ab62ad4c3949124}
+      \strng{bibnamehash}{e9881c3836710c4e3ab62ad4c3949124}
+      \strng{authorbibnamehash}{e9881c3836710c4e3ab62ad4c3949124}
+      \strng{authornamehash}{e9881c3836710c4e3ab62ad4c3949124}
+      \strng{authorfullhash}{e9881c3836710c4e3ab62ad4c3949124}
+      \strng{editorbibnamehash}{49ce8a39c4c266a31304f432e05b7603}
+      \strng{editornamehash}{49ce8a39c4c266a31304f432e05b7603}
+      \strng{editorfullhash}{49ce8a39c4c266a31304f432e05b7603}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st {ACM} International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems, MSWiM 2018, Montreal, QC, Canada, October 28 - November 02, 2018}
+      \field{title}{Implementation and Performance Evaluation of the {QUIC} Protocol in Linux Kernel}
+      \field{year}{2018}
+      \field{pages}{227\bibrangedash 234}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/3242102.3242106
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3242102.3242106
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3242102.3242106
+      \endverb
+    \endentry
+    \entry{rfc3286}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d630a645cc0cdadbd1519714daa4e898}{%
+           family={Yoakum},
+           familyi={Y\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ac887bed877e91e51eaa757ae6b5a829}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={Lyndon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {RFC Editor}%
+      }
+      \strng{namehash}{117ec28f65c3e0b2597d805fb3d88f89}
+      \strng{fullhash}{117ec28f65c3e0b2597d805fb3d88f89}
+      \strng{bibnamehash}{117ec28f65c3e0b2597d805fb3d88f89}
+      \strng{authorbibnamehash}{117ec28f65c3e0b2597d805fb3d88f89}
+      \strng{authornamehash}{117ec28f65c3e0b2597d805fb3d88f89}
+      \strng{authorfullhash}{117ec28f65c3e0b2597d805fb3d88f89}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document provides a high level introduction to the capabilities supported by the Stream Control Transmission Protocol (SCTP). It is intended as a guide for potential users of SCTP as a general purpose transport protocol. This memo provides information for the Internet community.}
+      \field{howpublished}{RFC 3286}
+      \field{month}{5}
+      \field{number}{3286}
+      \field{pagetotal}{10}
+      \field{series}{Request for Comments}
+      \field{title}{{An Introduction to the Stream Control Transmission Protocol (SCTP)}}
+      \field{year}{2002}
+      \verb{doi}
+      \verb 10.17487/RFC3286
+      \endverb
+      \verb{urlraw}
+      \verb https://rfc-editor.org/rfc/rfc3286.txt
+      \endverb
+      \verb{url}
+      \verb https://rfc-editor.org/rfc/rfc3286.txt
+      \endverb
+    \endentry
+    \entry{DBLP:conf/ipccc/YuXY17}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=7b182b8179166f28f435ab47b9ab7435}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yajun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=23a7e31bf90ab1bd331619b0f22bb0d6}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Mingwei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eba55ce3c9270ab7b2bc2e4fd6d280be}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5bdb66e176ac81f80787ea4f5a606a45}
+      \strng{fullhash}{5bdb66e176ac81f80787ea4f5a606a45}
+      \strng{bibnamehash}{5bdb66e176ac81f80787ea4f5a606a45}
+      \strng{authorbibnamehash}{5bdb66e176ac81f80787ea4f5a606a45}
+      \strng{authornamehash}{5bdb66e176ac81f80787ea4f5a606a45}
+      \strng{authorfullhash}{5bdb66e176ac81f80787ea4f5a606a45}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{36th {IEEE} International Performance Computing and Communications Conference, {IPCCC} 2017, San Diego, CA, USA, December 10-12, 2017}
+      \field{title}{When {QUIC} meets {TCP:} An experimental study}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/PCCC.2017.8280429
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/PCCC.2017.8280429
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/PCCC.2017.8280429
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[BPT15]{rfc7540}
-Mike Belshe, Roberto Peon, and Martin Thomson, \emph{{Hypertext Transfer
-  Protocol Version 2 (HTTP/2)}}, RFC 7540, May 2015.
-
-\bibitem[CAI]{CAIDAArk}
-\emph{Caida ark}.
-
-\bibitem[CCM15]{DBLP:conf/sac/CarlucciCM15}
-Gaetano Carlucci, Luca~De Cicco, and Saverio Mascolo, \emph{{HTTP} over {UDP:}
-  an experimental investigation of {QUIC}}, Proceedings of the 30th Annual
-  {ACM} Symposium on Applied Computing, Salamanca, Spain, April 13-17, 2015
-  (Roger~L. Wainwright, Juan~Manuel Corchado, Alessio Bechini, and Jiman Hong,
-  eds.), {ACM}, 2015, pp.~609--614.
-
-\bibitem[CLL{\etalchar{+}}17a]{Cui2017}
-Yong Cui, Tianxiang Li, Cong Liu, Xingwei Wang, and Mirja Kuhlewind,
-  \emph{{Innovating transport with QUIC: Design approaches and research
-  challenges}}, IEEE Internet Computing \textbf{21} (2017), no.~2, 72--76.
-
-\bibitem[CLL{\etalchar{+}}17b]{DBLP:journals/internet/CuiLLWK17}
-Yong Cui, Tianxiang Li, Cong Liu, Xingwei Wang, and Mirja K{\"{u}}hlewind,
-  \emph{Innovating transport with {QUIC:} design approaches and research
-  challenges}, {IEEE} Internet Computing \textbf{21} (2017), no.~2, 72--76.
-
-\bibitem[CMTH17]{DBLP:conf/icc/CookMTH17}
-Sarah Cook, Bertrand Mathieu, Patrick Truong, and Isabelle Hamchaoui,
-  \emph{{QUIC:} better for what and for whom?}, {IEEE} International Conference
-  on Communications, {ICC} 2017, Paris, France, May 21-25, 2017, {IEEE}, 2017,
-  pp.~1--6.
-
-\bibitem[com]{comsys}
-\emph{Quic research @ comsys}.
-
-\bibitem[cro]{cronet}
-\emph{cronet}.
-
-\bibitem[cry]{crypto}
-\emph{Google design document. quic crypto}.
-
-\bibitem[CSO16]{7745823}
-R.~{Corbel}, E.~{Stephan}, and N.~{Omnes}, \emph{Http/1.1 pipelining vs http2
-  in-the-clear: Performance comparison}, 2016 13th International Conference on
-  New Technologies for Distributed Systems (NOTERE), July 2016, pp.~1--6.
-
-\bibitem[dB]{udpgso}
-Willem de~Bruijn, \emph{Optimizing udp for content delivery: Gso, pacing and
-  zerocopy}.
-
-\bibitem[EKT{\etalchar{+}}16]{DBLP:journals/corr/EdelineKTAD16}
-Korian Edeline, Mirja K{\"{u}}hlewind, Brian Trammell, Emile Aben, and Benoit
-  Donnet, \emph{Using {UDP} for internet transport evolution}, CoRR
-  \textbf{abs/1612.07816} (2016).
-
-\bibitem[ETW14]{DBLP:conf/networking/El-khatibTW14}
-Yehia El{-}khatib, Gareth Tyson, and Michael Welzl, \emph{Can {SPDY} really
-  make the web faster?}, 2014 {IFIP} Networking Conference, Trondheim, Norway,
-  June 2-4, 2014, {IEEE}, 2014, pp.~1--9.
-
-\bibitem[FG14]{DBLP:conf/ccs/FischlinG14}
-Marc Fischlin and Felix G{\"{u}}nther, \emph{Multi-stage key exchange and the
-  case of google's {QUIC} protocol}, Proceedings of the 2014 {ACM} {SIGSAC}
-  Conference on Computer and Communications Security, Scottsdale, AZ, USA,
-  November 3-7, 2014 (Gail{-}Joon Ahn, Moti Yung, and Ninghui Li, eds.), {ACM},
-  2014, pp.~1193--1204.
-
-\bibitem[FRHB13]{rfc6824}
-Alan Ford, Costin Raiciu, Mark~J. Handley, and Olivier Bonaventure, \emph{{TCP
-  Extensions for Multipath Operation with Multiple Addresses}}, RFC 6824,
-  January 2013.
-
-\bibitem[IS19]{ietf-quic-recovery-18}
-Jana Iyengar and Ian Swett, \emph{{QUIC Loss Detection and Congestion
-  Control}}, Internet-Draft draft-ietf-quic-recovery-18, Internet Engineering
-  Task Force, January 2019, Work in Progress.
-
-\bibitem[IT19]{ietf-quic-transport-18}
-Jana Iyengar and Martin Thomson, \emph{{QUIC: A UDP-Based Multiplexed and
-  Secure Transport}}, Internet-Draft draft-ietf-quic-transport-18, Internet
-  Engineering Task Force, January 2019, Work in Progress.
-
-\bibitem[Jae]{bernhard}
-Bernhard Jaeger, \emph{Measuring google quic connection establishment times}.
-
-\bibitem[KJC{\etalchar{+}}17]{DBLP:conf/imc/KakhkiJCNM17}
-Arash~Molavi Kakhki, Samuel Jero, David~R. Choffnes, Cristina Nita{-}Rotaru,
-  and Alan Mislove, \emph{Taking a long look at {QUIC:} an approach for
-  rigorous evaluation of rapidly evolving transport protocols}, Proceedings of
-  the 2017 Internet Measurement Conference, {IMC} 2017, London, United Kingdom,
-  November 1-3, 2017 (Steve Uhlig and Olaf Maennel, eds.), {ACM}, 2017,
-  pp.~290--303.
-
-\bibitem[KRGK18]{8524247}
-P.~K. Kharat, A.~Rege, A.~Goel, and M.~Kulkarni, \emph{Quic protocol
-  performance in wireless networks}, 2018 International Conference on
-  Communication and Signal Processing (ICCSP), April 2018, pp.~0472--0476.
-
-\bibitem[LCJC18]{DBLP:conf/pam/LiCJC18}
-Feng Li, Jae~Won Chung, Xiaoxiao Jiang, and Mark Claypool, \emph{{TCP} {CUBIC}
-  versus {BBR} on the highway}, Passive and Active Measurement - 19th
-  International Conference, {PAM} 2018, Berlin, Germany, March 26-27, 2018,
-  Proceedings (Robert Beverly, Georgios Smaragdakis, and Anja Feldmann, eds.),
-  Lecture Notes in Computer Science, vol. 10771, Springer, 2018, pp.~269--280.
-
-\bibitem[LRW{\etalchar{+}}17]{DBLP:conf/sigcomm/LangleyRWVKZYKS17}
-Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic,
-  Dan Zhang, Fan Yang, Fedor Kouranov, Ian Swett, Janardhan~R. Iyengar, Jeff
-  Bailey, Jeremy Dorfman, Jim Roskind, Joanna Kulik, Patrik Westin, Raman
-  Tenneti, Robbie Shade, Ryan Hamilton, Victor Vasiliev, Wan{-}Teh Chang, and
-  Zhongyi Shi, \emph{The {QUIC} transport protocol: Design and internet-scale
-  deployment}, Proceedings of the Conference of the {ACM} Special Interest
-  Group on Data Communication, {SIGCOMM} 2017, Los Angeles, CA, USA, August
-  21-25, 2017, {ACM}, 2017, pp.~183--196.
-
-\bibitem[MKM16]{DBLP:conf/icc/MegyesiKM16}
-P{\'{e}}ter Megyesi, Zsolt Kramer, and S{\'{a}}ndor Moln{\'{a}}r, \emph{How
-  quick is quic?}, 2016 {IEEE} International Conference on Communications,
-  {ICC} 2016, Kuala Lumpur, Malaysia, May 22-27, 2016, {IEEE}, 2016, pp.~1--6.
-
-\bibitem[NdOA{\etalchar{+}}18]{8538687}
-K.~Nepomuceno, I.~N. d.~Oliveira, R.~R. Aschoff, D.~Bezerra, M.~S. Ito,
-  W.~Melo, D.~Sadok, and G.~Szabó, \emph{Quic and tcp: A performance
-  evaluation}, 2018 IEEE Symposium on Computers and Communications (ISCC), June
-  2018, pp.~00045--00051.
-
-\bibitem[Pod]{sergey}
-Sergey Podanev, \emph{Measuring youtube video content delivery over quic
-  protocol}.
-
-\bibitem[quia]{quic_tracker}
-\emph{github repository. the quic tracker}.
-
-\bibitem[quib]{quicgd}
-\emph{Google design document. quic from 10,000 feet}.
-
-\bibitem[QWT18]{DBLP:journals/access/QianWT18}
-Peng Qian, Ning Wang, and Rahim Tafazolli, \emph{Achieving robust mobile web
-  content delivery performance based on multiple coordinated {QUIC}
-  connections}, {IEEE} Access \textbf{6} (2018), 11313--11328.
-
-\bibitem[RCC{\etalchar{+}}11]{DBLP:conf/conext/RadhakrishnanCCJR11}
-Sivasankar Radhakrishnan, Yuchung Cheng, Jerry Chu, Arvind Jain, and Barath
-  Raghavan, \emph{{TCP} fast open}, Proceedings of the 2011 Conference on
-  Emerging Networking Experiments and Technologies, Co-NEXT '11, Tokyo, Japan,
-  December 6-9, 2011 (Kenjiro Cho and Mark Crovella, eds.), {ACM}, 2011, p.~21.
-
-\bibitem[RIP]{RIPEDB}
-\emph{Ripe db}.
-
-\bibitem[RPDH18]{DBLP:conf/pam/RuthPDH18}
-Jan R{\"{u}}th, Ingmar Poese, Christoph Dietzel, and Oliver Hohlfeld, \emph{A
-  first look at {QUIC} in the wild}, Passive and Active Measurement - 19th
-  International Conference, {PAM} 2018, Berlin, Germany, March 26-27, 2018,
-  Proceedings (Robert Beverly, Georgios Smaragdakis, and Anja Feldmann, eds.),
-  Lecture Notes in Computer Science, vol. 10771, Springer, 2018, pp.~255--268.
-
-\bibitem[Sam]{SamKnowsproject}
-\emph{Samknows project}.
-
-\bibitem[SMV17]{DBLP:conf/iscc/SaverimoutouMV17}
-Antoine Saverimoutou, Bertrand Mathieu, and Sandrine Vaton, \emph{Which secure
-  transport protocol for a reliable http/2-based web service: {TLS} or quic?},
-  2017 {IEEE} Symposium on Computers and Communications, {ISCC} 2017,
-  Heraklion, Greece, July 3-6, 2017, {IEEE} Computer Society, 2017,
-  pp.~879--884.
-
-\bibitem[spd]{spdy}
-\emph{Spdy protoocl draft-3}.
-
-\bibitem[VBKT18]{DBLP:conf/imc/VaereBKT18}
-Piet~De Vaere, Tobias B{\"{u}}hler, Mirja K{\"{u}}hlewind, and Brian Trammell,
-  \emph{Three bits suffice: Explicit support for passive measurement of
-  internet latency in {QUIC} and {TCP}}, Proceedings of the Internet
-  Measurement Conference 2018, {IMC} 2018, Boston, MA, USA, October 31 -
-  November 02, 2018, {ACM}, 2018, pp.~22--28.
-
-\bibitem[WBRP18]{DBLP:conf/mswim/WangBRP18}
-Peng Wang, Carmine Bianco, Janne Riihij{\"{a}}rvi, and Marina Petrova,
-  \emph{Implementation and performance evaluation of the {QUIC} protocol in
-  linux kernel}, Proceedings of the 21st {ACM} International Conference on
-  Modeling, Analysis and Simulation of Wireless and Mobile Systems, MSWiM 2018,
-  Montreal, QC, Canada, October 28 - November 02, 2018 (Azzedine Boukerche,
-  Salil~S. Kanhere, and Paolo Bellavista, eds.), {ACM}, 2018, pp.~227--234.
-
-\bibitem[YO02]{rfc3286}
-John Yoakum and Lyndon Ong, \emph{{An Introduction to the Stream Control
-  Transmission Protocol (SCTP)}}, RFC 3286, May 2002.
-
-\bibitem[YXY17]{DBLP:conf/ipccc/YuXY17}
-Yajun Yu, Mingwei Xu, and Yuan Yang, \emph{When {QUIC} meets {TCP:} an
-  experimental study}, 36th {IEEE} International Performance Computing and
-  Communications Conference, {IPCCC} 2017, San Diego, CA, USA, December 10-12,
-  2017, {IEEE}, 2017, pp.~1--8.
-
-\end{thebibliography}
