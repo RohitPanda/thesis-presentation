@@ -52,7 +52,7 @@
     
     \item Rapid development cycle of QUIC means
     that many new features are introduced in each version of QUIC and support for older
-    versions is dropped. So previous studies(Refer \ref{prior_work}) become obsoleted quickly.
+    versions is dropped. So previous studies(refer Prior Work) become obsoleted quickly.
     
     \item In this thesis we aim to evaluate the performance of QUIC(Q035, Q039, Q043, Q044) and compare it with
     TCP/TLS. 
@@ -114,22 +114,22 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
 \end{frame}
 \clearpage
 
-%\begin{frame}
-%    \shiftedframetitle{Connection Establishment\cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17}\cite{quicgd}\cite{crypto}}
-%    
-%    \begin{figure}[!ht]
-%        
-%        \minipage{0.7\textwidth}
-%        \includegraphics[width=1\textwidth]
-%        {figures/0rtt.png}
-%        \endminipage\hfill
-%        \caption{\label{fig:RTT} Handshake round-trip time (RTT) of different protocols. (a) First-time connection establishment. (b) Subsequent connections.\cite{Cui2017}}
-%    \end{figure}
-%
-%    
-%    
-%\end{frame}
-%\clearpage
+\begin{frame}
+    \shiftedframetitle{Connection Establishment\cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17}\cite{quicgd}\cite{crypto}}
+    
+    \begin{figure}[!ht]
+        
+        \minipage{0.7\textwidth}
+        \includegraphics[width=1\textwidth]
+        {figures/0rtt.png}
+        \endminipage\hfill
+        \caption{\label{fig:RTT} Handshake round-trip time (RTT) of different protocols. (a) First-time connection establishment. (b) Subsequent connections.\cite{Cui2017}}
+    \end{figure}
+
+    
+    
+\end{frame}
+\clearpage
 
 %\begin{frame}
 %    \shiftedframetitle{Multiplexing}
@@ -200,7 +200,7 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
 
     \item Analyze these metrics on AS level(announces prefix of our target websites) %using RIPE Database.\cite{RIPEDB} 
 
-    \item YouTube QoE metrics like like Connect Time to media CDNs, Prebuffering time, Startup delay and Overall download %rate using \texttt{YouTube tests}
+    \item YouTube QoE metrics like Connect Time to media CDNs, Prebuffering time, Startup delay and Overall download %rate using \texttt{YouTube tests}
 
     \item Throughput and  CPU utilization %using \texttt{YouTube tests}, \texttt{quic\_perf} and \texttt{tls\_perf}.
 
@@ -246,7 +246,7 @@ It supported both IPv4 and IPv6.
 %This machine has over 400 Mbits/s UDP connection speed with Microsoft Azure virtual
 server and 1.20 Gbits/s via TCP. 
 
-\item Raspberry Pi 3 Model B with 1 GB RAM and 32 GB microSDHC Card. Bandwidth: 100 Mbits/s line. This PI was installed at a residential location
+\item Raspberry Pi 3 Model B with 1 GB RAM and 32 GB microSDHC Card. Bandwidth: 100 Mbits/s line. This PI was installed at a residential location in Munich, Germany.
 % connected to a LAN network run by the Leibniz-datacenter(LRZ).
 
 \item Another Raspberry PI was installed in Bhubaneswar, India. Bandwidth: 20 Mbits/s line but peak bandwidth was measured at 14 Mbit/s during testing. 
@@ -835,5 +835,27 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
  \item Analysis for YouTube QoE has been done with scripts in \cite{thesis_repository}
     
 \end{itemize}
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Prior Work}\label{prior_work}
+    Langley et al. \cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17} discuss about motivations in various design decisions of QUIC, development and testing performed over various iterations, performance improvements. They provide us with the first large-scale measurements of QUIC across various versions.
+    
+    Nepomuceno et al.\cite{8538687}, Cook et al.\cite{DBLP:conf/icc/CookMTH17} look at page load time.
+    
+    Li et al.\cite{DBLP:conf/pam/LiCJC18}, Kharat et al.\cite{8524247}, Qian et al. \cite{DBLP:journals/access/QianWT18}, Kakhki et al.\cite{DBLP:conf/imc/KakhkiJCNM17}look at throughput, congestion control and fairness among flows.
+    
+    Yu et al. \cite{DBLP:conf/ipccc/YuXY17} focused mainly on packet pacing mechanism for congestion control.
+    
+    Saverimoutou et al.\cite{DBLP:conf/iscc/SaverimoutouMV17}, Fischlin et al.\cite{DBLP:conf/ccs/FischlinG14} and Vaere et al.\cite{DBLP:conf/imc/VaereBKT18} look into the security aspects of QUIC.
+    
+    Willem et al.\cite{udpgso} and Edeline et al. \cite{DBLP:journals/corr/EdelineKTAD16} look into how QUIC being built on top of UDP affects it.
+    
+    Wang et al.\cite{DBLP:conf/mswim/WangBRP18} implement QUIC in the linux kernel and perform experiments to compare both in kernel mode.
+
+    Rüth et al.\cite{DBLP:conf/pam/RuthPDH18} look into QUIC usage in the wild.
+
+    
 \end{frame}
 \clearpage
