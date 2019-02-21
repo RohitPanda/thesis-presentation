@@ -1,27 +1,27 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'presentation.blg'
-[29] biber:313> INFO - === Di Feb 19, 2019, 20:04:37
-[50] Biber.pm:371> INFO - Reading 'presentation.bcf'
-[120] Biber.pm:857> INFO - Found 40 citekeys in bib section 0
-[133] Biber.pm:3981> INFO - Processing section 0
-[144] Biber.pm:4154> INFO - Looking for bibtex format file './Resources/Bib/Bibliography.bib' for section 0
-[150] bibtex.pm:1468> INFO - LaTeX decoding ...
-[289] bibtex.pm:1294> INFO - Found BibTeX data source './Resources/Bib/Bibliography.bib'
-[293] Utils.pm:169> WARN - Duplicate entry key: 'blog_cloudflare' in file './Resources/Bib/Bibliography.bib', skipping ...
-[294] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/corr/EdelineKTAD16' in file './Resources/Bib/Bibliography.bib', skipping ...
-[295] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:conf/conext/PerkinsO18' in file './Resources/Bib/Bibliography.bib', skipping ...
-[295] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/access/QianWT18' in file './Resources/Bib/Bibliography.bib', skipping ...
-[297] Utils.pm:169> WARN - Duplicate entry key: 'nghttp2' in file './Resources/Bib/Bibliography.bib', skipping ...
-[377] Utils.pm:169> WARN - month field 'July' in entry '7745823' is not an integer - this will probably not sort properly.
-[468] Utils.pm:169> WARN - month field 'June' in entry '8538687' is not an integer - this will probably not sort properly.
-[485] Utils.pm:169> WARN - month field 'April' in entry '8524247' is not an integer - this will probably not sort properly.
-[533] Utils.pm:169> WARN - Entry 'udpgso' (./Resources/Bib/Bibliography.bib): Invalid format 'date' of date field 'date' - ignoring
-[586] Utils.pm:169> WARN - Entry 'sergey' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring
-[590] Utils.pm:169> WARN - Entry 'bernhard' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring
-[651] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[651] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[652] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[652] Biber.pm:3815> INFO - No sort tailoring available for locale 'de-DE'
-[702] bbl.pm:617> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
-[748] bbl.pm:720> INFO - Output to presentation.bbl
-[748] Biber.pm:110> INFO - WARNINGS: 11
+[42] biber:313> INFO - === Do Feb 21, 2019, 12:02:57
+[104] Biber.pm:371> INFO - Reading 'presentation.bcf'
+[169] Biber.pm:857> INFO - Found 37 citekeys in bib section 0
+[182] Biber.pm:3981> INFO - Processing section 0
+[229] Biber.pm:4154> INFO - Looking for bibtex format file './Resources/Bib/Bibliography.bib' for section 0
+[247] bibtex.pm:1468> INFO - LaTeX decoding ...
+[377] bibtex.pm:1294> INFO - Found BibTeX data source './Resources/Bib/Bibliography.bib'
+[381] Utils.pm:169> WARN - Duplicate entry key: 'blog_cloudflare' in file './Resources/Bib/Bibliography.bib', skipping ...
+[382] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/corr/EdelineKTAD16' in file './Resources/Bib/Bibliography.bib', skipping ...
+[382] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:conf/conext/PerkinsO18' in file './Resources/Bib/Bibliography.bib', skipping ...
+[382] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/access/QianWT18' in file './Resources/Bib/Bibliography.bib', skipping ...
+[385] Utils.pm:169> WARN - Duplicate entry key: 'nghttp2' in file './Resources/Bib/Bibliography.bib', skipping ...
+[534] Utils.pm:169> WARN - month field 'June' in entry '8538687' is not an integer - this will probably not sort properly.
+[551] Utils.pm:169> WARN - month field 'April' in entry '8524247' is not an integer - this will probably not sort properly.
+[602] Utils.pm:169> WARN - Entry 'udpgso' (./Resources/Bib/Bibliography.bib): Invalid format 'date' of date field 'date' - ignoring
+[656] Utils.pm:169> WARN - Entry 'sergey' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring
+[661] Utils.pm:169> WARN - Entry 'bernhard' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring
+[665] Utils.pm:169> WARN - Entry 'thesis_repository' (./Resources/Bib/Bibliography.bib): Invalid format '30.07.2018' of date field 'date' - ignoring
+[721] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[721] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[721] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[721] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[800] bbl.pm:617> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[842] bbl.pm:720> INFO - Output to presentation.bbl
+[842] Biber.pm:110> INFO - WARNINGS: 11

@@ -20,23 +20,23 @@
 \shiftedframetitle{Motivation}
 
 \begin{itemize}
+    \itemsep2em
     \item Web latency and security are becoming more and more important.
     
     \item Middleboxes have caused a protocol ossification. Attempted extensions to TCP like TCP Fast Open\cite{DBLP:conf/conext/RadhakrishnanCCJR11}, SCTP\cite{rfc3286}, Multipath TCP \cite{rfc6824} have not seen widespread deployment.
     
-    \item QUIC is a user-space transport protocol built on top of UDP. Also QUIC provides for authen
-    ticated, encrypted header and payload which avoids dependency on vendors
+    \item QUIC is a user-space transport protocol built on top of UDP. Also QUIC provides for authenticated, encrypted header and payload which avoids dependency on vendors
     and ISPs
     
-    \item Google started work on QUIC in 2012. 
+    %\item Google started work on QUIC in 2012. 
     
     \item Faster development and deployment cycles. Already on Q044 version and accounts for more than 35\% of
     Google’s total egress traffic and 7\% of global internet traffic.
     
     \item  QUIC has been shown to reduce search latency by 8\% for desktop users and 3.6\% for mobile users.\cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17}
     
-    \item An IETF working group has been
-    formed to standardize QUIC which should lead to even greater adoption.
+    %\item An IETF working group has been
+    %formed to standardize QUIC which should lead to even greater adoption.
     
 \end{itemize}
 \end{frame}
@@ -46,19 +46,18 @@
 \begin{frame}
 \shiftedframetitle{Goal and Approach}
 \begin{itemize}
-    
-    \item Initial performance results from Google showed great gains but there is still a lack
+    \itemsep2em
+    \item Initial performance results from Google showed improvements in latency, rebuffer rates and lower packet loss rates but there is still a lack
     of repeatable studies.
     
     \item Rapid development cycle of QUIC means
     that many new features are introduced in each version of QUIC and support for older
-    versions is dropped. So previous studies become obsoleted quickly.
+    versions is dropped. So previous studies(Refer \ref{prior_work}) become obsoleted quickly.
     
     \item In this thesis we aim to evaluate the performance of QUIC(Q035, Q039, Q043, Q044) and compare it with
     TCP/TLS. 
     
-    \item To do this we conduct experiments on real Internet to investigate connection
-    establishment time, Time to first byte, download time, YouTube QoE metrics, Throughput,
+    \item To do this we conduct experiments on real scenarios rather than in an emulated environment to investigate connection establishment time, Time to first byte, download time, YouTube QoE metrics, Throughput,
     fairness in competing flow scenarios and CPU utilization.
     
 \end{itemize}
@@ -68,6 +67,7 @@
 \begin{frame}
     \shiftedframetitle{Goal and Approach}
     \begin{itemize}
+        \itemsep3em 
         \item\textbf{RQ1 : How do different versions of QUIC compare with each other and TCP/TLS 1.2 and TCP/TLS 1.3 on IPv4 and IPv6?}
 % Newer versions of QUIC(Q044) should ideally provide some improvement over older ones(Q043, Q039, Q035).
         
@@ -76,7 +76,7 @@
         \item\textbf{RQ3 : How does throughput and CPU utilization of QUIC compare with TCP/TLS?}
         
         
-        \item\textbf{RQ4 : Is QUIC fair towards TCP/TLS?}
+        \item\textbf{RQ4 : Is QUIC fair towards TCP/TLS in sharing bandwidth?}
         
     \end{itemize}
 \end{frame}
@@ -84,27 +84,27 @@
 
 
 
-\begin{frame}
-\shiftedframetitle{Background}
-SPDY is the first attempt by Google to improve Web Latency.\cite{spdy} HTTP/2 is the successor of SPDY protocol.
-
-It has features like multiplexing requests over a single TCP connection, HTTP header compression, request prioritization, server push and server hint\cite{rfc7540}
-
-HTTP/2 suffers from the TCP head-of-line blocking issue.
-
-Previous work \cite{DBLP:conf/networking/El-khatibTW14}\cite{7745823}\cite{DBLP:conf/sac/CarlucciCM15}\cite{DBLP:conf/icc/MegyesiKM16} shows the improvements provided by SPDY and HTTP/2.  
-
-    QUIC has many innovative features like Version Negotiation, 0-RTT connection establishment, Reduced head-of-line blocking, improved congestion control using packet pacing, Authenticated, encrypted header and payload, stream multiplexing, Connection-IDs, stream and connection level flow control, connection migration and resilience to NAT rebinding.\cite{ietf-quic-transport-18}
-
-\end{frame}
-\clearpage
+%\begin{frame}
+%\shiftedframetitle{Background}
+%SPDY is the first attempt by Google to improve Web Latency.\cite{spdy} HTTP/2 is the successor of SPDY protocol.
+%
+%It has features like multiplexing requests over a single TCP connection, HTTP header compression, request prioritization, server push and server hint\cite{rfc7540}
+%
+%HTTP/2 suffers from the TCP head-of-line blocking issue.
+%
+%Previous work \cite{DBLP:conf/networking/El-khatibTW14}\cite{7745823}\cite{DBLP:conf/sac/CarlucciCM15}\cite{DBLP:conf/icc/MegyesiKM16} shows the improvements provided by SPDY and HTTP/2.  
+%
+%    QUIC has many innovative features like Version Negotiation, 0-RTT connection establishment, Reduced head-of-line blocking, improved congestion control using packet pacing, Authenticated, encrypted header and payload, stream multiplexing, Connection-IDs, stream and connection level flow control, connection migration and resilience to NAT rebinding.\cite{ietf-quic-transport-18}
+%
+%\end{frame}
+%\clearpage
 
 \begin{frame}
     \shiftedframetitle{Background}
 QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
 \begin{figure}[!t]
     
-    \minipage{0.45\textwidth}
+    \minipage{0.7\textwidth}
     \includegraphics[width=1\textwidth]
     {figures/QUICstack.png}
     \endminipage\hfill
@@ -119,7 +119,7 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
     
     \begin{figure}[!ht]
         
-        \minipage{0.45\textwidth}
+        \minipage{0.7\textwidth}
         \includegraphics[width=1\textwidth]
         {figures/0rtt.png}
         \endminipage\hfill
@@ -135,7 +135,7 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
     \shiftedframetitle{Multiplexing}
     \begin{figure}[!ht]
         
-        \minipage{0.45\textwidth}
+        \minipage{0.6\textwidth}
         \includegraphics[width=1\textwidth]
         {figures/hol.png}
         \endminipage\hfill
@@ -169,7 +169,7 @@ This helps lower retransmission rate \cite{DBLP:conf/infocom/AggarwalSA00}
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Prior Work}
+\shiftedframetitle{Prior Work}\label{prior_work}
     Langley et al. \cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17} discuss about motivations in various design decisions of QUIC, development and testing performed over various iterations, performance improvements. They provide us with the first large-scale measurements of QUIC across various versions.
     
     Nepomuceno et al.\cite{8538687}, Cook et al.\cite{DBLP:conf/icc/CookMTH17} look at page load time.
@@ -192,66 +192,75 @@ This helps lower retransmission rate \cite{DBLP:conf/infocom/AggarwalSA00}
 
 \begin{frame}
 \shiftedframetitle{Methodology}
-We look at metrics like connection establishment time(For QUIC this will be 1-RTT Handshake, for TCP/TLS1.3 2-RTT and for TCP/TLS1.2 3-RTT), time to first byte and page download time using \texttt{quic\_perf} and \texttt{tls\_perf}.
+    \begin{itemize}
+    \itemsep3em 
 
-We analyze these metrics on AS level(announces prefix of our target websites) using RIPE Database.\cite{RIPEDB} 
+%We look at metrics like connection establishment time(For QUIC this will be 1-RTT Handshake, for TCP/TLS1.3 2-RTT and for TCP/TLS1.2 3-RTT), time to first byte and page download time using \texttt{quic\_perf} and \texttt{tls\_perf}.
+    \item connection establishment time, time to first byte and page download time %using \texttt{quic\_perf} and \texttt{tls\_perf}.
 
-YouTube QoE metrics like like Connect Time to media CDNs, Prebuffering time, Startup delay and Overall download rate using \texttt{YouTube tests}
+    \item Analyze these metrics on AS level(announces prefix of our target websites) %using RIPE Database.\cite{RIPEDB} 
 
-Throughput and  CPU utilization using \texttt{YouTube tests}, \texttt{quic\_perf} and \texttt{tls\_perf}.
+    \item YouTube QoE metrics like like Connect Time to media CDNs, Prebuffering time, Startup delay and Overall download %rate using \texttt{YouTube tests}
 
-CUBIC congestion control fairness in cases of competing flows by running the tests concurrently.
+    \item Throughput and  CPU utilization %using \texttt{YouTube tests}, \texttt{quic\_perf} and \texttt{tls\_perf}.
 
-We use \texttt{perf} and \texttt{strace} to profile QUIC and explain its high CPU utilization.
-
-We investigate QUIC Discovery using Alt-Svc Header
+%CUBIC congestion control fairness in cases of competing flows by running the tests concurrently.
+    \item Congestion control fairness in cases of competing flows
+%We use \texttt{perf} and \texttt{strace} to profile QUIC and explain its high CPU utilization.
+    \item \texttt{perf} and \texttt{strace} to profile QUIC
+%We investigate QUIC Discovery using Alt-Svc Header
+\end{itemize}
  
 \end{frame}
 \clearpage
 
 \begin{frame}
     \shiftedframetitle{Methodology}
-Reused the \texttt{YouTube test} for TCP developed by S Ahsan et al.\cite{DBLP:conf/pam/AhsanBOS15} which was modified to use QUIC by Sergey\cite{sergey} and \texttt{tls\_perf} and \texttt{\texttt{quic\_perf}} by Bernhard\cite{bernhard}. Several additions and improvements were made to their tests like adding support for Q044, improving logging and error handling, adding HTTP/2 support.
+\begin{itemize}
+\itemsep3em 
+\item Reused the \texttt{YouTube test} for TCP developed by S Ahsan et al.\cite{DBLP:conf/pam/AhsanBOS15} which was modified to use QUIC by Sergey\cite{sergey} and \texttt{tls\_perf} and \texttt{\texttt{quic\_perf}} by Bernhard\cite{bernhard}. Several additions and improvements were made to their tests like adding support for Q044, improving logging and error handling, adding HTTP/2 support.
 
-Used the latest version of \texttt{litespeed lsquic client} and \texttt{Boringssl} library for QUIC implementation.
+\item Used the latest version of \texttt{litespeed lsquic client}\footnote[frame]{https://github.com/litespeedtech/lsquic-client/tree/1.17.8} and \texttt{Boringssl} library for QUIC implementation.
 
-\texttt{libcurl} was used for TCP implementation.
+\item \texttt{libcurl} was used for TCP implementation.
 
-For measurements over IETF QUIC we used the QUIC Tracker \cite{quic_tracker} test suite which supports QUIC(draft-17) and is also TLS1.3 compatible.
+\item For measurements over IETF QUIC we used the QUIC Tracker \cite{quic_tracker} test suite which supports QUIC(draft-17) and is also TLS1.3 compatible.
 
-Created debian packages using cpack for easier deployment over Raspberry PI.
-
-List of target websites for our measurements was taken from QUIC Research@COMSYS\cite{comsys}
-
-Top 50 most popular videos for a region were selected for measurements over YouTube and files of different sizes were uploaded to Google Drive for performance tests
-
+%Created debian packages using cpack for easier deployment over Raspberry PI.
+%
+%List of target websites for our measurements was taken from QUIC Research@COMSYS\cite{comsys}
+%
+%Top 50 most popular videos for a region were selected for measurements over YouTube and files of different sizes were uploaded to Google Drive for performance tests
+\end{itemize}
 \end{frame}
 \clearpage
 
 \begin{frame}
     \shiftedframetitle{Measurement Setup}
-    
-Measurements were performed from 3 vantage Points.  
+\begin{itemize}
+\itemsep3em
+\item Measurements were performed from 3 vantage Points.  
 
-We used the VM \texttt{vmott16.cm.in.tum.de} with linux OS.
-This machine has over 400 Mbits/s UDP connection speed with Microsoft Azure virtual
-server and 1.20 Gbits/s via TCP. It supported both IPv4 and IPv6.
+\item VM \texttt{vmott16.cm.in.tum.de} with linux OS. Bandwidth: 400 Mbits/s
+It supported both IPv4 and IPv6.
+%This machine has over 400 Mbits/s UDP connection speed with Microsoft Azure virtual
+server and 1.20 Gbits/s via TCP. 
 
+\item Raspberry Pi 3 Model B with 1 GB RAM and 32 GB microSDHC Card. Bandwidth: 100 Mbits/s line. This PI was installed at a residential location
+% connected to a LAN network run by the Leibniz-datacenter(LRZ).
 
-We used a Raspberry Pi 3 Model B with 1 GB RAM and 32 GB microSDHC Card. This PI was installed at a residencial location connected to a LAN network run by the Leibniz-datacenter(LRZ). It was running on a 100 Mbits/s line. 
+\item Another Raspberry PI was installed in Bhubaneswar, India. Bandwidth: 20 Mbits/s line but peak bandwidth was measured at 14 Mbit/s during testing. 
 
-Another Raspberry PI was installed in Bhubaneswar, India. It was running on 20 Mbits/s line but peak bandwidth was measured at 14 Mbit/s during testing. 
+\item Only IPv4 could be tested at the above two locations because of lack of IPv6 support
 
-Only IPv4 could be tested at the above two locations because of lack of IPv6 support
-
-The tests were coded in C as libraries used provide us with an easy-to-use C API.
-The IETF test were coded in Go.
-
+%The tests were coded in C as libraries used provide us with an easy-to-use C API.
+%The IETF test were coded in Go.
+\end{itemize}
 \end{frame}
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Connection Establishment Times}
+\shiftedframetitle{Connection Establishment Times}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/VM/handshake_times_ipv4.png}
@@ -271,7 +280,7 @@ The IETF test were coded in Go.
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: Connection Establishment Times}
+%\shiftedframetitle{Connection Establishment Times}
 \begin{figure}[!htb]    
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/handshake_times_ipv4.png}
@@ -289,7 +298,7 @@ The IETF test were coded in Go.
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Time to first byte}
+\shiftedframetitle{Time to first byte}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/VM/TTFB_ipv4.png}
@@ -303,7 +312,7 @@ The IETF test were coded in Go.
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: Time to first byte}
+%\shiftedframetitle{Time to first byte}
 \begin{figure}[!htb]
     
     \begin{subfigure}{0.45\textwidth}
@@ -323,7 +332,7 @@ The IETF test were coded in Go.
 \clearpage
 
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: AS topology}
+%\shiftedframetitle{AS topology}
 %\begin{table}[ht]
 %    \begin{tabular}{@{}|l|l|l|@{}}
 %        \toprule
@@ -342,7 +351,7 @@ The IETF test were coded in Go.
 
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: AS topology}
+\shiftedframetitle{AS topology}
 \begin{figure}[!htb] 
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/VM/handshake_times_IPv4_asno.png}
@@ -355,7 +364,7 @@ The IETF test were coded in Go.
 %\end{frame}
 %\clearpage
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: AS topology}
+%\shiftedframetitle{AS topology}
 \begin{figure}[!htb] 
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]
@@ -371,7 +380,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \end{frame}
 \clearpage
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+\shiftedframetitle{YouTube QoE}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_audio_connect_time.png}
@@ -385,7 +394,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+%\shiftedframetitle{YouTube QoE}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_video_connect_time.png}
@@ -399,7 +408,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+\shiftedframetitle{YouTube QoE}
 %\begin{figure}[!htb]
 %    \begin{subfigure}{0.45\textwidth}
 %        \includegraphics[width=\linewidth]{./plots/youtube/india/graph_website_connect_time.png}
@@ -413,7 +422,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+%\shiftedframetitle{YouTube QoE}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_prebuffering_duration.png}
@@ -427,7 +436,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+%\shiftedframetitle{YouTube QoE}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_startup_delay.png}
@@ -442,7 +451,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+\shiftedframetitle{YouTube QoE}
 
 \begin{figure}[!htb]  
     \begin{subfigure}{0.45\textwidth}
@@ -457,7 +466,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+%\shiftedframetitle{YouTube QoE}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/india/graph_rate_diff.png}
@@ -472,7 +481,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: YouTube QoE}
+%\shiftedframetitle{YouTube QoE}
 %\begin{figure}[!htb]
 %    
 %    \begin{subfigure}{0.45\textwidth}
@@ -486,7 +495,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \end{frame}
 \clearpage
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Throughput}
+\shiftedframetitle{Throughput}
 
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
@@ -504,7 +513,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: Throughput}
+%\shiftedframetitle{Throughput}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/gdrive/Throughput_ipv4.png}
@@ -522,7 +531,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Fairness}
+\shiftedframetitle{Fairness}
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\linewidth]{./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png}
@@ -540,7 +549,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: Fairness}
+%\shiftedframetitle{Fairness}
 
 \begin{figure}[!htb]
     \begin{subfigure}{0.45\textwidth}
@@ -559,7 +568,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: Fairness}
+\shiftedframetitle{Fairness}
 \begin{figure}[!htb]
     \begin{subfigure}{0.5\textwidth}
         \includegraphics[width=\linewidth]{./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png}
@@ -577,7 +586,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: Fairness}
+%\shiftedframetitle{Fairness}
 %\begin{figure}[!htb]
 %    \centering
     \begin{subfigure}{0.5\textwidth}
@@ -589,7 +598,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: CPU Utilization}
+\shiftedframetitle{CPU Utilization}
 
 \begin{figure}[!htb]
     \centering
@@ -604,7 +613,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: Scatter Plot Throughput vs CPU}
+%\shiftedframetitle{Scatter Plot Throughput vs CPU}
 
 \begin{figure}[!htb]
     \centering
@@ -619,7 +628,7 @@ Google AS serves an overwhelming majority of websites using QUIC, almost half of
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: QUIC Profiling}
+\shiftedframetitle{QUIC Profiling}
 \begin{table}[ht]
     \begin{tabular}{@{}|l|l|l|l|l|l|@{}}
         \toprule
@@ -643,7 +652,7 @@ QUIC uses a maximum packet size of 1350 for IPv4 and 1370 for IPv6 to avoid pack
 \clearpage
 
 \begin{frame}
-\shiftedframetitle{Overview of Thesis Results: QUIC Profiling}
+\shiftedframetitle{QUIC Profiling}
 
 \begin{figure}[!htb]
     \centering
@@ -658,7 +667,7 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 \clearpage
 
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: QUIC Discovery with Alt-Svc header and IETF QUIC}
+%\shiftedframetitle{QUIC Discovery with Alt-Svc header and IETF QUIC}
 %
 %\begin{table}[ht]
 %    \begin{tabular}{@{}|l|l|@{}}
@@ -677,7 +686,7 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 %\clearpage
 %
 %\begin{frame}
-%\shiftedframetitle{Overview of Thesis Results: IETF QUIC}
+%\shiftedframetitle{IETF QUIC}
 
 %\begin{figure}[!htb]
 %    \centering
@@ -712,12 +721,13 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 \begin{frame}
 \shiftedframetitle{Conclusion}
     \begin{itemize}
+    \itemsep2em
     %\item When analyzing the connection establishment times for different versions of QUIC, in case of IPv4 we found that at 90th percentile Q044 performs slightly better by about 55 ms. As expected QUIC performs better than TLS 1.2 and TLS 1.3. At 50th percentile QUIC versions have similar latency but lower than TLS 1.2 by 34 ms and TLS 1.3 by 77 ms.
 %In case of IPv6 all of the QUIC versions have quite similar values. Difference with TLS 1.2 remains similar to IPv4 but TLS 1.3 has lower connection times than TLS 1.2. But when we analyze Time to first byte we see that QUIC loses some of the improvements gained by 1-RTT connection times, it is still faster than TLS. At 50th percentile Q035, Q039, Q043 have a TTFB of around 206 ms, Q044 has a TTFB of 211 ms, TLS 1.2 has a TTFB of 261 ms and TLS 1.3 has a TTFB of 360 ms. Difference in total download time is similar to TTFB.
 
 \item QUIC outperforms TLS in connection establishment times for both IPv4 and IPv6.
 
-\item QUIC loses some of its advantage when it comes to Time to first byte.
+%\item QUIC loses some of its advantage when it comes to Time to first byte.
 
 \item From the measurements done in India we find greater improvements for QUIC over TCP/TLS than in Munich which shows that benefits of QUIC is more evident in low-bandwidth, high-loss networks and high-RTT regions. 
 
@@ -725,11 +735,11 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 
 \item Q044 may have slightly better Connection times but TTFB and download time between different QUIC versions is similar for IPv4.
 
-\item For IPv6 QUIC versions perform similarly.
+%\item For IPv6 QUIC versions perform similarly.
 
-\item In case of Video content delivery over YouTube, QUIC provides much better improvements in India than in Germany for Connect Time, Prebuffering time, Startup delay.
+%\item In case of Video content delivery over YouTube, QUIC provides much better improvements in India than in Germany for Connect Time, Prebuffering time, Startup delay.
 
-\item Overall download rate for TLS 1.2 is higher than QUIC.
+\item Overall download rate in case of Video content delivery for TLS 1.2 is higher than QUIC.
 % and download rate for Q035 is higher than other QUIC versions for both India and Germany. But the difference between the download speeds is lesser in India than Germany. All observations are on IPv4 only. 
 
 %In case of Video content delivery over YouTube, QUIC provides much better improvements in India than Germany for Connect Time, with an improvement of 550 ms at 50th percentile  over TLS, for Germany the value is 410 ms. For Prebuffering time, the gap between QUIC and TLS is 447 ms in Munich and 600 ms in India. 
@@ -740,9 +750,9 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 
 \item Google AS serves an overwhelming majority of the websites using QUIC, almost half of the websites in our target list. Only 5 ASes account for 85\% of our target websites.
 
-\item EDGECAST AS performs better than GOOGLE AS on connection establishment times, at 50th percentile it performs about 12 ms better. For TTFB gap between GOOGLE and EDGECAST increases to 144 ms. 
+%\item EDGECAST AS performs better than GOOGLE AS on connection establishment times, at 50th percentile it performs about 12 ms better. For TTFB gap between GOOGLE and EDGECAST increases to 144 ms. 
 
-\item EDGECAST doesn't support QUIC over IPv6 where GOOGLE has a clear advantage. 
+%\item EDGECAST doesn't support QUIC over IPv6 where GOOGLE has a clear advantage. 
 %Connection times for GOOGLE - Google LLC, OVH - OVH SAS, IHCRU - Internet-Hosting Ltd are 36.556, 98.33, 201.959 respectively at the 50th percentile.
 
 %GOOGLE AS having the largest amount of websites by quite a margin in our sample means that overall plots of our metrics mimic those of GOOGLE. But on closer inspection we can see that other ASes may perform better than GOOGLE. Looking at each individual AS more minutely we find that different QUIC versions perform similarly for GOOGLE, EDGECAST and OVH whereas for ICHPU and A2 HOSTING Q044 performs slightly better in terms of connection establishment times.
@@ -754,17 +764,19 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 \begin{frame}
 \shiftedframetitle{Conclusion}
 \begin{itemize}
-\item In case of downloading a video from YouTube we find that both QUIC and TCP start  with the same throughput but QUIC maintains it over the entire duration of the download, TCP on the other hand has many peaks and falls. Mean throughput of QUIC is over twice that of TCP.%(9.70 MB/s to 4.43 MB/s)
+    \itemsep2em
+%\item In case of downloading a video from YouTube we find that both QUIC and TCP start  with the same throughput but QUIC maintains it over the entire duration of the download, TCP on the other hand has many peaks and falls. Mean throughput of QUIC is over twice that of TCP.%(9.70 MB/s to 4.43 MB/s)
+\item Mean throughput of QUIC is over twice that of TCP.
 
-\item In downloading files from Google Drive we find that QUIC performs better than TCP for smaller file sizes but for larger file sizes TCP has higher throughput.
+\item QUIC performs better than TCP for smaller file sizes but for larger file sizes TCP has higher throughput.
 
-\item CPU utilization in case of QUIC is almost twice that of TCP while downloading large files from GDrvive.
+\item CPU utilization in case of QUIC is almost twice that of TCP% while downloading large files from GDrvive.
 
 \item QUIC sends most of its time in the kernel on expensive sendmsg/recvmsg system calls. 
 
-\item QUIC grabs more than its fair share of bandwidth when it is competing with TCP. QUIC flows are fair to other QUIC flows and TCP flows are fair to other TCP flows. Even with 2 and 3 competing TCP flows, QUIC maintains its mean bandwidth usage.
+\item QUIC grabs more than its fair share of bandwidth when it is competing with TCP. QUIC flows are fair to other QUIC flows and TCP flows are fair to other TCP flows.% Even with 2 and 3 competing TCP flows, QUIC maintains its mean bandwidth usage.
 
-\item Mean bandwidth usage of QUIC is more than twice the combined mean bandwidth usage of TCP. Though both TCP and QUIC use the same CUBIC congestion control algorithm, QUIC has been known to aggressively increase its congestion window size so it is able to grab most of the bandwidth more quickly. 
+%\item Mean bandwidth usage of QUIC is more than twice the combined mean bandwidth usage of TCP. Though both TCP and QUIC use the same CUBIC congestion control algorithm, QUIC has been known to aggressively increase its congestion window size so it is able to grab most of the bandwidth more quickly. 
 
 \end{itemize}
 \end{frame}
@@ -792,6 +804,21 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
     \item IETF QUIC may be standardized soon, it may also be considered for comparison with Google QUIC and TCP/TLS.
     
 
+\end{itemize}
+\end{frame}
+\clearpage
+
+\begin{frame}
+\shiftedframetitle{Reproducibility}
+\begin{itemize}
+        
+ \item The code is located in github repositories YouTube tests\cite{youtubetests}, quic\_perf\cite{quicp}, tls\_perf\cite{tlsp}.
+ 
+ 
+ \item The data and jupyter notebooks used for analysis are present on the VM \textit{vmott16} and the github repository\cite{analysis}.
+ 
+ \item Analysis for YouTube QoE has been done with scripts in \cite{thesis_repository}
+    
 \end{itemize}
 \end{frame}
 \clearpage

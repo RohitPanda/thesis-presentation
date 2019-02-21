@@ -140,58 +140,6 @@
       \verb https://doi.org/10.1007/978-3-319-15509-8%5C_19
       \endverb
     \endentry
-    \entry{rfc7540}{misc}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=8f2c5a014f888b09f6471b0fac1dd397}{%
-           family={Belshe},
-           familyi={B\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=85cd303113c6daf85c17caefa3072f8b}{%
-           family={Peon},
-           familyi={P\bibinitperiod},
-           given={Roberto},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=a4e224194a64046472d567f5d35b02bc}{%
-           family={Thomson},
-           familyi={T\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {RFC Editor}%
-      }
-      \strng{namehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
-      \strng{fullhash}{11c1b73a7a4d37bc262e60ce5b43aabb}
-      \strng{bibnamehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
-      \strng{authorbibnamehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
-      \strng{authornamehash}{11c1b73a7a4d37bc262e60ce5b43aabb}
-      \strng{authorfullhash}{11c1b73a7a4d37bc262e60ce5b43aabb}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged.}
-      \field{howpublished}{RFC 7540}
-      \field{month}{5}
-      \field{number}{7540}
-      \field{pagetotal}{96}
-      \field{series}{Request for Comments}
-      \field{title}{{Hypertext Transfer Protocol Version 2 (HTTP/2)}}
-      \field{year}{2015}
-      \verb{doi}
-      \verb 10.17487/RFC7540
-      \endverb
-      \verb{urlraw}
-      \verb https://rfc-editor.org/rfc/rfc7540.txt
-      \endverb
-      \verb{url}
-      \verb https://rfc-editor.org/rfc/rfc7540.txt
-      \endverb
-    \endentry
     \entry{udpgso}{unpublished}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9be3fa1350537ac6bb4e1e37bdc7c8f6}{%
@@ -227,80 +175,6 @@
       \endverb
       \verb{url}
       \verb http://www.caida.org/projects/ark/
-      \endverb
-    \endentry
-    \entry{DBLP:conf/sac/CarlucciCM15}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=d7380a8e38c21c6904d6d38e3c5fab77}{%
-           family={Carlucci},
-           familyi={C\bibinitperiod},
-           given={Gaetano},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=d045a5d4e26d52b34eedf7a101cb5ecd}{%
-           family={Cicco},
-           familyi={C\bibinitperiod},
-           given={Luca\bibnamedelima De},
-           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=096a19bffdd447ad34aeaed5eda2c16a}{%
-           family={Mascolo},
-           familyi={M\bibinitperiod},
-           given={Saverio},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{4}{}{%
-        {{hash=17165ec277f060f29acccd923509d114}{%
-           family={Wainwright},
-           familyi={W\bibinitperiod},
-           given={Roger\bibnamedelima L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=7baa0520a9b6967becced584c2f228f0}{%
-           family={Corchado},
-           familyi={C\bibinitperiod},
-           given={Juan\bibnamedelima Manuel},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=00a3a836fc6db5246a8fabfd40a1b16c}{%
-           family={Bechini},
-           familyi={B\bibinitperiod},
-           given={Alessio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=96336f3a4431c42025f0741e492b18c4}{%
-           family={Hong},
-           familyi={H\bibinitperiod},
-           given={Jiman},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{19b46cdbca2509149ba619231666e32d}
-      \strng{fullhash}{19b46cdbca2509149ba619231666e32d}
-      \strng{bibnamehash}{19b46cdbca2509149ba619231666e32d}
-      \strng{authorbibnamehash}{19b46cdbca2509149ba619231666e32d}
-      \strng{authornamehash}{19b46cdbca2509149ba619231666e32d}
-      \strng{authorfullhash}{19b46cdbca2509149ba619231666e32d}
-      \strng{editorbibnamehash}{5b55666903cb7d44685f8d668b2af831}
-      \strng{editornamehash}{5b55666903cb7d44685f8d668b2af831}
-      \strng{editorfullhash}{5b55666903cb7d44685f8d668b2af831}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 30th Annual {ACM} Symposium on Applied Computing, Salamanca, Spain, April 13-17, 2015}
-      \field{title}{{HTTP} over {UDP:} an experimental investigation of {QUIC}}
-      \field{year}{2015}
-      \field{pages}{609\bibrangedash 614}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1145/2695664.2695706
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/2695664.2695706
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/2695664.2695706
       \endverb
     \endentry
     \entry{DBLP:conf/icc/CookMTH17}{inproceedings}{}
@@ -357,49 +231,6 @@
       \verb{url}
       \verb https://doi.org/10.1109/ICC.2017.7997281
       \endverb
-    \endentry
-    \entry{7745823}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=9f9645588074619ee2d6344afc1ee354}{%
-           family={{Corbel}},
-           familyi={C\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=63fc481a652c79a7982b2efd3e57ea8e}{%
-           family={{Stephan}},
-           familyi={S\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=b898f1eea59e4bb35a38dadc6d32a3c5}{%
-           family={{Omnes}},
-           familyi={O\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
-      \strng{fullhash}{7ca2dd4ec64fbfc9f789a7d05727d249}
-      \strng{bibnamehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
-      \strng{authorbibnamehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
-      \strng{authornamehash}{7ca2dd4ec64fbfc9f789a7d05727d249}
-      \strng{authorfullhash}{7ca2dd4ec64fbfc9f789a7d05727d249}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2016 13th International Conference on New Technologies for Distributed Systems (NOTERE)}
-      \field{issn}{2162-190X}
-      \field{month}{7}
-      \field{title}{HTTP/1.1 pipelining vs HTTP2 in-the-clear: Performance comparison}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/NOTERE.2016.7745823
-      \endverb
-      \keyw{hypermedia;Internet;transport protocols;HTTP/1.1 pipelining;HTTP2 in-the-clear;Internet traffic;quality of experience;page download time;Servers;Delays;Protocols;Web pages;Packet loss;Pipeline processing;HTTP1;HTTP2;H2C;Apache;Nghttp2;page download time;average web page;performance}
     \endentry
     \entry{cronet}{online}{}
       \field{sortinit}{c}
@@ -591,55 +422,6 @@
       \verb http://arxiv.org/abs/1612.07816
       \endverb
     \endentry
-    \entry{DBLP:conf/networking/El-khatibTW14}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=2251b3792cd8271bf8fca633e770336e}{%
-           family={El{-}khatib},
-           familyi={E\bibinitperiod},
-           given={Yehia},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=1a658b812e3374b348ad6585d05af4d6}{%
-           family={Tyson},
-           familyi={T\bibinitperiod},
-           given={Gareth},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=31c0ffa1a9053d2267410f40c2aaf6c7}{%
-           family={Welzl},
-           familyi={W\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{7c1920d4d4364d59bce458d9106e845f}
-      \strng{fullhash}{7c1920d4d4364d59bce458d9106e845f}
-      \strng{bibnamehash}{7c1920d4d4364d59bce458d9106e845f}
-      \strng{authorbibnamehash}{7c1920d4d4364d59bce458d9106e845f}
-      \strng{authornamehash}{7c1920d4d4364d59bce458d9106e845f}
-      \strng{authorfullhash}{7c1920d4d4364d59bce458d9106e845f}
-      \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2014 {IFIP} Networking Conference, Trondheim, Norway, June 2-4, 2014}
-      \field{title}{Can {SPDY} really make the web faster?}
-      \field{year}{2014}
-      \field{pages}{1\bibrangedash 9}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1109/IFIPNetworking.2014.6857089
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/IFIPNetworking.2014.6857089
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/IFIPNetworking.2014.6857089
-      \endverb
-    \endentry
     \entry{DBLP:conf/ccs/FischlinG14}{inproceedings}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=23091f1713beeb72d7a1d501b5d5923e}{%
@@ -773,6 +555,19 @@
       \verb https://github.com/QUIC-Tracker/quic-tracker
       \endverb
     \endentry
+    \entry{thesis_repository}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeltitlesource}{title}
+      \field{title}{Gitlab repository. YouTube thesis documentation and plots scripts}
+      \verb{urlraw}
+      \verb https://gitlab.lrz.de/cm/2018-sergey-masters-thesis
+      \endverb
+      \verb{url}
+      \verb https://gitlab.lrz.de/cm/2018-sergey-masters-thesis
+      \endverb
+      \warn{\item Entry 'thesis_repository' (./Resources/Bib/Bibliography.bib): Invalid format '30.07.2018' of date field 'date' - ignoring}
+    \endentry
     \entry{crypto}{online}{}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
@@ -843,52 +638,6 @@
       \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-recovery-18
       \endverb
     \endentry
-    \entry{ietf-quic-transport-18}{report}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=4905b40bfc3c9ef595374b08ba668976}{%
-           family={Iyengar},
-           familyi={I\bibinitperiod},
-           given={Jana},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=a4e224194a64046472d567f5d35b02bc}{%
-           family={Thomson},
-           familyi={T\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Internet Engineering Task Force}%
-      }
-      \list{publisher}{1}{%
-        {Internet Engineering Task Force}%
-      }
-      \strng{namehash}{de436ff97ab7ec529a9d020200022fe7}
-      \strng{fullhash}{de436ff97ab7ec529a9d020200022fe7}
-      \strng{bibnamehash}{de436ff97ab7ec529a9d020200022fe7}
-      \strng{authorbibnamehash}{de436ff97ab7ec529a9d020200022fe7}
-      \strng{authornamehash}{de436ff97ab7ec529a9d020200022fe7}
-      \strng{authorfullhash}{de436ff97ab7ec529a9d020200022fe7}
-      \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This document defines the core of the QUIC transport protocol. Accompanying documents describe QUIC's loss detection and congestion control and the use of TLS for key negotiation. Note to Readers Discussion of this draft takes place on the QUIC working group mailing list (quic@ietf.org), which is archived at <{}https://mailarchive.ietf.org/arch/search/?email\_list=quic>{}. Working Group information can be found at <{}https://github.com/ quicwg>{}; source code and issues list for this draft can be found at <{}https://github.com/quicwg/base-drafts/labels/-transport>{}.}
-      \field{month}{1}
-      \field{note}{Work in Progress}
-      \field{number}{draft-ietf-quic-transport-18}
-      \field{pagetotal}{141}
-      \field{title}{{QUIC: A UDP-Based Multiplexed and Secure Transport}}
-      \field{type}{Internet-Draft}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-transport-18
-      \endverb
-      \verb{url}
-      \verb https://datatracker.ietf.org/doc/html/draft-ietf-quic-transport-18
-      \endverb
-    \endentry
     \entry{bernhard}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d2efe528ca9624a5dfb3a479703e1406}{%
@@ -914,6 +663,18 @@
       \field{title}{Measuring Google QUIC Connection Establishment Times}
       \field{type}{Bachelor's Thesis}
       \warn{\item Entry 'bernhard' (./Resources/Bib/Bibliography.bib): Invalid format '15.08.2018' of date field 'date' - ignoring}
+    \endentry
+    \entry{analysis}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labeltitlesource}{title}
+      \field{title}{Jupyter notebooks for analysis}
+      \verb{urlraw}
+      \verb https://github.com/RohitPanda/master-thesis
+      \endverb
+      \verb{url}
+      \verb https://github.com/RohitPanda/master-thesis
+      \endverb
     \endentry
     \entry{DBLP:conf/imc/KakhkiJCNM17}{inproceedings}{}
       \name{author}{5}{}{%
@@ -1273,55 +1034,6 @@
       \verb https://doi.org/10.1007/978-3-319-76481-8%5C_20
       \endverb
     \endentry
-    \entry{DBLP:conf/icc/MegyesiKM16}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=39f99f793fe3e5523aa7f4e3073c2c66}{%
-           family={Megyesi},
-           familyi={M\bibinitperiod},
-           given={P{é}ter},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=69ec27679dff1430ddf43897e51517f0}{%
-           family={Kramer},
-           familyi={K\bibinitperiod},
-           given={Zsolt},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6e68cba66be2aeab4d485d00f90d4365}{%
-           family={Moln{á}r},
-           familyi={M\bibinitperiod},
-           given={S{á}ndor},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
-      \strng{fullhash}{6829c9ea4d72f18e40c4f127d0ec89e5}
-      \strng{bibnamehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
-      \strng{authorbibnamehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
-      \strng{authornamehash}{6829c9ea4d72f18e40c4f127d0ec89e5}
-      \strng{authorfullhash}{6829c9ea4d72f18e40c4f127d0ec89e5}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2016 {IEEE} International Conference on Communications, {ICC} 2016, Kuala Lumpur, Malaysia, May 22-27, 2016}
-      \field{title}{How quick is QUIC?}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ICC.2016.7510788
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/ICC.2016.7510788
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/ICC.2016.7510788
-      \endverb
-    \endentry
     \entry{8538687}{inproceedings}{}
       \name{author}{8}{}{%
         {{uniquename=0,uniquepart=base,hash=0ce515d2707b5cfd80e97d0124cd3d73}{%
@@ -1471,16 +1183,16 @@
       \verb https://doi.org/10.1109/ACCESS.2018.2804222
       \endverb
     \endentry
-    \entry{comsys}{online}{}
-      \field{sortinit}{Q}
+    \entry{quicp}{online}{}
+      \field{sortinit}{q}
       \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
       \field{labeltitlesource}{title}
-      \field{title}{QUIC Research @ COMSYS}
+      \field{title}{quic\_perf}
       \verb{urlraw}
-      \verb https://quic.comsys.rwth-aachen.de/data.php
+      \verb https://github.com/RohitPanda/lsquic-client
       \endverb
       \verb{url}
-      \verb https://quic.comsys.rwth-aachen.de/data.php
+      \verb https://github.com/RohitPanda/lsquic-client
       \endverb
     \endentry
     \entry{DBLP:conf/conext/RadhakrishnanCCJR11}{inproceedings}{}
@@ -1709,16 +1421,16 @@
       \verb https://doi.org/10.1109/ISCC.2017.8024637
       \endverb
     \endentry
-    \entry{spdy}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+    \entry{tlsp}{online}{}
+      \field{sortinit}{t}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labeltitlesource}{title}
-      \field{title}{SPDY Protoocl draft-3}
+      \field{title}{tls\_perf}
       \verb{urlraw}
-      \verb https://www.chromium.org/spdy/spdy-protocol/spdy-protocol-draft3
+      \verb https://github.com/RohitPanda/tls_perf
       \endverb
       \verb{url}
-      \verb https://www.chromium.org/spdy/spdy-protocol/spdy-protocol-draft3
+      \verb https://github.com/RohitPanda/tls_perf
       \endverb
     \endentry
     \entry{DBLP:conf/imc/VaereBKT18}{inproceedings}{}
@@ -1892,6 +1604,18 @@
       \endverb
       \verb{url}
       \verb https://rfc-editor.org/rfc/rfc3286.txt
+      \endverb
+    \endentry
+    \entry{youtubetests}{online}{}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labeltitlesource}{title}
+      \field{title}{YouTube tests}
+      \verb{urlraw}
+      \verb https://github.com/RohitPanda/Quic-Test
+      \endverb
+      \verb{url}
+      \verb https://github.com/RohitPanda/Quic-Test
       \endverb
     \endentry
     \entry{DBLP:conf/ipccc/YuXY17}{inproceedings}{}
