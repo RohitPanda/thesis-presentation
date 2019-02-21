@@ -114,81 +114,81 @@ QUIC replaces most of the traditional HTTPS stack: TCP, TLS, HTTP/2.
 \end{frame}
 \clearpage
 
-\begin{frame}
-    \shiftedframetitle{Connection Establishment\cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17}\cite{quicgd}\cite{crypto}}
-    
-    \begin{figure}[!ht]
-        
-        \minipage{0.7\textwidth}
-        \includegraphics[width=1\textwidth]
-        {figures/0rtt.png}
-        \endminipage\hfill
-        \caption{\label{fig:RTT} Handshake round-trip time (RTT) of different protocols. (a) First-time connection establishment. (b) Subsequent connections.\cite{Cui2017}}
-    \end{figure}
+%\begin{frame}
+%    \shiftedframetitle{Connection Establishment\cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17}\cite{quicgd}\cite{crypto}}
+%    
+%    \begin{figure}[!ht]
+%        
+%        \minipage{0.7\textwidth}
+%        \includegraphics[width=1\textwidth]
+%        {figures/0rtt.png}
+%        \endminipage\hfill
+%        \caption{\label{fig:RTT} Handshake round-trip time (RTT) of different protocols. (a) First-time connection establishment. (b) Subsequent connections.\cite{Cui2017}}
+%    \end{figure}
+%
+%    
+%    
+%\end{frame}
+%\clearpage
 
-    
-    
-\end{frame}
-\clearpage
+%\begin{frame}
+%    \shiftedframetitle{Multiplexing}
+%    \begin{figure}[!ht]
+%        
+%        \minipage{0.6\textwidth}
+%        \includegraphics[width=1\textwidth]
+%        {figures/hol.png}
+%        \endminipage\hfill
+%        \caption{\label{fig:hol}Multiplexing comparison. This involved sending multiple streams of data over a single transport connection using (a) HTTP1.1, (b) HTTP/2, and (c) QUIC.\cite{Cui2017}}
+%    \end{figure}
+%
+%QUIC also supports multiple streams in a single connection but the packets can be delivered out of order and a lost packet affects only those streams whose data it carried, not affecting other streams.
+%
+%
+%\end{frame}
+%\clearpage
+%
+%\begin{frame}
+%    \shiftedframetitle{Congestion Control + Packet Pacing}
+%    
+%        \begin{figure}[!ht]
+%        
+%        \minipage{0.7\textwidth}
+%        \includegraphics[width=1\textwidth]
+%        {figures/pacing.png}
+%        \endminipage\hfill
+%        \caption{\label{fig:pacing}Packet Pacing \cite{DBLP:conf/ipccc/YuXY17}}
+%    \end{figure}
+%
+%Default congestion control algorithm is CUBIC\cite{DBLP:journals/internet/CuiLLWK17} but differs from TCP CUBIC slightly.\cite{quicgd}\cite{ietf-quic-recovery-18}. BBR is a new congestion control algorithm being developed by Google.\cite{DBLP:conf/pam/LiCJC18}
+%
+%Packet Pacing is done by inserting a waiting time between each UDP datagram (enabled by default)
+%This helps lower retransmission rate \cite{DBLP:conf/infocom/AggarwalSA00}
+%
+%\end{frame}
+%\clearpage
 
-\begin{frame}
-    \shiftedframetitle{Multiplexing}
-    \begin{figure}[!ht]
-        
-        \minipage{0.6\textwidth}
-        \includegraphics[width=1\textwidth]
-        {figures/hol.png}
-        \endminipage\hfill
-        \caption{\label{fig:hol}Multiplexing comparison. This involved sending multiple streams of data over a single transport connection using (a) HTTP1.1, (b) HTTP/2, and (c) QUIC.\cite{Cui2017}}
-    \end{figure}
-
-QUIC also supports multiple streams in a single connection but the packets can be delivered out of order and a lost packet affects only those streams whose data it carried, not affecting other streams.
-
-
-\end{frame}
-\clearpage
-
-\begin{frame}
-    \shiftedframetitle{Congestion Control + Packet Pacing}
-    
-        \begin{figure}[!ht]
-        
-        \minipage{0.7\textwidth}
-        \includegraphics[width=1\textwidth]
-        {figures/pacing.png}
-        \endminipage\hfill
-        \caption{\label{fig:pacing}Packet Pacing \cite{DBLP:conf/ipccc/YuXY17}}
-    \end{figure}
-
-Default congestion control algorithm is CUBIC\cite{DBLP:journals/internet/CuiLLWK17} but differs from TCP CUBIC slightly.\cite{quicgd}\cite{ietf-quic-recovery-18}. BBR is a new congestion control algorithm being developed by Google.\cite{DBLP:conf/pam/LiCJC18}
-
-Packet Pacing is done by inserting a waiting time between each UDP datagram (enabled by default)
-This helps lower retransmission rate \cite{DBLP:conf/infocom/AggarwalSA00}
-
-\end{frame}
-\clearpage
-
-\begin{frame}
-\shiftedframetitle{Prior Work}\label{prior_work}
-    Langley et al. \cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17} discuss about motivations in various design decisions of QUIC, development and testing performed over various iterations, performance improvements. They provide us with the first large-scale measurements of QUIC across various versions.
-    
-    Nepomuceno et al.\cite{8538687}, Cook et al.\cite{DBLP:conf/icc/CookMTH17} look at page load time.
-    
-    Li et al.\cite{DBLP:conf/pam/LiCJC18}, Kharat et al.\cite{8524247}, Qian et al. \cite{DBLP:journals/access/QianWT18}, Kakhki et al.\cite{DBLP:conf/imc/KakhkiJCNM17}look at throughput, congestion control and fairness among flows.
-    
-    Yu et al. \cite{DBLP:conf/ipccc/YuXY17} focused mainly on packet pacing mechanism for congestion control.
-    
-    Saverimoutou et al.\cite{DBLP:conf/iscc/SaverimoutouMV17}, Fischlin et al.\cite{DBLP:conf/ccs/FischlinG14} and Vaere et al.\cite{DBLP:conf/imc/VaereBKT18} look into the security aspects of QUIC.
-    
-    Willem et al.\cite{udpgso} and Edeline et al. \cite{DBLP:journals/corr/EdelineKTAD16} look into how QUIC being built on top of UDP affects it.
-    
-    Wang et al.\cite{DBLP:conf/mswim/WangBRP18} implement QUIC in the linux kernel and perform experiments to compare both in kernel mode.
-
-    Rüth et al.\cite{DBLP:conf/pam/RuthPDH18} look into QUIC usage in the wild.
-
-     
-\end{frame}
-\clearpage
+%\begin{frame}
+%\shiftedframetitle{Prior Work}\label{prior_work}
+%    Langley et al. \cite{DBLP:conf/sigcomm/LangleyRWVKZYKS17} discuss about motivations in various design decisions of QUIC, development and testing performed over various iterations, performance improvements. They provide us with the first large-scale measurements of QUIC across various versions.
+%    
+%    Nepomuceno et al.\cite{8538687}, Cook et al.\cite{DBLP:conf/icc/CookMTH17} look at page load time.
+%    
+%    Li et al.\cite{DBLP:conf/pam/LiCJC18}, Kharat et al.\cite{8524247}, Qian et al. \cite{DBLP:journals/access/QianWT18}, Kakhki et al.\cite{DBLP:conf/imc/KakhkiJCNM17}look at throughput, congestion control and fairness among flows.
+%    
+%    Yu et al. \cite{DBLP:conf/ipccc/YuXY17} focused mainly on packet pacing mechanism for congestion control.
+%    
+%    Saverimoutou et al.\cite{DBLP:conf/iscc/SaverimoutouMV17}, Fischlin et al.\cite{DBLP:conf/ccs/FischlinG14} and Vaere et al.\cite{DBLP:conf/imc/VaereBKT18} look into the security aspects of QUIC.
+%    
+%    Willem et al.\cite{udpgso} and Edeline et al. \cite{DBLP:journals/corr/EdelineKTAD16} look into how QUIC being built on top of UDP affects it.
+%    
+%    Wang et al.\cite{DBLP:conf/mswim/WangBRP18} implement QUIC in the linux kernel and perform experiments to compare both in kernel mode.
+%
+%    Rüth et al.\cite{DBLP:conf/pam/RuthPDH18} look into QUIC usage in the wild.
+%
+%     
+%\end{frame}
+%\clearpage
 
 \begin{frame}
 \shiftedframetitle{Methodology}
@@ -786,23 +786,38 @@ We can see that the width of the \_\_sys\_recvmsg and \_\_sys\_sendmsg is quite 
 \begin{frame}
 \shiftedframetitle{Future work and limitations}
 \begin{itemize}
-    
-    \item Geographical bias due to location of probes.For more representative results the tests should be deployed at multiple locations with the help of CAIDA Ark \cite{CAIDAArk} measurement infrastructure and SamKnows project\cite{SamKnowsproject}
-    
-    \item Mobile devices are a major source of QUIC traffic so tests need to be adopted for mobile devices using cronet\cite{cronet}.
-    
-    \item No support for 0-RTT connections in lsquic at the time of test creation. Support has been introduced in latest release.
-    
-    \item The QUIC \texttt{YouTube tests} have a higher failure rate than TCP \texttt{YouTube tests} which can be looked into.
-    
-    \item Other features of QUIC like Congestion control window size, Packet pacing, Flow control can be evaluated.
-    
-    \item  QUIC tests can be performed under constrained conditions like low buffer size, introducing random bandwidth changes, random packet loss and different RTTs.
-    
-    \item  Other metrics like no. of retransmissions, no. of packets lost, congestion window size can be measured.
-    
-    \item IETF QUIC may be standardized soon, it may also be considered for comparison with Google QUIC and TCP/TLS.
-    
+\itemsep2em    
+%    \item Geographical bias due to location of probes.For more representative results the tests should be deployed at multiple locations with the help of CAIDA Ark \cite{CAIDAArk} measurement infrastructure and SamKnows project\cite{SamKnowsproject}
+%    
+%    \item Mobile devices are a major source of QUIC traffic so tests need to be adopted for mobile devices using cronet\cite{cronet}.
+%    
+%    \item No support for 0-RTT connections in lsquic at the time of test creation. Support has been introduced in latest release.
+%    
+%    \item The QUIC \texttt{YouTube tests} have a higher failure rate than TCP \texttt{YouTube tests} which can be looked into.
+%    
+%    \item Other features of QUIC like Congestion control window size, Packet pacing, Flow control can be evaluated.
+%    
+%    \item  QUIC tests can be performed under constrained conditions like low buffer size, introducing random bandwidth changes, random packet loss and different RTTs.
+%    
+%    \item  Other metrics like no. of retransmissions, no. of packets lost, congestion window size can be measured.
+%    
+%    \item IETF QUIC may be standardized soon, it may also be considered for comparison with Google QUIC and TCP/TLS.
+    \item For more representative results the tests should be deployed at multiple locations with the help of CAIDA Ark \cite{CAIDAArk} and SamKnows project\cite{SamKnowsproject}
+
+\item Adopt tests need for mobile devices using cronet\cite{cronet}.
+
+\item No support for 0-RTT connections in lsquic at the time of test creation. Support has been introduced in latest release.
+
+\item The QUIC \texttt{YouTube tests} have a higher failure rate than TCP \texttt{YouTube tests} 
+
+\item Other metrics like Congestion control window size and Packet pacing, no. of retransmissions, no. of packets lost. 
+
+\item  Tests under constrained conditions like low buffer size, introducing random bandwidth changes, random packet loss and different RTTs.
+
+%\item  Other metrics like no. of retransmissions, no. of packets lost, congestion window size can be measured.
+
+%\item IETF QUIC may be standardized soon, it may also be considered for comparison with Google QUIC and TCP/TLS.
+\item Adopt the tests for IETF QUIC
 
 \end{itemize}
 \end{frame}

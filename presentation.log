@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  21 FEB 2019 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  21 FEB 2019 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2210,6 +2210,14 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 [2
 
 ]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.67> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 14.88644pt on input line 64.
+
+
+LaTeX Warning: Reference `prior_work' on page 3 undefined on input line 64.
+
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -2223,10 +2231,6 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.67> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 14.88644pt on input line 82.
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -2265,79 +2269,10 @@ Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
  <./figures/QUICstack.png>]
-<figures/0rtt.png, id=149, 867.24pt x 570.13pt>
-File: figures/0rtt.png Graphic file (type png)
-<use figures/0rtt.png>
-Package pdftex.def Info: figures/0rtt.png  used on input line 131.
-(pdftex.def)             Requested size: 470.43571pt x 309.26624pt.
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 131.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[6
-
-
- <./figures/0rtt.png>]
-<figures/hol.png, id=176, 734.745pt x 529.98pt>
-File: figures/hol.png Graphic file (type png)
-<use figures/hol.png>
-Package pdftex.def Info: figures/hol.png  used on input line 148.
-(pdftex.def)             Requested size: 403.23648pt x 290.8672pt.
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 148.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[7
-
-
- <./figures/hol.png>]
-<figures/pacing.png, id=198, 608.2725pt x 281.05pt>
-File: figures/pacing.png Graphic file (type png)
-<use figures/pacing.png>
-Package pdftex.def Info: figures/pacing.png  used on input line 168.
-(pdftex.def)             Requested size: 470.43571pt x 217.36977pt.
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 168.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[8
-
-
- <./figures/pacing.png>]
-Overfull \vbox (3.3634pt too high) detected at line 190
- []
-
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 190.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[9
-
-
-]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 214.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
@@ -2353,7 +2288,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[10
+[6
 
 
 ]
@@ -2386,7 +2321,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[11
+[7
 
 
 ]
@@ -2399,29 +2334,29 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[12
+[8
 
 
 ]
-<./plots/VM/handshake_times_ipv4.png, id=335, 648.4225pt x 250.9375pt>
+<./plots/VM/handshake_times_ipv4.png, id=212, 648.4225pt x 250.9375pt>
 File: ./plots/VM/handshake_times_ipv4.png Graphic file (type png)
 <use ./plots/VM/handshake_times_ipv4.png>
 Package pdftex.def Info: ./plots/VM/handshake_times_ipv4.png  used on input lin
 e 297.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/VM/handshake_times_ipv6.png, id=336, 648.4225pt x 250.9375pt>
+<./plots/VM/handshake_times_ipv6.png, id=213, 648.4225pt x 250.9375pt>
 File: ./plots/VM/handshake_times_ipv6.png Graphic file (type png)
 <use ./plots/VM/handshake_times_ipv6.png>
 Package pdftex.def Info: ./plots/VM/handshake_times_ipv6.png  used on input lin
 e 297.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/PI/handshake_times_ipv4.png, id=337, 648.4225pt x 250.9375pt>
+<./plots/PI/handshake_times_ipv4.png, id=214, 648.4225pt x 250.9375pt>
 File: ./plots/PI/handshake_times_ipv4.png Graphic file (type png)
 <use ./plots/PI/handshake_times_ipv4.png>
 Package pdftex.def Info: ./plots/PI/handshake_times_ipv4.png  used on input lin
 e 297.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/India/handshake_times_ipv4.png, id=338, 648.4225pt x 250.9375pt>
+<./plots/India/handshake_times_ipv4.png, id=215, 648.4225pt x 250.9375pt>
 File: ./plots/India/handshake_times_ipv4.png Graphic file (type png)
 <use ./plots/India/handshake_times_ipv4.png>
 Package pdftex.def Info: ./plots/India/handshake_times_ipv4.png  used on input 
@@ -2436,27 +2371,27 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[13
+[9
 
 
  <./plots/VM/handshake_times_ipv4.png> <./plots/VM/handshake_times_ipv6.png> <.
 /plots/PI/handshake_times_ipv4.png> <./plots/India/handshake_times_ipv4.png>]
-<./plots/VM/TTFB_ipv4.png, id=363, 648.4225pt x 250.9375pt>
+<./plots/VM/TTFB_ipv4.png, id=239, 648.4225pt x 250.9375pt>
 File: ./plots/VM/TTFB_ipv4.png Graphic file (type png)
 <use ./plots/VM/TTFB_ipv4.png>
 Package pdftex.def Info: ./plots/VM/TTFB_ipv4.png  used on input line 331.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/VM/TTFB_ipv6.png, id=364, 648.4225pt x 250.9375pt>
+<./plots/VM/TTFB_ipv6.png, id=240, 648.4225pt x 250.9375pt>
 File: ./plots/VM/TTFB_ipv6.png Graphic file (type png)
 <use ./plots/VM/TTFB_ipv6.png>
 Package pdftex.def Info: ./plots/VM/TTFB_ipv6.png  used on input line 331.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/PI/TTFB_ipv4.png, id=365, 648.4225pt x 250.9375pt>
+<./plots/PI/TTFB_ipv4.png, id=241, 648.4225pt x 250.9375pt>
 File: ./plots/PI/TTFB_ipv4.png Graphic file (type png)
 <use ./plots/PI/TTFB_ipv4.png>
 Package pdftex.def Info: ./plots/PI/TTFB_ipv4.png  used on input line 331.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/India/TTFB_ipv4.png, id=366, 648.4225pt x 250.9375pt>
+<./plots/India/TTFB_ipv4.png, id=242, 648.4225pt x 250.9375pt>
 File: ./plots/India/TTFB_ipv4.png Graphic file (type png)
 <use ./plots/India/TTFB_ipv4.png>
 Package pdftex.def Info: ./plots/India/TTFB_ipv4.png  used on input line 331.
@@ -2470,30 +2405,30 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[14
+[10
 
 
  <./plots/VM/TTFB_ipv4.png> <./plots/VM/TTFB_ipv6.png> <./plots/PI/TTFB_ipv4.pn
 g> <./plots/India/TTFB_ipv4.png>]
-<./plots/VM/handshake_times_IPv4_asno.png, id=389, 648.4225pt x 250.9375pt>
+<./plots/VM/handshake_times_IPv4_asno.png, id=265, 648.4225pt x 250.9375pt>
 File: ./plots/VM/handshake_times_IPv4_asno.png Graphic file (type png)
 <use ./plots/VM/handshake_times_IPv4_asno.png>
 Package pdftex.def Info: ./plots/VM/handshake_times_IPv4_asno.png  used on inpu
 t line 380.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/VM/handshake_times_ipv6_asno.png, id=390, 648.4225pt x 250.9375pt>
+<./plots/VM/handshake_times_ipv6_asno.png, id=266, 648.4225pt x 250.9375pt>
 File: ./plots/VM/handshake_times_ipv6_asno.png Graphic file (type png)
 <use ./plots/VM/handshake_times_ipv6_asno.png>
 Package pdftex.def Info: ./plots/VM/handshake_times_ipv6_asno.png  used on inpu
 t line 380.
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/VM//TTFB_ipv4_asno.png, id=391, 648.4225pt x 250.9375pt>
+<./plots/VM//TTFB_ipv4_asno.png, id=267, 648.4225pt x 250.9375pt>
 File: ./plots/VM//TTFB_ipv4_asno.png Graphic file (type png)
 <use ./plots/VM//TTFB_ipv4_asno.png>
 Package pdftex.def Info: ./plots/VM//TTFB_ipv4_asno.png  used on input line 380
 .
 (pdftex.def)             Requested size: 302.42223pt x 117.03699pt.
-<./plots/VM/TTFB_ipv6_asno.png, id=392, 648.4225pt x 250.9375pt>
+<./plots/VM/TTFB_ipv6_asno.png, id=268, 648.4225pt x 250.9375pt>
 File: ./plots/VM/TTFB_ipv6_asno.png Graphic file (type png)
 <use ./plots/VM/TTFB_ipv6_asno.png>
 Package pdftex.def Info: ./plots/VM/TTFB_ipv6_asno.png  used on input line 380.
@@ -2512,12 +2447,12 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[15
+[11
 
 
  <./plots/VM/handshake_times_IPv4_asno.png> <./plots/VM/handshake_times_ipv6_as
 no.png> <./plots/VM//TTFB_ipv4_asno.png> <./plots/VM/TTFB_ipv6_asno.png>]
-<./plots/youtube/india/graph_audio_connect_time.png, id=416, 646.0938pt x 248.6
+<./plots/youtube/india/graph_audio_connect_time.png, id=293, 646.0938pt x 248.6
 088pt>
 File: ./plots/youtube/india/graph_audio_connect_time.png Graphic file (type png
 )
@@ -2525,7 +2460,7 @@ File: ./plots/youtube/india/graph_audio_connect_time.png Graphic file (type png
 Package pdftex.def Info: ./plots/youtube/india/graph_audio_connect_time.png  us
 ed on input line 407.
 (pdftex.def)             Requested size: 302.42223pt x 116.37195pt.
-<./plots/youtube/munich/graph_audio_connect_time.png, id=417, 646.0938pt x 248.
+<./plots/youtube/munich/graph_audio_connect_time.png, id=294, 646.0938pt x 248.
 6088pt>
 File: ./plots/youtube/munich/graph_audio_connect_time.png Graphic file (type pn
 g)
@@ -2533,7 +2468,7 @@ g)
 Package pdftex.def Info: ./plots/youtube/munich/graph_audio_connect_time.png  u
 sed on input line 407.
 (pdftex.def)             Requested size: 302.42223pt x 116.37195pt.
-<./plots/youtube/india/graph_video_connect_time.png, id=418, 646.0938pt x 248.6
+<./plots/youtube/india/graph_video_connect_time.png, id=295, 646.0938pt x 248.6
 088pt>
 File: ./plots/youtube/india/graph_video_connect_time.png Graphic file (type png
 )
@@ -2541,7 +2476,7 @@ File: ./plots/youtube/india/graph_video_connect_time.png Graphic file (type png
 Package pdftex.def Info: ./plots/youtube/india/graph_video_connect_time.png  us
 ed on input line 407.
 (pdftex.def)             Requested size: 302.42223pt x 116.37195pt.
-<./plots/youtube/munich/graph_video_connect_time.png, id=419, 646.0938pt x 248.
+<./plots/youtube/munich/graph_video_connect_time.png, id=296, 646.0938pt x 248.
 6088pt>
 File: ./plots/youtube/munich/graph_video_connect_time.png Graphic file (type pn
 g)
@@ -2558,13 +2493,13 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[16
+[12
 
 
  <./plots/youtube/india/graph_audio_connect_time.png> <./plots/youtube/munich/g
 raph_audio_connect_time.png> <./plots/youtube/india/graph_video_connect_time.pn
 g> <./plots/youtube/munich/graph_video_connect_time.png>]
-<./plots/youtube/india/graph_prebuffering_duration.png, id=444, 646.0938pt x 24
+<./plots/youtube/india/graph_prebuffering_duration.png, id=320, 646.0938pt x 24
 8.6088pt>
 File: ./plots/youtube/india/graph_prebuffering_duration.png Graphic file (type 
 png)
@@ -2572,7 +2507,7 @@ png)
 Package pdftex.def Info: ./plots/youtube/india/graph_prebuffering_duration.png 
  used on input line 450.
 (pdftex.def)             Requested size: 302.42223pt x 116.37195pt.
-<./plots/youtube/munich/graph_prebuffering_duration.png, id=445, 648.2619pt x 2
+<./plots/youtube/munich/graph_prebuffering_duration.png, id=321, 648.2619pt x 2
 48.6088pt>
 File: ./plots/youtube/munich/graph_prebuffering_duration.png Graphic file (type
  png)
@@ -2580,14 +2515,14 @@ File: ./plots/youtube/munich/graph_prebuffering_duration.png Graphic file (type
 Package pdftex.def Info: ./plots/youtube/munich/graph_prebuffering_duration.png
   used on input line 450.
 (pdftex.def)             Requested size: 302.42223pt x 115.97743pt.
-<./plots/youtube/india/graph_startup_delay.png, id=446, 646.0938pt x 248.6088pt
+<./plots/youtube/india/graph_startup_delay.png, id=322, 646.0938pt x 248.6088pt
 >
 File: ./plots/youtube/india/graph_startup_delay.png Graphic file (type png)
 <use ./plots/youtube/india/graph_startup_delay.png>
 Package pdftex.def Info: ./plots/youtube/india/graph_startup_delay.png  used on
  input line 450.
 (pdftex.def)             Requested size: 302.42223pt x 116.37195pt.
-<./plots/youtube/munich/graph_startup_delay.png, id=447, 646.0938pt x 248.6088p
+<./plots/youtube/munich/graph_startup_delay.png, id=323, 646.0938pt x 248.6088p
 t>
 File: ./plots/youtube/munich/graph_startup_delay.png Graphic file (type png)
 <use ./plots/youtube/munich/graph_startup_delay.png>
@@ -2603,33 +2538,33 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[17
+[13
 
 
  <./plots/youtube/india/graph_prebuffering_duration.png> <./plots/youtube/munic
 h/graph_prebuffering_duration.png> <./plots/youtube/india/graph_startup_delay.p
 ng> <./plots/youtube/munich/graph_startup_delay.png>]
-<./plots/youtube/india/graph_download_rate.png, id=471, 646.0938pt x 244.9953pt
+<./plots/youtube/india/graph_download_rate.png, id=348, 646.0938pt x 244.9953pt
 >
 File: ./plots/youtube/india/graph_download_rate.png Graphic file (type png)
 <use ./plots/youtube/india/graph_download_rate.png>
 Package pdftex.def Info: ./plots/youtube/india/graph_download_rate.png  used on
  input line 495.
 (pdftex.def)             Requested size: 302.42223pt x 114.68051pt.
-<./plots/youtube/munich/graph_download_rate.png, id=472, 646.0938pt x 244.9953p
+<./plots/youtube/munich/graph_download_rate.png, id=349, 646.0938pt x 244.9953p
 t>
 File: ./plots/youtube/munich/graph_download_rate.png Graphic file (type png)
 <use ./plots/youtube/munich/graph_download_rate.png>
 Package pdftex.def Info: ./plots/youtube/munich/graph_download_rate.png  used o
 n input line 495.
 (pdftex.def)             Requested size: 302.42223pt x 114.68051pt.
-<./plots/youtube/india/graph_rate_diff.png, id=473, 646.0938pt x 244.9953pt>
+<./plots/youtube/india/graph_rate_diff.png, id=350, 646.0938pt x 244.9953pt>
 File: ./plots/youtube/india/graph_rate_diff.png Graphic file (type png)
 <use ./plots/youtube/india/graph_rate_diff.png>
 Package pdftex.def Info: ./plots/youtube/india/graph_rate_diff.png  used on inp
 ut line 495.
 (pdftex.def)             Requested size: 302.42223pt x 114.68051pt.
-<./plots/youtube/munich/graph_rate_diff.png, id=474, 646.0938pt x 244.9953pt>
+<./plots/youtube/munich/graph_rate_diff.png, id=351, 646.0938pt x 244.9953pt>
 File: ./plots/youtube/munich/graph_rate_diff.png Graphic file (type png)
 <use ./plots/youtube/munich/graph_rate_diff.png>
 Package pdftex.def Info: ./plots/youtube/munich/graph_rate_diff.png  used on in
@@ -2644,20 +2579,20 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[18
+[14
 
 
  <./plots/youtube/india/graph_download_rate.png> <./plots/youtube/munich/graph_
 download_rate.png> <./plots/youtube/india/graph_rate_diff.png> <./plots/youtube
 /munich/graph_rate_diff.png>]
-<./plots/youtube/throughput/ThroughputCDF.png, id=498, 648.4225pt x 246.9225pt>
+<./plots/youtube/throughput/ThroughputCDF.png, id=375, 648.4225pt x 246.9225pt>
 
 File: ./plots/youtube/throughput/ThroughputCDF.png Graphic file (type png)
 <use ./plots/youtube/throughput/ThroughputCDF.png>
 Package pdftex.def Info: ./plots/youtube/throughput/ThroughputCDF.png  used on 
 input line 530.
 (pdftex.def)             Requested size: 302.42223pt x 115.1644pt.
-<./plots/youtube/throughput/Throughtputprogress.png, id=499, 656.4525pt x 246.9
+<./plots/youtube/throughput/Throughtputprogress.png, id=376, 656.4525pt x 246.9
 225pt>
 File: ./plots/youtube/throughput/Throughtputprogress.png Graphic file (type png
 )
@@ -2665,13 +2600,13 @@ File: ./plots/youtube/throughput/Throughtputprogress.png Graphic file (type png
 Package pdftex.def Info: ./plots/youtube/throughput/Throughtputprogress.png  us
 ed on input line 530.
 (pdftex.def)             Requested size: 302.42223pt x 113.75526pt.
-<./plots/PI/gdrive/Throughput_ipv4.png, id=500, 648.4225pt x 246.9225pt>
+<./plots/PI/gdrive/Throughput_ipv4.png, id=377, 648.4225pt x 246.9225pt>
 File: ./plots/PI/gdrive/Throughput_ipv4.png Graphic file (type png)
 <use ./plots/PI/gdrive/Throughput_ipv4.png>
 Package pdftex.def Info: ./plots/PI/gdrive/Throughput_ipv4.png  used on input l
 ine 530.
 (pdftex.def)             Requested size: 302.42223pt x 115.1644pt.
-<./plots/PI/gdrive/MeanThroughputvssize.png, id=501, 656.4525pt x 250.9375pt>
+<./plots/PI/gdrive/MeanThroughputvssize.png, id=378, 656.4525pt x 250.9375pt>
 File: ./plots/PI/gdrive/MeanThroughputvssize.png Graphic file (type png)
 <use ./plots/PI/gdrive/MeanThroughputvssize.png>
 Package pdftex.def Info: ./plots/PI/gdrive/MeanThroughputvssize.png  used on in
@@ -2686,13 +2621,13 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[19
+[15
 
 
  <./plots/youtube/throughput/ThroughputCDF.png> <./plots/youtube/throughput/Thr
 oughtputprogress.png> <./plots/PI/gdrive/Throughput_ipv4.png> <./plots/PI/gdriv
 e/MeanThroughputvssize.png>]
-<./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png, id=526, 656.4525pt
+<./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png, id=402, 656.4525pt
  x 246.9225pt>
 File: ./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png Graphic file (
 type png)
@@ -2700,7 +2635,7 @@ type png)
 Package pdftex.def Info: ./plots/youtube/throughput/ThroughtputprogressQUIC+TCP
 .png  used on input line 567.
 (pdftex.def)             Requested size: 302.42223pt x 113.75526pt.
-<./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png, id=527, 671.5087
+<./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png, id=403, 671.5087
 4pt x 246.9225pt>
 File: ./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png Graphic file
  (type png)
@@ -2708,7 +2643,7 @@ File: ./plots/youtube/throughput/Throughtputprogress1QUIC+2TCP.png Graphic file
 Package pdftex.def Info: ./plots/youtube/throughput/Throughtputprogress1QUIC+2T
 CP.png  used on input line 567.
 (pdftex.def)             Requested size: 302.42223pt x 111.20451pt.
-<./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png, id=528, 656.4525pt x 2
+<./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png, id=404, 656.4525pt x 2
 46.9225pt>
 File: ./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png Graphic file (type
  png)
@@ -2716,7 +2651,7 @@ File: ./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png Graphic file (type
 Package pdftex.def Info: ./plots/PI/throughput/ThroughtputprogressQUIC+QUIC.png
   used on input line 567.
 (pdftex.def)             Requested size: 302.42223pt x 113.75526pt.
-<./plots/PI/throughput/ThroughtputprogressTCP+TCP.png, id=529, 671.50874pt x 24
+<./plots/PI/throughput/ThroughtputprogressTCP+TCP.png, id=405, 671.50874pt x 24
 6.9225pt>
 File: ./plots/PI/throughput/ThroughtputprogressTCP+TCP.png Graphic file (type p
 ng)
@@ -2733,13 +2668,13 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[20
+[16
 
 
  <./plots/youtube/throughput/ThroughtputprogressQUIC+TCP.png> <./plots/youtube/
 throughput/Throughtputprogress1QUIC+2TCP.png> <./plots/PI/throughput/Throughtpu
 tprogressQUIC+QUIC.png> <./plots/PI/throughput/ThroughtputprogressTCP+TCP.png>]
-<./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png, id=553, 661.47125pt x 2
+<./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png, id=429, 661.47125pt x 2
 46.9225pt>
 File: ./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png Graphic file (type 
 png)
@@ -2747,7 +2682,7 @@ png)
 Package pdftex.def Info: ./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png 
  used on input line 597.
 (pdftex.def)             Requested size: 336.02698pt x 125.43523pt.
-<./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png, id=554, 663.47874pt x
+<./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png, id=430, 663.47874pt x
  246.9225pt>
 File: ./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.png Graphic file (typ
 e png)
@@ -2755,7 +2690,7 @@ e png)
 Package pdftex.def Info: ./plots/PI/throughput/Throughtputprogress1QUIC+2TCP.pn
 g  used on input line 597.
 (pdftex.def)             Requested size: 336.02698pt x 125.05844pt.
-<./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png, id=555, 656.4525pt x 
+<./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png, id=431, 656.4525pt x 
 246.9225pt>
 File: ./plots/PI/throughput/Throughtputprogress1QUIC+3TCP.png Graphic file (typ
 e png)
@@ -2776,19 +2711,19 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[21
+[17
 
 
  <./plots/PI/throughput/ThroughtputprogressQUIC+TCP.png> <./plots/PI/throughput
 /Throughtputprogress1QUIC+2TCP.png> <./plots/PI/throughput/Throughtputprogress1
 QUIC+3TCP.png>]
-<./plots/PI/cpu/cpupercentprogress.png, id=577, 652.4375pt x 246.9225pt>
+<./plots/PI/cpu/cpupercentprogress.png, id=453, 652.4375pt x 246.9225pt>
 File: ./plots/PI/cpu/cpupercentprogress.png Graphic file (type png)
 <use ./plots/PI/cpu/cpupercentprogress.png>
 Package pdftex.def Info: ./plots/PI/cpu/cpupercentprogress.png  used on input l
 ine 627.
 (pdftex.def)             Requested size: 302.42223pt x 114.45982pt.
-<./plots/PI/throughputvscpu/ThroughputvsCPU.png, id=578, 652.4375pt x 246.9225p
+<./plots/PI/throughputvscpu/ThroughputvsCPU.png, id=454, 652.4375pt x 246.9225p
 t>
 File: ./plots/PI/throughputvscpu/ThroughputvsCPU.png Graphic file (type png)
 <use ./plots/PI/throughputvscpu/ThroughputvsCPU.png>
@@ -2804,7 +2739,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[22
+[18
 
 
  <./plots/PI/cpu/cpupercentprogress.png> <./plots/PI/throughputvscpu/Throughput
@@ -2818,11 +2753,11 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[23
+[19
 
 
 ]
-<./plots/perf_flame_graphs/quic/kernel.png, id=618, 1204.5pt x 664.4825pt>
+<./plots/perf_flame_graphs/quic/kernel.png, id=495, 1204.5pt x 664.4825pt>
 File: ./plots/perf_flame_graphs/quic/kernel.png Graphic file (type png)
 <use ./plots/perf_flame_graphs/quic/kernel.png>
 Package pdftex.def Info: ./plots/perf_flame_graphs/quic/kernel.png  used on inp
@@ -2837,7 +2772,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[24
+[20
 
 
  <./plots/perf_flame_graphs/quic/kernel.png>]
@@ -2850,7 +2785,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[25
+[21
 
 
 ]
@@ -2863,23 +2798,13 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[26
+[22
 
 
 ]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 808.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+Overfull \vbox (10.02196pt too high) detected at line 823
+ []
 
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[27
-
-
-]
 File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
 Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
@@ -2889,7 +2814,20 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[28
+[23
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 838.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[24
 
 
 ]) (./References.tex
@@ -2920,65 +2858,65 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
+[25
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[26
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[27
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
+[28
+
+
+]
+File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
+<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
+Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
+ input line 10.
+(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
+
+Overfull \vbox (90.19522pt too high) has occurred while \output is active []
+
+
 [29
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[30
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[31
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[32
-
-
-]
-File: ./Resources/_Images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
-<use ./Resources/_Images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 47.80042pt x 25.17415pt.
-
-Overfull \vbox (90.19522pt too high) has occurred while \output is active []
-
-
-[33
 
 
 ]) (./Questions.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 37.05937pt on input line 14.
-<./Resources/_Images/questions.pdf, id=843, 291.33844pt x 290.58563pt>
+<./Resources/_Images/questions.pdf, id=738, 291.33844pt x 290.58563pt>
 File: ./Resources/_Images/questions.pdf Graphic file (type pdf)
 <use ./Resources/_Images/questions.pdf>
 Package pdftex.def Info: ./Resources/_Images/questions.pdf  used on input line 
@@ -2993,7 +2931,7 @@ Package pdftex.def Info: ./Resources/_Images/Universitaet_Logo_RGB.pdf  used on
 Overfull \vbox (90.19522pt too high) has occurred while \output is active []
 
 
-[34
+[30
 
 
  <./Resources/_Images/questions.pdf>])
@@ -3018,30 +2956,36 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.27pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43084 strings out of 494830
- 990261 string characters out of 6177368
- 1571798 words of memory out of 5000000
- 45339 multiletter control sequences out of 15000+600000
+ 43047 strings out of 494830
+ 989787 string characters out of 6177368
+ 1571256 words of memory out of 5000000
+ 45316 multiletter control sequences out of 15000+600000
  129834 words of font info for 172 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 66i,16n,96p,1206b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600
-pk> </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.60
-0pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvro8a.pfb>
-Output written on presentation.pdf (34 pages, 1594436 bytes).
+ 66i,16n,96p,1206b,1647s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{prior_work} has been referenced but does not exis
+t, replaced by a fixed one
+
+ </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk
+> </home/rohit/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600p
+k>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
+/uhvro8a.pfb>
+Output written on presentation.pdf (30 pages, 1447812 bytes).
 PDF statistics:
- 1011 PDF objects out of 1200 (max. 8388607)
- 762 compressed objects within 8 object streams
- 131 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
